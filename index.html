@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="ro" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#f1f5f9">
+  <title>Examen Oficial Imunologie - UMF Iași (Stil Chestionare Auto)</title>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            drpciv: {
+              header: '#ffffff',
+              bg: '#edf2f7',
+              btnGreen: '#86efac',
+              btnGreenHover: '#4ade80',
+              btnGreenText: '#14532d',
+              btnRed: '#fecdd3',
+              btnRedText: '#9f1239',
+              badgeLetter: '#e2e8f0',
+              badgeLetterActive: '#0284c7',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    * {
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+    }
+    body {
+      padding-top: env(safe-area-inset-top, 0px);
+      padding-bottom: env(safe-area-inset-bottom, 0px);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .tap-target {
+      min-height: 48px;
+    }
+    .tap-scale:active {
+      transform: scale(0.98);
+    }
+    .custom-scroll::-webkit-scrollbar {
+      height: 4px;
+      width: 4px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 9999px;
+    }
+  </style>
+</head>
+<body class="bg-[#edf2f7] dark:bg-slate-950 text-slate-800 dark:text-slate-100 min-h-full flex flex-col antialiased transition-colors">
+
+  <!-- ======================================================== -->
+  <!-- 1. TOP HEADER STIL DRPCIV CU CASETE NUMERICE & CRONOMETRU -->
+  <!-- ======================================================== -->
+  <header class="bg-white dark:bg-slate-900 border-b border-slate-300 dark:border-slate-800 shadow-sm sticky top-0 z-40 transition-colors">
+    <div class="max-w-6xl mx-auto px-2 sm:px-6 py-2 flex flex-col md:flex-row items-center justify-between gap-2">
+      
+      <!-- Stema / Sigla UMF Iași -->
+      <div class="flex items-center justify-between w-full md:w-auto gap-3">
+        <div class="flex items-center gap-2">
+          <!-- Stema stilizata UMF Iasi / Romania -->
+          <div class="w-10 h-10 rounded-full border-2 border-sky-600 bg-sky-50 dark:bg-slate-800 flex items-center justify-center font-extrabold text-sky-700 dark:text-sky-400 text-lg shadow-sm shrink-0">
+            ⚖️
+          </div>
+          <div>
+            <div class="text-[11px] font-bold uppercase tracking-wider text-sky-700 dark:text-sky-400">UMF „Gr. T. Popa” Iași</div>
+            <div class="text-xs font-semibold text-slate-600 dark:text-slate-300">Catedra de Imunologie</div>
+          </div>
+        </div>
+
+        <!-- Mode selector tab buttons -->
+        <div class="flex items-center bg-slate-100 dark:bg-slate-800 p-0.5 rounded-xl border border-slate-200 dark:border-slate-700 text-xs font-bold">
+          <button id="nav-mode-exam" class="px-2.5 py-1.5 rounded-lg bg-sky-600 text-white shadow-sm transition">
+            🚗 Examen 20
+          </button>
+          <button id="nav-mode-practice" class="px-2.5 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 transition">
+            📚 Toate 77
+          </button>
+          <button id="nav-mode-cms" class="px-2 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 transition">
+            ⚙️ CMS
+          </button>
+        </div>
+      </div>
+
+      <!-- Casetele Oficiale DRPCIV / Examen Auto -->
+      <div class="flex items-center justify-center gap-1 sm:gap-2 text-center w-full md:w-auto overflow-x-auto pb-1 md:pb-0">
+        
+        <!-- Caseta 1: Intrebari initiale -->
+        <div class="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg px-2 sm:px-3 py-1 shrink-0 min-w-[62px] sm:min-w-[75px] shadow-sm">
+          <div id="stat-initial-count" class="text-base sm:text-lg font-bold text-slate-800 dark:text-slate-100">20</div>
+          <div class="text-[9px] sm:text-[10px] text-slate-500 leading-tight">Întrebări inițiale</div>
+        </div>
+
+        <!-- Caseta 2: Intrebari ramase -->
+        <div class="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg px-2 sm:px-3 py-1 shrink-0 min-w-[62px] sm:min-w-[75px] shadow-sm">
+          <div id="stat-remaining-count" class="text-base sm:text-lg font-bold text-slate-800 dark:text-slate-100">20</div>
+          <div class="text-[9px] sm:text-[10px] text-slate-500 leading-tight">Întrebări rămase</div>
+        </div>
+
+        <!-- Caseta 3: Cronometru mare central (30:00) - whitespace-nowrap & tabular-nums -->
+        <div class="shrink-0 whitespace-nowrap bg-slate-50 dark:bg-slate-900 border-2 border-slate-300 dark:border-slate-700 rounded-lg px-3 sm:px-4 py-1 min-w-[100px] sm:min-w-[115px] shadow-inner">
+          <div id="stat-timer" class="text-lg sm:text-xl font-extrabold text-slate-900 dark:text-sky-400 tracking-wider whitespace-nowrap tabular-nums">30:00</div>
+          <div class="text-[9px] sm:text-[10px] text-slate-500 font-medium whitespace-nowrap">Timp rămas</div>
+        </div>
+
+        <!-- Caseta 4: Raspunsuri corecte (Verde) -->
+        <div class="bg-emerald-50/80 dark:bg-emerald-950/40 border border-emerald-300 dark:border-emerald-800 rounded-lg px-2 sm:px-3 py-1 shrink-0 min-w-[62px] sm:min-w-[75px] shadow-sm">
+          <div id="stat-correct-count" class="text-base sm:text-lg font-extrabold text-emerald-600 dark:text-emerald-400">0</div>
+          <div class="text-[9px] sm:text-[10px] text-emerald-700 dark:text-emerald-300 leading-tight">Răspunsuri corecte</div>
+        </div>
+
+        <!-- Caseta 5: Raspunsuri gresite (Rosu) -->
+        <div class="bg-rose-50/80 dark:bg-rose-950/40 border border-rose-300 dark:border-rose-800 rounded-lg px-2 sm:px-3 py-1 shrink-0 min-w-[58px] sm:min-w-[75px] shadow-sm">
+          <div id="stat-wrong-count" class="text-base sm:text-lg font-extrabold text-rose-600 dark:text-rose-400">0</div>
+          <div class="text-[9px] sm:text-[10px] text-rose-700 dark:text-rose-300 leading-tight">Răspunsuri greșite</div>
+        </div>
+
+        <!-- Caseta 6: Notă Curentă Live (1p din oficiu inclus) -->
+        <div class="bg-sky-50 dark:bg-sky-950/40 border-2 border-sky-400 dark:border-sky-700 rounded-lg px-2 sm:px-3 py-1 shrink-0 min-w-[62px] sm:min-w-[80px] shadow-sm" title="Nota calculată în timp real: 1 punct din oficiu + punctajul acumulat">
+          <div id="stat-grade-live" class="text-base sm:text-lg font-black text-sky-700 dark:text-sky-300">1.00</div>
+          <div class="text-[9px] sm:text-[10px] text-sky-800 dark:text-sky-300 leading-tight font-bold">Notă (1p oficiu)</div>
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ======================================================== -->
+  <!-- 2. ZONA CENTRALĂ DE EXAMEN (LAYOUT SPLIT STIL DRPCIV)   -->
+  <!-- ======================================================== -->
+  <main class="flex-1 max-w-6xl w-full mx-auto px-3 sm:px-6 py-4 flex flex-col justify-between">
+    
+    <!-- CONTAINER EXAMEN & ANTRENAMENT -->
+    <div id="exam-main-panel" class="flex-1 flex flex-col">
+      
+      <!-- Titlu & Tip Intrebare -->
+      <div class="text-center mb-4 sm:mb-6">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-200 dark:bg-slate-800 text-[11px] font-bold text-slate-700 dark:text-slate-300 mb-2">
+          <span id="badge-current-category">Categorie Imunologie</span>
+          <span>•</span>
+          <span id="badge-current-type" class="text-sky-700 dark:text-sky-400">Complement Simplu (CS)</span>
+        </div>
+        <h2 id="current-question-text" class="text-base sm:text-xl font-bold text-slate-900 dark:text-white max-w-4xl mx-auto leading-relaxed">
+          Se încarcă grila...
+        </h2>
+      </div>
+
+      <!-- Split Layout: Variante pe Stânga (stil DRPCIV) + Ilustrație/Didactică pe Dreapta -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start flex-1 mb-6">
+        
+        <!-- Coloana Stângă: Variantele de Răspuns (A, B, C, D, E) -->
+        <div id="options-column" class="lg:col-span-7 space-y-3">
+          <!-- Variante generate dinamic -->
+        </div>
+
+        <!-- Coloana Dreaptă: Imagine / Card Didactic / Casetă Explicativă (stil ecran examen auto) -->
+        <div class="lg:col-span-5 flex flex-col gap-3">
+          
+          <!-- Card Ilustrație Examen / Medical Canvas -->
+          <div id="side-image-card" class="bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-800 rounded-2xl p-4 shadow-sm flex flex-col items-center justify-center text-center min-h-[220px]">
+            <div id="side-icon-box" class="w-16 h-16 rounded-2xl bg-sky-100 dark:bg-slate-800 flex items-center justify-center text-3xl mb-3 shadow-inner">
+              🔬
+            </div>
+            <h4 id="side-topic-title" class="font-bold text-sm text-slate-800 dark:text-slate-200">
+              Imunologie Medicală UMF Iași
+            </h4>
+            <p id="side-topic-desc" class="text-xs text-slate-500 dark:text-slate-400 mt-1 max-w-xs leading-relaxed">
+              Grilă din programa oficială (Cursuri 1 – 3). Selectați răspunsul dorit și apăsați butonul verde „Trimite Răspunsul”.
+            </p>
+
+            <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 w-full flex items-center justify-between text-[11px] text-slate-400">
+              <span id="exam-mode-indicator">Mod Oficial: 20 Grile</span>
+              <span id="q-index-indicator">Întrebarea 1 din 20</span>
+            </div>
+          </div>
+
+          <!-- Card Feedback & Explicație (Apare la verificare sau răspuns) -->
+          <div id="feedback-panel" class="hidden bg-white dark:bg-slate-900 border-2 rounded-2xl p-4 shadow-md transition-all">
+            <div class="flex items-start gap-2.5">
+              <span id="feedback-status-icon" class="text-2xl shrink-0">✅</span>
+              <div>
+                <h4 id="feedback-status-title" class="font-bold text-sm mb-1">Răspuns Corect!</h4>
+                <p id="feedback-explanation-text" class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
+                  Explicație...
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ======================================================== -->
+    <!-- 3. BARA DE BUTOANE INFERIOARĂ (IDENTICĂ CU POZA DRPCIV)  -->
+    <!-- ======================================================== -->
+    <div class="bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-800 rounded-2xl p-3 shadow-lg flex flex-col sm:flex-row items-center justify-center gap-2.5 sm:gap-4 sticky bottom-2 z-30">
+      
+      <!-- Buton 1: Răspunde mai târziu (Alb/Contur, trimite la finalul cozii) -->
+      <button id="btn-answer-later" class="tap-target tap-scale w-full sm:w-auto px-5 py-2.5 rounded-xl bg-white hover:bg-slate-50 dark:bg-slate-800 dark:hover:bg-slate-700 border border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-200 font-bold text-xs sm:text-sm flex items-center justify-center gap-2 shadow-sm transition">
+        <span class="text-sky-600 font-extrabold text-base">🔄</span>
+        <span>Răspunde mai târziu</span>
+      </button>
+
+      <!-- Buton 2: Modifică Răspunsul (Roșiatic / Resetare selecție curentă) -->
+      <button id="btn-modify-answer" class="tap-target tap-scale w-full sm:w-auto px-5 py-2.5 rounded-xl bg-rose-50 hover:bg-rose-100 dark:bg-rose-950/40 dark:hover:bg-rose-900/50 border border-rose-200 dark:border-rose-800 text-rose-700 dark:text-rose-300 font-bold text-xs sm:text-sm flex items-center justify-center gap-2 shadow-sm transition">
+        <span class="text-rose-500 font-extrabold text-base">✖</span>
+        <span>MODIFICĂ RĂSPUNSUL</span>
+      </button>
+
+      <!-- Buton 3: Trimite Răspunsul (Verde masiv, validare & next) -->
+      <button id="btn-submit-answer" class="tap-target tap-scale w-full sm:w-auto px-7 py-2.5 rounded-xl bg-[#86efac] hover:bg-[#4ade80] dark:bg-emerald-600 dark:hover:bg-emerald-500 text-emerald-950 dark:text-white font-black text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md shadow-emerald-500/20 transition">
+        <span class="text-emerald-800 dark:text-emerald-200 font-extrabold text-base">✔</span>
+        <span>TRIMITE RĂSPUNSUL</span>
+      </button>
+
+      <!-- Buton 4: Grila Următoare (Apare doar dacă feedback-ul este activat) -->
+      <button id="btn-next-step" class="hidden tap-target tap-scale w-full sm:w-auto px-7 py-2.5 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-black text-xs sm:text-sm flex items-center justify-center gap-2 shadow-md shadow-sky-600/30 transition">
+        <span>URMĂTOAREA ➔</span>
+      </button>
+
+    </div>
+
+    <!-- ======================================================== -->
+    <!-- 4. VIEW CMS: PANOU GESTIONARE PENTRU SITE-UL TĂU         -->
+    <!-- ======================================================== -->
+    <div id="cms-panel" class="hidden bg-white dark:bg-slate-900 rounded-2xl p-4 sm:p-6 border border-slate-300 dark:border-slate-800 shadow-sm mt-2">
+      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between pb-3 border-b border-slate-200 dark:border-slate-800 gap-3">
+        <div>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+            <span>⚙️ Panoul de Gestiune al Grilelor (CMS)</span>
+          </h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400">
+            Administrează cele 77 de întrebări, adaugă altele noi sau exportă fișierul JSON pentru site-ul tău.
+          </p>
+        </div>
+        <div class="flex items-center gap-2">
+          <button id="cms-btn-add" class="tap-scale px-3.5 py-2 rounded-xl bg-emerald-600 text-white font-bold text-xs shadow-sm">
+            ➕ Adaugă Grilă
+          </button>
+          <button id="cms-btn-export" class="tap-scale px-3.5 py-2 rounded-xl bg-sky-600 text-white font-bold text-xs shadow-sm">
+            💾 Export JSON
+          </button>
+        </div>
+      </div>
+
+      <div class="mt-4 flex items-center justify-between gap-3">
+        <input type="text" id="cms-search-input" placeholder="Caută prin întrebări sau noțiuni..." class="w-full bg-slate-100 dark:bg-slate-800 rounded-xl px-3 py-2 text-xs border border-slate-300 dark:border-slate-700">
+        <span id="cms-total-badge" class="text-xs font-bold text-slate-500 whitespace-nowrap">77 întrebări</span>
+      </div>
+
+      <div id="cms-items-list" class="mt-4 space-y-2.5 max-h-[500px] overflow-y-auto custom-scroll pr-1">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ======================================================== -->
+  <!-- 5. MODAL REZULTATE FINALE EXAMEN (CALCUL NOTĂ UMF IAȘI)   -->
+  <!-- ======================================================== -->
+  <div id="results-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/60 backdrop-blur-sm">
+    <div class="bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-800 text-slate-900 dark:text-slate-100 rounded-3xl max-w-md w-full p-6 shadow-2xl text-center">
+      
+      <!-- Insignă mare Admis / Respins -->
+      <div id="modal-status-badge" class="w-20 h-20 rounded-full flex items-center justify-center text-4xl mx-auto mb-3 shadow-lg bg-emerald-100 text-emerald-700">
+        🎓
+      </div>
+      
+      <h3 id="modal-verdict-title" class="text-2xl font-black text-emerald-600 mb-0.5">ADMIS!</h3>
+      <p class="text-xs text-slate-500 dark:text-slate-400 mb-4">Examen Curs Imunologie - UMF „Gr. T. Popa” Iași</p>
+      
+      <!-- Notă și Statistici -->
+      <div class="bg-slate-50 dark:bg-slate-800 rounded-2xl p-4 mb-4 grid grid-cols-3 gap-2 border border-slate-200 dark:border-slate-700">
+        <div>
+          <div class="text-[10px] text-slate-500 font-bold uppercase">Nota Examen</div>
+          <div id="modal-final-grade" class="text-2xl font-black text-sky-600">10.00</div>
+        </div>
+        <div>
+          <div class="text-[10px] text-slate-500 font-bold uppercase">Corecte</div>
+          <div id="modal-correct-text" class="text-2xl font-black text-emerald-600">20</div>
+        </div>
+        <div>
+          <div class="text-[10px] text-slate-500 font-bold uppercase">Greșite</div>
+          <div id="modal-wrong-text" class="text-2xl font-black text-rose-600">0</div>
+        </div>
+      </div>
+
+      <p id="modal-message-body" class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 font-medium mb-6 leading-relaxed">
+        Felicitări! Ați trecut cu brio testarea oficială din programa Cursurilor 1-3.
+      </p>
+
+      <div class="flex flex-col gap-2.5">
+        <button id="modal-btn-restart-exam" class="tap-scale w-full py-3 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs sm:text-sm shadow-md shadow-sky-600/30 transition">
+          🔀 Generează o nouă Teză de Examen (20 Grile noi)
+        </button>
+        <button id="modal-btn-review" class="tap-scale w-full py-2.5 rounded-xl bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-semibold text-xs sm:text-sm transition">
+          Revizuiește Răspunsurile & Explicațiile
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- 6. ENGINE JAVASCRIPT & BAZA INTEGRATĂ DE 77 DE GRILE     -->
+  <!-- ======================================================== -->
+  <script>
+    // Baza completă de 77 de grile preîncărcată
+    let MASTER_QUESTIONS = [{"id": 1, "category": "Teorii despre Anticorpi", "type": "single", "text": "Conform teoriei catenelor laterale enunțate de Paul Ehrlich, care este mecanismul formării anticorpilor?", "options": ["Antigenul pătrunde în celulă și acționează ca tipar fizic (matriță) pentru sinteza lanțurilor polipeptidice.", "Receptorii ('catenele laterale') preexistă în mod natural pe suprafața celulei, iar antigenul selectează catena specifică, celula producând-o apoi în exces.", "Antigenul ghidează răsucirea spațială a lanțului polipeptidic exclusiv în faza finală a sintezei proteice.", "Anticorpii sunt generați doar după ce enzimele celulare degradează complet antigenul în fragmente peptidice.", "Celulele sintetizează anticorpi doar dacă sunt infectate de virusuri citopatice."], "correct": [1], "explanation": "Paul Ehrlich a formulat prima teorie selecționistă: receptorii există preformați ca elemente naturale pe suprafața celulei; antigenul selectează catena laterală complementară stereochimic, iar celula renunță la restul și sintetizează în exces doar catena aleasă, eliberând-o ca anticorp."}, {"id": 2, "category": "Teorii despre Anticorpi", "type": "multiple", "text": "Ce concepte fundamentale a introdus Paul Ehrlich în cadrul teoriei catenelor laterale? (Alegeți variantele corecte)", "options": ["Noțiunea de receptor celular.", "Conceptul de afinitate chimică între substanțe și organele vii.", "Conceptul de situs funcțional al moleculei de anticorp.", "Relația stereochimică unică de complementaritate între antigen și anticorp.", "Mecanismul recombinării genetice V(D)J mediat de enzimele RAG."], "correct": [0, 1, 2, 3], "explanation": "Paul Ehrlich a introdus conceptele de receptor, afinitate chimică, situs funcțional și complementaritate stereochimică. Recombinarea V(D)J este o descoperire de genetică moleculară din a doua jumătate a secolului XX (Tonegawa)."}, {"id": 3, "category": "Teorii despre Anticorpi", "type": "single", "text": "În ce consta 'Teoria Tiparului' (matriței) formulată de Haurowitz și Breinl în cadrul teoriilor instructive?", "options": ["Antigenul era transportat la situsul celular de sinteză proteică, unde servea drept model (matriță) pentru moleculele de anticorp nascente.", "Anticorpii preexistau în ser în cantități infime și erau activați prin contact mecanic.", "Antigenul activa direct diviziunea mitotică a limfocitului B fără a pătrunde în interiorul celulei.", "Celula gazdă producea anticorpi identici cu toxinele bacteriene prin mutații induse.", "Anticorpii erau sintetizați exclusiv în timus sub controlul hormonului timulină."], "correct": [0], "explanation": "Forma definitivă a teoriilor instructive aparține lui Haurowitz și Breinl (teoria tiparului): antigenul pătrunde la nivelul situsului de sinteză a proteinelor și servește direct drept matriță fizică în jurul căreia se pliază lanțurile proteice ale anticorpului."}, {"id": 4, "category": "Teorii despre Anticorpi", "type": "single", "text": "Cum a simplificat Linus Pauling teoria instructivă a formării anticorpilor?", "options": ["A susținut că antigenul intervine doar în faza finală a sintezei proteice, dirijând răsucirea în spațiu a lanțului polipeptidic.", "A demonstrat că anticorpii sunt sintetizați exclusiv de macrofage prin fagocitoză.", "A afirmat că sinteza de anticorpi este independentă de prezența antigenului.", "A dovedit că anticorpii au o structură lipidică amfifilică.", "A propus că fiecare anticorp este codat de o genă unică din linia germinală."], "correct": [0], "explanation": "Pauling a susținut că secvența de aminoacizi este sintetizată normal, iar antigenul servește ca șablon (template) doar pentru faza finală de pliere și răsucire spațială a lanțului polipeptidic."}, {"id": 5, "category": "Teorii despre Anticorpi", "type": "multiple", "text": "Care au fost cele 3 argumente fundamentale prin care MacFarlane Burnet a infirmat teoria instructivă a lui Pauling? (Alegeți variantele corecte)", "options": ["Teoriile instructive nu țin cont de importanța enzimelor în mecanismele de sinteză și metabolismul intracelular.", "Teoriile instructive implică în mod obligatoriu persistența îndelungată a antigenului pe tot parcursul sintezei anticorpilor.", "Producția de anticorpi este o funcție transmisă atât celulelor stimulate inițial, cât și descendenților (clonelor) acestora.", "Anticorpii nu sunt proteine, ci glicolipide de membrană.", "Antigenul este distrus în mai puțin de o secundă de la pătrunderea în organism."], "correct": [0, 1, 2], "explanation": "Burnet a arătat că: 1. Sinteza proteică este dependentă de enzime și genom, nu de matrițe pasive; 2. Antigenul nu persistă permanent în celulă; 3. Sinteza este clonală, perpetuată la nivelul descendenților celulari."}, {"id": 6, "category": "Teorii despre Anticorpi", "type": "single", "text": "Ce postula teoria selecției naturale enunțată de Niels Jerne?", "options": ["Anticorpi cu o mare varietate de specificități sunt sintetizați fiziologic în cantități mici în sânge, iar antigenul se combină cu aceștia și îi transportă către celule pentru reproducere.", "Sistemul imunitar este complet lipsit de anticorpi până la primul contact infectios.", "Fiecare celulă sintetizează o infinitate de anticorpi diferiți pe parcursul vieții.", "Anticorpii sunt molecule fără specificitate, care se adaptează după fagocitoză.", "Organismul vertebratelor elimină toate limfocitele B înainte de naștere."], "correct": [0], "explanation": "Niels Jerne a afirmat că vertebratele produc în mod normal un repertoriu vast de anticorpi naturali circulanți; antigenul se leagă de aceștia, iar complexul format ghidează semnalul către celulele specializate pentru a reproduce anticorpul."}, {"id": 7, "category": "Teorii despre Anticorpi", "type": "multiple", "text": "În legătură cu Teoria Selecției Clonale (Burnet, Talmage, Lederberg – 1959), care afirmații sunt ADEVĂRATE? (Alegeți variantele corecte)", "options": ["Este teoria fundamentală pe care se bazează imunologia modernă.", "Anticorpii (receptorii) se găsesc pe suprafața celulelor limfoide înaintea contactului cu antigenul.", "Fiecare clonă limfoidă are o dispoziție restrânsă fenotipic, fiind dedicată unei singure specificități.", "Interacțiunea cu antigenul declanșează semnalul pentru proliferarea și activarea clonelor celulare specifice.", "Antigenul acționează ca un tipar intracelular pentru modelarea chimică a situsului de legare."], "correct": [0, 1, 2, 3], "explanation": "Teoria selecției clonale susține că receptorii preexistă pe suprafața celulelor limfoide, o clonă având o singură specificitate; antigenul doar selectează clona potrivită și declanșează expansiunea clonală. Nu este o teorie instructivă."}, {"id": 8, "category": "Organizarea Sistemului Imun", "type": "multiple", "text": "Care dintre următoarele elemente anatomice și reflexe fiziologice fac parte din prima linie de apărare a imunității înnăscute? (Selectați variantele corecte)", "options": ["Pielea și secrețiile acide ale glandelor sebacee și sudoripare.", "Mucoasele și mucusul protector care le acoperă.", "Reflexul de tuse și de strănut.", "Secreția lacrimală și mișcarea oscilatorie a cililor respiratori.", "Limfocitele B cu memorie și plasmocitele producătoare de IgG."], "correct": [0, 1, 2, 3], "explanation": "Tegumentul, secrețiile acide, mucusul, reflexele mecanice (tuse, strănut), lacrimile și aparatul mucociliar aparțin apărării înnăscute. Plasmocitele și limfocitele B cu memorie aparțin imunității adaptative."}, {"id": 9, "category": "Organizarea Sistemului Imun", "type": "single", "text": "Care dintre următoarele celule ale imunității înnăscute sunt considerate un subset de limfocite primitive cu activitate citotoxică nespecifică?", "options": ["Celulele Natural Killer (NK)", "Plasmocitele efectoare", "Limfocitele T helper 2 (Th2)", "Eritrocitele senescente", "Celulele foliculare dendritice (FDC)"], "correct": [0], "explanation": "Celulele Natural Killer (NK) sunt celule limfoide mari, non-fagocitare, considerate un subset primitiv cu activitate citotoxică nespecifică în cadrul imunității înnăscute."}, {"id": 10, "category": "Organizarea Sistemului Imun", "type": "multiple", "text": "Care sunt cele 5 funcții cardinale ale sistemului imunitar descrise în cursul universitar? (Alegeți variantele corecte)", "options": ["Supraveghere – distincția dintre self și non-self.", "Apărare – declanșarea răspunsului împotriva agresorilor.", "Reglare – controlul răspunsului în scopul menținerii homeostaziei.", "Memorie imunologică – răspuns optimizat la un nou contact cu același antigen.", "Toleranță – stare de neresponsivitate fiziologică față de propriile antigene (self).", "Secreția exclusivă de insulină și glucagon."], "correct": [0, 1, 2, 3, 4], "explanation": "Cele 5 funcții fundamentale ale SI sunt: supraveghere, apărare, reglare (homeostazie), memorie imunologică și toleranță față de self."}, {"id": 11, "category": "Organizarea Sistemului Imun", "type": "single", "text": "Care este organul limfoid primar în care limfocitele T își desăvârșesc maturarea și diferențierea în subseturi helper și citotoxice?", "options": ["Splina", "Timusul", "Ganglionii limfatici mezenterici", "Măduva osoasă hematogenă", "Plăcile Peyer"], "correct": [1], "explanation": "Limfocitele T migrează din măduvă și se maturează în timus (unde se diferențiază în CD4+ T helper și CD8+ T citotoxice). Măduva osoasă este organul primar de maturare pentru limfocitele B."}, {"id": 12, "category": "Organizarea Sistemului Imun", "type": "single", "text": "Activarea limfocitelor B și diferențierea lor în celule efectoare conduce la apariția:", "options": ["Plasmocitelor care secretă anticorpi solubili capabili să recunoască antigenele.", "Fibroblaștilor dermici secretoare de colagen tip IV.", "Celulelor Kupffer din sinusoidele hepatice.", "Eozinofilelor din măduva hematopoietică.", "Enterocitelor din mucoasa ileală."], "correct": [0], "explanation": "Limfocitele B stimulate antigenic se diferențiază în celule B cu memorie și plasmocite, acestea din urmă fiind 'uzinele' formatoare și secretoare de anticorpi specifici (răspuns umoral)."}, {"id": 13, "category": "Antigene & Imunogenitate", "type": "single", "text": "Proprietatea unei structuri biologice de a se combina specific cu receptorii limfocitari sau cu anticorpii preformați poartă numele de:", "options": ["Imunogenitate", "Antigenicitate", "Alergenicitate", "Tolerogenitate", "Opsonizare"], "correct": [1], "explanation": "Antigenicitatea reprezintă exclusiv proprietatea de a se combina specific cu receptorii sau anticorpii. Imunogenitatea include atât capacitatea de inducere a răspunsului imun de novo, cât și aceea de a reacționa cu produșii finali."}, {"id": 14, "category": "Antigene & Imunogenitate", "type": "multiple", "text": "Ce efecte biologice poate declanșa pătrunderea unui antigen în organism? (Alegeți variantele corecte)", "options": ["Activarea limfocitelor T și/sau B (comportament de imunogen).", "Conducerea la sinteza de anticorpi specifici.", "Declanșarea unor reacții de hipersensibilitate / răspunsuri exagerate.", "Inducerea toleranței imunologice (absența răspunsului imun).", "Clivarea spontană a insulinei pancreatice."], "correct": [0, 1, 2, 3], "explanation": "Antigenul poate acționa ca imunogen (activare limfocite, anticorpi), ca alergen (reacții exagerate de hipersensibilitate) sau ca tolerogen (inducerea stării de toleranță / neresponsivitate)."}, {"id": 15, "category": "Antigene & Imunogenitate", "type": "single", "text": "Cum este definită o 'Haptenă' în imunologie?", "options": ["O macromoleculă proteică cu greutate de peste 100 kDa.", "Un antigen incomplet, lipsit de imunogenitate prin el însuși, dar care poate induce răspuns imun când este cuplat chimic la o moleculă purtătoare (carrier).", "O opsonină plasmatică derivată din componenta C3 a complementului.", "O toxină bacteriană inactivată prin căldură.", "Un anticorp monoclonar utilizat în diagnosticul serologic."], "correct": [1], "explanation": "Haptenele sunt substanțe cu greutate moleculară mică (<1 kDa), neimunogene izolat, dar capabile să reacționeze cu anticorpii specifici. Ele devin imunogene numai prin conjugare covalentă cu o moleculă carrier (de regulă o proteină)."}, {"id": 16, "category": "Antigene & Imunogenitate", "type": "single", "text": "De ce majoritatea medicamentelor de sinteză au o greutate moleculară mai mică de 1 kDa?", "options": ["Pentru a fi eliminate mai rapid pe cale biliară.", "Pentru a nu fi percepute ca imunogene de către sistemul imunitar al gazdei.", "Pentru a stimula proliferarea limfocitelor NK.", "Pentru a activa calea lectinelor a complementului.", "Pentru a preveni degradarea lor de către lizozim."], "correct": [1], "explanation": "Medicamentele au de regulă GM < 1 kDa special pentru a nu fi recunoscute ca imunogene și pentru a evita apariția reacțiilor imunologice adverse. Dacă se cuplează accidental cu proteine self, pot acționa ca haptene, declanșând alergii."}, {"id": 17, "category": "Antigene & Imunogenitate", "type": "multiple", "text": "În legătură cu antigenele sechestrate și barierele imune, care afirmații sunt ADEVĂRATE? (Alegeți variantele corecte)", "options": ["Sunt structuri separate fizic/anatomic de sistemul imunitar în cursul dezvoltării embrionare.", "Un traumatism la nivelul unui ochi poate elibera proteine sechestrate în circulație.", "Răspunsul imun declanșat împotriva proteinelor oculare eliberate poate ataca ochiul congener sănătos, determinând uveita simpatică.", "Camera anterioară a ochiului, creierul și testiculele sunt considerate zone cu privilegiu imun.", "Antigenele sechestrate induc în mod normal toleranță centrală masivă în măduvă."], "correct": [0, 1, 2, 3], "explanation": "Antigenele sechestrate sunt ferite anatomic de contactul cu limfocitele în timpul selecției clonale. Ruperea barierei prin traumatism (ex: ocular) expune aceste structuri, generând un răspuns autoimun agresiv la ambii ochi (uveita simpatică)."}, {"id": 18, "category": "Antigene & Imunogenitate", "type": "single", "text": "O grefă de țesut transferată între doi gemeni monozigoți (identici genetic) este clasificată drept un transplant cu antigen:", "options": ["Autolog", "Singeneic (izogen)", "Alogeneic", "Xenogeneic", "Heterofil"], "correct": [1], "explanation": "Antigenele singeneice provin de la indivizi identici din punct de vedere genetic (gemeni univitelini / monozigoți sau linii pure consangvinizate de animale). Autolog = același individ; Alogeneic = membri diferiți ai aceleiași specii; Xenogeneic = specii diferite."}, {"id": 19, "category": "Antigene & Imunogenitate", "type": "multiple", "text": "Care dintre următoarele modificări structurale cresc semnificativ imunogenitatea unei proteine simple sau a unui polipeptid? (Alegeți variantele corecte)", "options": ["Adăugarea unei grupări chimice precum dinitrofenolul (DNP).", "Încorporarea de aminoacizi aromatici (ex: tirozină, fenilalanină).", "Creșterea heterogenității prin utilizarea de copolimeri alcătuiți din mai mulți aminoacizi diferiți.", "Înlocuirea L-aminoacizilor cu D-aminoacizi sintetici.", "Transformarea moleculei dintr-o formă insolubilă agregată într-o formă solubilă monomerică de 500 Da."], "correct": [0, 1, 2], "explanation": "Complexitatea chimică crește imunogenitatea: adăugarea de DNP, introducerea aminoacizilor aromatici sau copolimerizarea amplifică recunoașterea. D-aminoacizii scad sau anulează imunogenitatea (lipsă degradabilitate), iar moleculele insolubile sunt mai imunogene decât monomerii solubili mici."}, {"id": 20, "category": "Antigene & Imunogenitate", "type": "single", "text": "Lipopolizaharidul (LPS) și polizaharidul capsular pneumococic prezintă proprietatea remarcabilă de a:", "options": ["Fi procesate exclusiv în calea citosolică a MHC I.", "Stimula limfocitele B în mod direct, trecând peste ajutorul limfocitelor T helper (antigene T-independente).", "Activa exclusiv limfocitele T citotoxice CD8+.", "Fi degradate instantaneu fără a lăsa memorie imunologică sau secreție de anticorpi.", "Inhiba ireversibil fosforilarea tirozin-kinazei ZAP-70."], "correct": [1], "explanation": "LPS și polizaharidul pneumococic sunt antigene T-independente: prezintă epitopi repetați care leagă încrucișat multiple BCR-uri pe suprafața limfocitelor B, activându-le direct, fără necesitatea cooperării cu limfocitele Th."}, {"id": 21, "category": "Antigene & Imunogenitate", "type": "single", "text": "Prin ce sistem molecular specializat pot fi prezentate antigenele lipidice limfocitelor sistemului imunitar?", "options": ["Prin moleculele clasice HLA-A și HLA-B.", "Prin familia moleculelor neclasice CD1.", "Prin receptorul scavenger MARCO.", "Prin complexul C1qrs al complementului.", "Prin receptorul pentru transferină."], "correct": [1], "explanation": "Antigenele lipidice și glicolipidice (de exemplu cele din peretele micobacteriilor) nu pot fi ancorate în fanta clasică a MHC I/II, ci sunt prezentate prin intermediul familiei de molecule CD1 (CD1a-e)."}, {"id": 22, "category": "Antigene & Imunogenitate", "type": "multiple", "text": "În ce condiții patologice pot deveni acizii nucleici (ADN, ARN) ținte ale unui răspuns imun distructiv? (Alegeți variantele corecte)", "options": ["Când se combină cu proteine purtătoare (carrier) în contextul bolilor autoimune, precum Lupusul Eritematos Sistemic (LED).", "În mod spontan la toți indivizii sănătoși după ingestia de carbohidrați.", "Când generează anticorpi antinucleari (ANA) și anti-ADN dublucatenar.", "Când sunt clivați complet de către RNase L în salivă.", "Când mimează structura capsulei de pneumococ."], "correct": [0, 2], "explanation": "Acizii nucleici puri sunt neimunogeni; totuși, complexați cu proteine nucleare (histone, ribonucleoproteine), devin imunogene patologice în LED, stimulând sinteza de anticorpi anti-ADN dc."}, {"id": 23, "category": "Antigene & Imunogenitate", "type": "single", "text": "Care este rolul 'degradabilității' enzimatice a unui antigen în declanșarea răspunsului imun adaptativ?", "options": ["Permite celulelor prezentatoare de antigen (APC) să proceseze proteinele în peptide mici pentru a fi expuse în cupa MHC și recunoscute de celulele T.", "Asigură transformarea antigenului în glicogen de depozit.", "Permite polimerizarea moleculelor de clatrină în plasmocit.", "Previne orice activare a limfocitelor B din ganglionii limfatici.", "Blochează secreția de interferon gamma."], "correct": [0], "explanation": "Pentru activarea limfocitelor T, antigenul proteic trebuie captat de APC, supus proteolizei controlate (procesare) și exprimat pe membrană sub formă de peptide fixate în fanta MHC. Substanțele complet nedegradabile induc granuloame cronice de corp străin."}, {"id": 24, "category": "Condiții de Administrare & Adjuvanți", "type": "multiple", "text": "Care dintre următoarele căi de administrare a unui imunogen sunt utilizate experimental sau clinic pentru a favoriza stimularea imună? (Alegeți variantele corecte)", "options": ["Calea subcutanată (s.c.) – drenează în ganglionii limfatici regionali proximali.", "Calea intramusculară (i.m.) – utilizată pe scară largă pentru vaccinurile solubile umane.", "Calea intraperitoneală (i.p.) – eficientă în modele animale pentru imunogene celulare sau bacteriene.", "Calea intravenoasă (i.v.) – de cele mai multe ori evitată deoarece duce antigenul direct în splină și poate induce toleranță.", "Orice cale care șuntează complet celulele prezentatoare de antigen."], "correct": [0, 1, 2, 3], "explanation": "Căile optime sunt cele parenterale (s.c., i.m., i.p.) care optimizează întâlnirea cu APC locale. Calea i.v. este în general evitată, iar șuntarea APC nu este recomandată deoarece compromite prezentarea către limfocitele T."}, {"id": 25, "category": "Condiții de Administrare & Adjuvanți", "type": "multiple", "text": "Prin ce mecanisme acționează adjuvanții imunologici? (Alegeți variantele corecte)", "options": ["Prelungirea persistenței antigenului la locul injectării prin eliberare lentă.", "Amplificarea semnalelor costimulatoare (creșterea expresiei B7 și secreției de IL-1).", "Formarea de granuloame inflamatorii locale ce concentrează celulele imune.", "Stimularea nespecifică a proliferării limfocitare.", "Transformarea unei substanțe neantigenice într-o enzimă litică."], "correct": [0, 1, 2, 3], "explanation": "Adjuvanții acționează prin formare de depozit tisular (eliberare lentă), inducerea costimulării pe APC, recrutare celulară granulomatoasă și stimulare nespecifică. Ei nu conferă antigenitate substanțelor inerte."}, {"id": 26, "category": "Condiții de Administrare & Adjuvanți", "type": "single", "text": "Ce conține Adjuvantul Complet Freund (CFA) și care este restricția sa de utilizare?", "options": ["Conține sulfat de aluminiu și este folosit de rutină în vaccinarea copiilor.", "Conține o suspensie de micobacterii omorâte (*Mycobacterium tuberculosis*) într-o emulsie uleioasă și se utilizează doar în cercetare animală, exclusiv la prima administrare.", "Conține toxoid tetanic purificat și se administrează trimestrial.", "Conține lipopolizaharid recombinat și se administrează intravenos.", "Conține carbohidrați din grupul sanguin AB0."], "correct": [1], "explanation": "CFA conține micobacterii omorâte în ulei mineral; induce reacții inflamatorii granulomatoase necrozante severe și ulcerații, fiind interzis la om și limitat strict la prima injectare în protocoalele de cercetare pe animale."}, {"id": 27, "category": "Condiții de Administrare & Adjuvanți", "type": "multiple", "text": "Care dintre următoarele microorganisme sau fracțiuni bacteriene sunt utilizate ca adjuvanți imunologici? (Alegeți variantele corecte)", "options": ["Bacillus Calmette-Guérin (BCG)", "Corynebacterium parvum", "Bordetella pertussis", "Muramyl dipeptid sintetic (MDP)", "Lipopolizaharidul (LPS)"], "correct": [0, 1, 2, 3, 4], "explanation": "Toate aceste structuri microbiene sunt adjuvanți clasici recunoscuți de PRR, stimulând macrofagele și celulele dendritice să exprime molecule costimulatoare și citokine proinflamatorii."}, {"id": 28, "category": "Epitopi B vs. Epitopi T", "type": "single", "text": "Epitopii recunoscuți de receptorii limfocitelor B (BCR / anticorpi) sunt caracterizați prin:", "options": ["Localizare internă, în miezul hidrofob al proteinei.", "Compunere din aminoacizi hidrofilici dispuși pe suprafața tridimensională a moleculei native.", "Necesitatea asocierii obligatorii cu beta-2-microglobulina.", "Faptul că sunt compuși exclusiv din secvențe liniare de 8-10 aminoacizi.", "Imposibilitatea de a fi conformaționali."], "correct": [1], "explanation": "Epitopii B sunt situați la suprafața accesibilă a macromoleculei, sunt hidrofili și pot fi conformaționali (apropiați prin plierea 3D) sau secvențiali (continui)."}, {"id": 29, "category": "Epitopi B vs. Epitopi T", "type": "multiple", "text": "Ce trăsături definesc epitopii recunoscuți de limfocitele T (TCR)? (Alegeți variantele corecte)", "options": ["Sunt de cele mai multe ori secvențe scurte de aminoacizi ascunse în interiorul proteinei native.", "Necesită denaturarea și degradarea proteolitică a antigenului de către APC.", "Sunt recunoscuți exclusiv ca peptide oligomerice ancorate în cupa unei molecule MHC (restricție MHC).", "Epitopii T-dominanți sunt determinați de setul specific de alele MHC exprimate de individ.", "Sunt recunoscuți direct din faza fluidă fără contact celular."], "correct": [0, 1, 2, 3], "explanation": "Epitopii T sunt interni, liniari, rezultați din procesare și prezentați obligatoriu în fanta MHC în cadrul complexului trimolecular TCR-peptid-MHC. Nu pot fi recunoscuți liberi în soluție."}, {"id": 30, "category": "Imunitate Înnăscută & Bariere", "type": "multiple", "text": "Ce caracteristici structurale și chimice conferă pielii umane statutul de barieră primară împotriva infecțiilor? (Alegeți variantele corecte)", "options": ["Atinge la om o greutate cumulată de circa 5 kg.", "Epidermul este avascular, format din celule cheratinizate moarte impermeabile la apă.", "Dermul conține glande sebacee care produc sebum cu pH acid (3-6).", "Hipodermul reprezintă o barieră mecanică și termică suplimentară de grăsime.", "Pielea conține o densitate crescută de receptori CD47 solubili în stratul cornos."], "correct": [0, 1, 2, 3], "explanation": "Tegumentul cântărește ~5 kg, are epiderm descuamativ impermeabil avascular, sebum acid (pH 3-6) bactericid produs în derm și hipoderm protector. CD47 nu este o moleculă a stratului cornos."}, {"id": 31, "category": "Imunitate Înnăscută & Bariere", "type": "single", "text": "Care este substratul enzimatic hidrolizat specific de către lizozimul din lacrimi, salivă și mucus?", "options": ["Legăturile beta(1-4) glicozidice din peptidoglicanul pereților bacterieni.", "Legăturile peptidice din fragmentul Fc al imunoglobulinelor.", "Legătura tioesterică internă a componentei C3.", "Inozitol trifosfatul din membrana neutrofilelor.", "Laminina și fibronectina din joncțiunea dermo-epidermică."], "correct": [0], "explanation": "Lizozimul este o muramidază care hidrolizează legătura beta(1-4) dintre acidul N-acetilmuramic și N-acetilglucozamină din peptidoglicanul peretelui celular bacterian."}, {"id": 32, "category": "Imunitate Înnăscută & Bariere", "type": "single", "text": "Defensinele sunt peptide antimicrobiene secretate de:", "options": ["Neutrofile, cheratinocite și celulele epiteliului intestinal.", "Eritrocitele mature anucleate.", "Neuronii din coarnele anterioare ale măduvei.", "Hepatocitele centrolobulare.", "Plasmocitele efectoare secretoare de IgA."], "correct": [0], "explanation": "Defensinele sunt sintetizate abundent de leucocitele polimorfonucleare (neutrofile) și de celulele epiteliale de la nivelul pielii (cheratinocite) și mucoasei intestinale (celulele Paneth)."}, {"id": 33, "category": "Sistemul Interferonilor", "type": "multiple", "text": "Interferonii de tip I cuprind următoarele molecule polipeptidice și origini celulare: (Alegeți variantele corecte)", "options": ["IFN-α: familie de aproximativ 20 de polipeptide sintetizate în special de leucocite.", "IFN-β: sintetizat în principal de fibroblaști.", "IFN-ω: membru al familiei interferonilor de tip I.", "IFN-γ: sintetizat de celulele epiteliale descuamative.", "Interferonii de tip I sunt induși rapid de stimulii virali (ex: ARN dublucatenar)."], "correct": [0, 1, 2, 4], "explanation": "IFN de tip I sunt IFN-α (leucocite), IFN-β (fibroblaști) și IFN-ω, activați de infecțiile virale. IFN-γ este interferonul de tip II (imun), sintetizat de limfocite T și NK."}, {"id": 34, "category": "Sistemul Interferonilor", "type": "single", "text": "Ce enzimă inductibilă este sintetizată sub acțiunea IFN-α/β și fosforilează factorul eIF-2 pentru a bloca translația virală?", "options": ["PKR (Protein-Kinaza R)", "NADPH-oxidaza", "Superoxid-dismutaza", "Kalicreina", "Arilsulfataza B"], "correct": [0], "explanation": "PKR (Protein Kinase R) este activată de dsRNA și fosforilează factorul eIF-2, care formează un complex inactiv cu eIF2B, ducând la oprirea completă a sintezei proteice în celula infectată."}, {"id": 35, "category": "Sistemul Interferonilor", "type": "multiple", "text": "Prin ce acțiuni biochimice limitează interferonii de tip I replicarea virală? (Alegeți variantele corecte)", "options": ["Activarea PKR -> fosforilarea eIF-2 -> scăderea sintezei de proteine.", "Activarea PKR induce RNase L, care distruge ARN-ul viral și celular.", "Creșterea activității proteinei supresoare tumorale p53, stimulând apoptoza celulei infectate.", "Stimularea potențialului litic al celulelor Natural Killer (NK).", "Blocarea completă a expresiei moleculelor MHC de clasă I."], "correct": [0, 1, 2, 3], "explanation": "IFN tip I opresc translația (PKR/eIF-2), degradează ARN-ul (RNase L), induc apoptoza (p53), stimulează NK și CRESC (nu blochează) expresia MHC I pentru prezentare către CD8+."}, {"id": 36, "category": "Proteine de Fază Acută & Antagonism", "type": "single", "text": "Ce citokine proinflamatorii secretate de macrofage și neutrofile stimulează hepatocitele să producă proteine de fază acută?", "options": ["IL-1, IL-6 și TNF-α", "IL-10, IL-4 și TGF-β", "Histamina și bradikinina", "Perforinele și granzimele", "Eritropoietina și trombopoietina"], "correct": [0], "explanation": "Triada clasică de citokine proinflamatorii macrofagice (IL-1, IL-6 și TNF-α) acționează asupra ficatului declanșând răspunsul sistemic hepatic de fază acută."}, {"id": 37, "category": "Proteine de Fază Acută & Antagonism", "type": "multiple", "text": "Care dintre următoarele proteine serice sunt Proteine de Fază Acută POZITIVE? (Alegeți variantele corecte)", "options": ["Proteina C reactivă (PCR)", "Serum amiloidul A (SAA)", "Fibrinogenul", "Ceruloplasmina și haptoglobina", "Albumina și transferina"], "correct": [0, 1, 2, 3], "explanation": "PCR, SAA, fibrinogenul, ceruloplasmina și haptoglobina cresc marcat în ser în timpul inflamației (pozitive). Albumina și transferina sunt proteine de fază acută negative (scad)."}, {"id": 38, "category": "Proteine de Fază Acută & Antagonism", "type": "single", "text": "Care sunt funcțiile biologice majore ale Proteinei C Reactive (PCR)?", "options": ["Funcționează ca opsonină (stimulează fagocitoza) și este un activator puternic al complementului pe cale clasică.", "Inhibă ireversibil factorul Hageman al coagulării.", "Blochează degranularea mastocitelor și eozinofilelor.", "Distruge selectiv membrana eritrocitelor tinere.", "Secreta histamină în lumenul capilar."], "correct": [0], "explanation": "PCR se leagă de fosfocolina de pe pereții microbieni, acționând ca o opsonină eficientă și legând C1q pentru a activa cascada complementului pe calea clasică."}, {"id": 39, "category": "Proteine de Fază Acută & Antagonism", "type": "multiple", "text": "Prin ce mecanisme asigură flora bacteriană comensală (antagonismul bacterian) protecția împotriva patogenilor? (Alegeți variantele corecte)", "options": ["Competiție directă pentru nutrienții esențiali din mediu.", "Ocuparea fizică a situsurilor de legare de pe epiteliu.", "Secreția selectivă de molecule toxice și bactericine.", "Stimularea și menținerea stării de alertă fiziologică a celulelor sistemului imun.", "Sinteza directă de componente C9 ale complementului."], "correct": [0, 1, 2, 3], "explanation": "Microbiota indigenă protejează gazda prin competiție pentru nutrienți, ocuparea nișelor ecologice, secreție de factori antimicrobieni și stimularea tonică a sistemului imunitar."}, {"id": 40, "category": "Internalizarea Antigenelor & Fagocitoză", "type": "multiple", "text": "Care sunt cele 3 procese responsabile pentru internalizarea macromoleculelor și celulelor străine? (Alegeți variantele corecte)", "options": ["Macropinocitoza (internalizarea nespecifică a fluidului extracelular prin macropinozomi).", "Endocitoza mediată de receptori tapetați cu clatrină.", "Fagocitoza (ingestia particulelor cu diametru mai mare de 0,5 µm).", "Transducția de semnal mediată de receptorul Notch-1.", "Recombinarea somatică mediată de RAG-1 și RAG-2."], "correct": [0, 1, 2], "explanation": "Cele 3 mecanisme celulare majore de internalizare sunt: macropinocitoza (fază fluidă), endocitoza (dependentă de clatrină) și fagocitoza (particule > 0,5 µm mediate de actină)."}, {"id": 41, "category": "Internalizarea Antigenelor & Fagocitoză", "type": "single", "text": "Fagocitoza este declanșată prin legarea secvențială a multiplilor receptori de suprafață la liganzii particulei, mecanism cunoscut sub numele de:", "options": ["Mecanism de fermoar (zipper mechanism)", "Transcitoză polarizată", "Oligomerizare mitotică", "Comutare de clasă", "Selecție clonală"], "correct": [0], "explanation": "Fagocitoza progresează prin înaintarea pseudopodelor membranare în jurul particulei datorită legării succesive a receptorilor membranari de liganzii de pe țintă ('zipper mechanism'), proces guvernat de polimerizarea actinei."}, {"id": 42, "category": "Internalizarea Antigenelor & Fagocitoză", "type": "single", "text": "Ce proteină membranară celulară facilitează evenimentele de fuziune și desprindere veziculară prin legarea la fosfolipide în cursul evoluției fagolizozomului?", "options": ["Anexina", "Clatrina", "Properdina", "Albumina", "Kalicreina"], "correct": [0], "explanation": "Anexinele sunt proteine solubile dependente de calciu care leagă fosfolipidele membranare și mediază fuziunea fagozomilor cu endozomii și lizozomii pentru formarea fagolizozomului."}, {"id": 43, "category": "Bactericidie Intracelulară", "type": "multiple", "text": "În cadrul mecanismelor oxigen-dependente (burst respirator) ale fagocitelor, ce compuși antimicrobieni iau naștere succesiv? (Alegeți variantele corecte)", "options": ["Anionul superoxid (O2•-) generat de NADPH-oxidază.", "Peroxidul de hidrogen (H2O2) și oxigenul singlet (1O2) generați sub acțiunea SOD.", "Radicalii liberi hidroxil (OH•) rezultați din reacția superoxidului cu apa oxigenată.", "Oxidul nitric (NO) sintetizat din L-arginină de către iNOS.", "Molecula C4b2a a căii clasice."], "correct": [0, 1, 2, 3], "explanation": "Burst-ul respirator generează specii reactive ale oxigenului: O2•- -> H2O2 + 1O2 -> OH•. Concomitent, activarea iNOS duce la sinteza de oxid nitric (NO) și peroxinitrit."}, {"id": 44, "category": "Bactericidie Intracelulară", "type": "single", "text": "Ce rol îndeplinește oxidul nitric (NO) derivat din macrofagele activate împotriva patogenilor și celulelor tumorale?", "options": ["Inhibă sinteza de ADN și afectează metabolismul energetic al celulelor țintă.", "Stimulează polimerizarea fibrelor de colagen în derm.", "Sintetizează lanțurile ușoare lambda ale anticorpilor.", "Accelerează clearance-ul eritrocitar prin intermediul receptorului CR1.", "Produce inactivarea directă a factorului I al complementului."], "correct": [0], "explanation": "Oxidul nitric este o moleculă gazosă puternic reactivă care alterează proteinele fier-sulf din lanțul respirator și inhibă sinteza de ADN, având efect citostatic și citocid asupra bacteriilor și celulelor tumorale."}, {"id": 45, "category": "Celule Efectoare Înăscute", "type": "multiple", "text": "Care sunt denumirile specifice ale macrofagelor în funcție de țesutul în care sunt rezidente? (Alegeți asocierile corecte)", "options": ["Histiocite – în țesutul conjunctiv.", "Macrofage alveolare – la nivel pulmonar.", "Celule Kupffer – în ficat.", "Celule mezangiale – în glomerulii renali.", "Microglii – în sistemul nervos central; Osteoclaste – în țesutul osos."], "correct": [0, 1, 2, 3, 4], "explanation": "Toate asocierile reprezintă nomenclatura anatomică clasică a celulelor Sistemului Fagocitar Mononuclear provenite din diferențierea monocitelor sanguine în țesuturi."}, {"id": 46, "category": "Celule Efectoare Înăscute", "type": "single", "text": "Care sunt celulele considerate 'Celule Prezentatoare de Antigen (APC) profesionale'?", "options": ["Celulele dendritice, macrofagele și limfocitele B.", "Neutrofilele, eozinofilele și bazofilele.", "Hematiile, trombocitele și celulele endoteliale.", "Fibroblaștii, osteoblastele și condrocitele.", "Enterocitele și celulele caliciforme."], "correct": [0], "explanation": "APC-urile profesionale sunt celulele dendritice (cele mai puternice), macrofagele și limfocitele B, caracterizate prin exprimarea constitutivă a moleculelor MHC II și a costimulatorilor (CD80/CD86)."}, {"id": 47, "category": "Celule Efectoare Înăscute", "type": "multiple", "text": "În legătură cu mastocitele și activarea lor în inflamație și alergii, care afirmații sunt ADEVĂRATE? (Alegeți variantele corecte)", "options": ["Precursorii lor se formează în măduva osoasă și sunt eliberați în torent ca celule nediferențiate.", "Se diferențiază exclusiv în țesuturi: mastocite de mucoase (MMC) și de țesut conjunctiv (CTMC).", "Exprimă receptori de mare afinitate pentru Fc al IgE, capabili să lege molecule de IgE monomerice libere.", "Activarea indusă de legarea antigenului determină o scădere marcată a cAMP intracelular, conducând la degranulare.", "Nu pot fi activate niciodată de componente ale complementului."], "correct": [0, 1, 2, 3], "explanation": "Mastocitele se maturează în țesuturi, leagă IgE liberă prin FcεRI, iar cuplarea antigenului scade cAMP-ul și provoacă degranularea. Ele POT fi activate și independent de IgE, prin anafilatoxine (C3a, C5a) sau kinine."}, {"id": 48, "category": "Celule Efectoare Înăscute", "type": "multiple", "text": "Ce conțin granulațiile eozinofilelor și cum participă la apărarea antiparazitară? (Alegeți variantele corecte)", "options": ["Miezul granulei conține MBP (Major Basic Protein).", "Matricea granulei conține ECP (Proteina Cationică Eozinofilică) și EPO (Peroxidaza Eozinofilică).", "Conțin enzime precum arilsulfataza B, fosfolipaza C și histaminaza.", "Helminții tapetați cu fragmentul C3b al complementului permit aderența eozinofilelor și degranularea MBP pe membrana parazitului.", "Granulațiile conțin exclusiv imunoglobuline IgM pentamerice."], "correct": [0, 1, 2, 3], "explanation": "Eozinofilele sunt echipate cu MBP, ECP, EPO și histaminază pentru a distruge paraziții mari (helminți) opsonizați cu C3b sau IgE, eliberând conținutul toxic direct pe cuticula parazitului."}, {"id": 49, "category": "Strategii de Recunoaștere Înăscută (PAMP/PRR/TLR)", "type": "multiple", "text": "Care sunt cele 3 mari strategii ale sistemului imun nespecific de recunoaștere a non-self-ului? (Alegeți variantele corecte)", "options": ["Recunoașterea structurilor microbiene străine invariabile (PAMPs).", "Recunoașterea moleculelor eliberate de celulele self alterate sau lezate (semnale de pericol / DAMPs).", "Recunoașterea tip 'Missing-self' (lipsa structurilor normale inhibitoare exprimate de celulele sănătoase, cum sunt MHC I sau CD47).", "Rearanjarea somatică clonală a genelor pentru lanțul greu al anticorpilor.", "Comutarea de clasă izotipică la nivelul centrului germinal."], "correct": [0, 1, 2], "explanation": "Imunitatea înnăscută operează prin 3 paradigme: 1. Detecție PAMP (non-self microbian); 2. Detecție Altered-self (pericol tisular); 3. Missing-self (lipsa semnalelor fiziologice inhibitoare precum MHC I sau CD47)."}, {"id": 50, "category": "Strategii de Recunoaștere Înăscută (PAMP/PRR/TLR)", "type": "single", "text": "Ce moleculă este exprimată pe membrana eritrocitelor umane sănătoase ca semnal inhibitor ('nu mă mânca') și a cărei dispariție la senescență duce la fagocitarea lor?", "options": ["CD47", "CD14", "CD28", "CD3", "LFA-1"], "correct": [0], "explanation": "CD47 este markerul clasic al recunoașterii 'missing-self' pe eritrocite: leagă receptorul inhibitor SIRP-alfa de pe macrofage. Când hematia îmbătrânește și pierde CD47, semnalul inhibitor dispare și este fagocitată."}, {"id": 51, "category": "Strategii de Recunoaștere Înăscută (PAMP/PRR/TLR)", "type": "multiple", "text": "Care dintre următoarele molecule sunt exemple consacrate de PAMP (Pathogen-Associated Molecular Patterns)? (Alegeți variantele corecte)", "options": ["Lipopolizaharidul (LPS) al bacteriilor Gram-negative.", "Acidul lipoteicoic și peptidoglicanul bacteriilor Gram-pozitive.", "Lipoarabinomananul micobacterian.", "ARN-ul dublucatenar (dsRNA) viral și dinucleotidele CpG nemetilate din ADN microbian.", "Albumina serică umană și colagenul de tip I."], "correct": [0, 1, 2, 3], "explanation": "LPS, acidul lipoteicoic, peptidoglicanii, lipoarabinomananul, dsRNA și motivele CpG sunt structuri exclusiv microbiene recunoscute ca PAMPs de către receptorii PRR."}, {"id": 52, "category": "Strategii de Recunoaștere Înăscută (PAMP/PRR/TLR)", "type": "multiple", "text": "În ce categorii funcționale sunt clasificați receptorii PRR (Pattern Recognition Receptors)? (Alegeți variantele corecte)", "options": ["PRR de semnalizare (receptori de suprafață sau intracelulari ce induc NF-κB și citokine proinflamatorii, ex: TLR).", "PRR fagocitici / endocitici (scavenger, ex: receptorul pentru manoză, MARCO).", "PRR secretați / solubili (colectine, MBL, proteine de fază acută).", "Receptori cu domeniu intracelular NOD ce detectează PAMP-uri intracitoplasmatice.", "Receptori enzimatici de restricție genomică plasmidică."], "correct": [0, 1, 2, 3], "explanation": "PRR-urile sunt sistematizate în: 1. PRR de semnalizare (Toll-like); 2. PRR scavenger/endocitici (MARCO, manoză); 3. PRR secretați (MBL, colectine, PCR) și receptori citosolici NOD."}, {"id": 53, "category": "Strategii de Recunoaștere Înăscută (PAMP/PRR/TLR)", "type": "single", "text": "Proteinele intracitoplasmatice NOD (NOD1, NOD2) detectează patogenii intracelulari prin legarea la:", "options": ["Structuri bacteriene derivate din degradarea peptidoglicanului, nesimțite de TLR-urile membranare.", "Fragmente lipidice de colagen uman de tip III.", "Monomeri de C9 din complexul de atac membranar.", "Molecule de IgE fixate pe suprafața mastocitelor.", "Interferoni de tip II inactivi."], "correct": [0], "explanation": "Proteinele NOD sunt senzori intracitoplasmatici care simt fragmente de peptidoglican bacterian intrate în citosol, declanșând activarea NF-κB și sinteza de IL-1, IL-8, TNF și interferoni."}, {"id": 54, "category": "Strategii de Recunoaștere Înăscută (PAMP/PRR/TLR)", "type": "multiple", "text": "Ce elemente structurale caracterizează familia receptorilor Toll-like (TLR)? (Alegeți variantele corecte)", "options": ["Sunt receptori transmembranari (11 tipuri descrise la mamifere).", "Porțiunea extracelulară este bogată în repetiții de leucină (LRR).", "Domeniul intracitoplasmatic are homologie cu cel al familiei IL-1R (domeniul TIR).", "Au cea mai înaltă expresie pe monocite, macrofage și neutrofile.", "Sunt secretați exclusiv în bilă sub formă de dimeri legați prin lanțul J."], "correct": [0, 1, 2, 3], "explanation": "TLR sunt receptori transmembranari (nu secretați) cu domeniu extracelular bogat în leucină (LRR) și domeniu de semnalizare citosolic TIR (omolog IL-1R). Sunt exprimați puternic pe fagocite."}, {"id": 55, "category": "Strategii de Recunoaștere Înăscută (PAMP/PRR/TLR)", "type": "single", "text": "Care este secvența corectă a cooperării moleculare în recunoașterea LPS de către receptorul TLR4?", "options": ["LPS se leagă întâi de proteina solubilă LBP -> LBP transferă monomerii de LPS la CD14 -> CD14 prezintă ligandul complexului TLR4/MD2.", "LPS este legat direct de lanțul J -> transferat pe C1q -> activarea TLR4.", "TLR4 leagă întâi properdina -> transferă endotoxina pe C3b.", "LPS se leagă de elastaza neutrofilului -> internalizare prin clatrină -> activare TLR4.", "Nu este necesară nicio proteină accesorie, LPS legând direct domeniul transmembranar al TLR4."], "correct": [0], "explanation": "LPS seric este captat de LBP (LPS-binding protein), transferat pe molecula CD14 de pe fagocite, care îl prezintă heterodimerului receptor TLR4/MD2 pentru inițierea transducției semnalului."}, {"id": 56, "category": "Strategii de Recunoaștere Înăscută (PAMP/PRR/TLR)", "type": "multiple", "text": "Ce liganzi specifici sunt recunoscuți de către receptorii Toll-like? (Alegeți asocierile corecte)", "options": ["TLR2 (asociat cu TLR1 sau TLR6) – recunoaște peptidoglicani, lipoproteine, lipoarabinomannan și zimozan.", "TLR3 – recunoaște ARN dublucatenar (dsRNA) viral.", "TLR5 – recunoaște proteina monomerică flagelină.", "TLR7 și TLR8 – recunosc ARN monocatenar viral bogat în guanozină și uridină.", "TLR9 – recunoaște dinucleotide CpG nemetilate din ADN microbian."], "correct": [0, 1, 2, 3, 4], "explanation": "Toate asocierile reprezintă harta moleculară fidelă a specificității receptorilor Toll-like prezentată la paginile 18-19 din curs."}, {"id": 57, "category": "Sistemul Complement", "type": "multiple", "text": "În legătură cu originea istorică a conceptului de 'Complement', care afirmații sunt ADEVĂRATE? (Alegeți variantele corecte)", "options": ["Jules Bordet a demonstrat că activitatea bacteriolitică serică necesită doi compuși: anticorpi specifici termorezistenți și un compus sensibil la căldură.", "Compusul sensibil la căldură a fost denumit inițial de Bordet 'alexină'.", "Paul Ehrlich propune termenul de 'complement' pentru a defini o activitate serică ce vine să completeze acțiunea anticorpilor.", "Sistemul cuprinde peste 30 de molecule solubile și membranare ce acționează în cascadă proteolitică.", "Complementul este o enzimă unică sintetizată exclusiv în timus."], "correct": [0, 1, 2, 3], "explanation": "Bordet a descoperit alexina termolabilă; Ehrlich a denumit-o complement. Sistemul cuprinde peste 30 de proteine și proenzime serice și membranare."}, {"id": 58, "category": "Sistemul Complement", "type": "single", "text": "La nivelul componentei centrale C3 a complementului, legătura internă tioesterică metastabilă este formată între:", "options": ["Gruparea -COOH a unui rest de glutamină și gruparea -SH a unui rest de cisteină.", "Gruparea amino a lizinei și gruparea hidroxil a serinei.", "Două punți disulfidice intercatenare între prolină și tirozină.", "Gruparea imidazol a histidinei și acidul aspartic.", "Gruparea fosfat a tirozinei și acidul sialic."], "correct": [0], "explanation": "Legătura tioesterică unică a C3 (și C4) este formată intramolecular între carboxilul glutaminei și tiolul cisteinei, creând un carbonil electrofil extrem de reactiv."}, {"id": 59, "category": "Sistemul Complement", "type": "multiple", "text": "Ce fenomene biochimice decurg din activarea legăturii tioesterice a C3? (Alegeți variantele corecte)", "options": ["Gruparea carbonil a glutaminei poate fi atacată de grupări nucleofile (-OH sau -NH2), permițând legarea covalentă pe suprafețe biologice.", "Hidroliza spontană de către apă generează C3i [C3(H2O)], asigurând activarea continuă de fond (fenomenul de 'tick-over').", "Clivarea proteolitică de către C3-convertază expune rapid legătura tioesterică.", "C3b legat de celule devine țintă pentru opsonizare sau asamblarea convertazei C5.", "Legătura tioesterică inactivează definitiv toate imunoglobulinele serice."], "correct": [0, 1, 2, 3], "explanation": "Legătura tioesterică asigură generarea spontană continuă (tick-over prin hidroliză), expunerea prin clivaj de către convertaze și ancorarea covalentă ireversibilă pe grupările amino/hidroxil membranare."}, {"id": 60, "category": "Sistemul Complement", "type": "single", "text": "Care este singura proenzimă a sistemului complement care circulă în plasmă direct în formă activă enzimatic, fără a necesita clivare prealabilă?", "options": ["Factorul D", "Factorul B", "C1s", "C3", "Properdina"], "correct": [0], "explanation": "Factorul D este singura enzimă a complementului care circulă în stare activă funcțional în sânge; el acționează asupra Factorului B numai după ce acesta este legat de C3i sau C3b."}, {"id": 61, "category": "Sistemul Complement", "type": "multiple", "text": "De ce activarea căii alternative a complementului este inhibată rapid pe celulele organismului gazdă (self), dar progresează amplificat pe suprafețele microbiene străine? (Alegeți variantele corecte)", "options": ["Membranele celulelor self au un conținut crescut de acid sialic, care crește afinitatea C3b pentru Factorul H.", "Factorul H este cofactor pentru Factorul I, care clivează C3b în fragmente inactive (iC3b, C3c, C3dg).", "Pe suprafețele străine (lipsite de acid sialic), C3b leagă Factorul B în prezența magneziului, formând convertaza stabilă C3bBb.", "Properdina stabilizează convertaza C3bBb pe suprafețele patogene, crescându-i timpul de înjumătățire de la 5 la 30 de minute.", "Celulele microbiene secretă în permanență cantități mari de C1-Inh."], "correct": [0, 1, 2, 3], "explanation": "Acidul sialic de pe membranele gazdei favorizează legarea Factorului H (care alungă Bb și aduce Factorul I pentru inactivare). Pe patogeni, C3b leagă Factorul B, generând C3bBb, pe care Properdina o stabilizează masiv."}, {"id": 62, "category": "Sistemul Complement", "type": "multiple", "text": "În legătură cu CALEA CLASICĂ a complementului, care afirmații sunt CORECTE? (Alegeți variantele corecte)", "options": ["Este inițiată de complexe antigen-anticorp formate din IgM sau anumite subclase de IgG (IgG1, IgG2, IgG3).", "Subclasa IgG4 este incapabilă să activeze complementul pe cale clasică.", "Complexul C1 este format dintr-o moleculă C1q și câte 2 molecule de C1r și C1s, fiind stabilizat de calciu.", "C1s clivează C4 (în C4a și C4b) și C2 (în C2b și C2a), formând convertaza C4b2a.", "O singură moleculă de IgG circulantă monomerică poate activa instantaneu cascada C1q."], "correct": [0, 1, 2, 3], "explanation": "C1q necesită legarea a minimum 2 situsuri Fc; o moleculă monomerică de IgG nu poate activa C1 singură (sunt necesare ~1000 IgG pe celulă la sub 30-40 nm). O singură moleculă de IgM pentamerică legată pe antigen este însă suficientă. IgG4 nu leagă C1q."}, {"id": 63, "category": "Sistemul Complement", "type": "single", "text": "Care este convertaza C3 a căii clasice și a căii lectinelor a complementului?", "options": ["C4b2a", "C3bBb", "C4b2a3b", "C3bBbC3b", "C1qrs"], "correct": [0], "explanation": "Convertaza C3 a căii clasice și a lectinelor este complexul C4b2a (format prin clivarea C4 și C2 de către C1s sau MASP). Convertaza C5 a aceleiași căi este C4b2a3b."}, {"id": 64, "category": "Sistemul Complement", "type": "single", "text": "Ce lectină serică multimerică acționează ca senzor primar în calea lectinelor și ce proteaze îi sunt asociate?", "options": ["MBL (Mannose-Binding Lectin) asociată cu serin-proteazele MASP-1 și MASP-2.", "Selectina E asociată cu mieloperoxidaza.", "Colectina surfactantă D asociată cu C1q.", "Proteina C reactivă asociată cu heparina.", "Integrina LFA-1 asociată cu proteina G."], "correct": [0], "explanation": "Calea lectinelor este activată de MBL (Mannose-Binding Lectin) care leagă reziduuri microbiene de manoză și activează serin-proteazele asociate MASP (omoloage funcțional cu C1r/C1s)."}, {"id": 65, "category": "Sistemul Complement: MAC & Reglare", "type": "multiple", "text": "Ce evenimente caracterizează asamblarea Complexului de Atac Membranar (MAC)? (Alegeți variantele corecte)", "options": ["Convertaza C5 clivează C5 în C5a (eliberat) și C5b (care ancorează asamblarea).", "C5b este foarte labil și este inactivat dacă nu leagă componenta C6 în mai puțin de 2 minute.", "Legarea C7 la complexul C5b6 induce o transformare conformațională de la starea hidrofilă la cea amfifilică.", "Complexul C5b-8 formează un por de 10 Å, iar polimerizarea moleculelor de C9 formează porul final de 70-100 Å.", "Celula țintă este ucisă exclusiv prin stimularea transcripției genei PKR."], "correct": [0, 1, 2, 3], "explanation": "MAC se asamblează secvențial: C5b + C6 -> C5b6 + C7 (tranziție amfifilică) -> C5b67 se prinde de bistrat -> leagă C8 (por de 10 Å) -> leagă și polimerizează 10-16 C9 (por litic de 70-100 Å -> dezechilibru osmotic coloidal și liză)."}, {"id": 66, "category": "Sistemul Complement: MAC & Reglare", "type": "single", "text": "În ce constă fenomenul de spectator nevinovat ('innocent bystander') în cursul activării complementului?", "options": ["Complexul hidrofob C5b67 format în fază fluidă se poate elibera și insera pe membranele celulelor vecine sănătoase, provocând liza lor nedorită.", "Eritrocitele captează neutrofilele și le inactivează granulațiile.", "Mastocitele degranulează histamină fără prezența antigenului.", "Bacteriile comensale fagocitează complexele imune din bilă.", "Anticorpii de clasă IgM blochează calea lectinelor."], "correct": [0], "explanation": "Dacă C5b67 se asamblează în faza fluidă înainte de a se insera pe patogen, el se poate ancora pasiv pe celule bystander (eritrocite sau endoteliu neinfectat din jur), provocând liza celulelor self nevinovate."}, {"id": 67, "category": "Sistemul Complement: MAC & Reglare", "type": "multiple", "text": "Prin ce proteine membranare și solubile sunt protejate celulele proprii organismului (self) împotriva complexului litic MAC? (Alegeți variantele corecte)", "options": ["Proteina S (vitronectina) – se leagă de complexul solubil C5b67 și blochează inserția sa în membrană.", "CD59 (MIRL – Membrane Inhibitor of Reactive Lysis) – se leagă de C8 și previne polimerizarea C9.", "HRF (Homologous Restriction Factor) – acționează similar CD59 prevenind atacul litic prin restricție de specie.", "DAF (CD55) – accelerează disocierea convertazelor C3.", "Properdina – accelerează liza celulelor self endoteliale."], "correct": [0, 1, 2, 3], "explanation": "Vitronectina blochează C5b67 liber în ser, CD59 și HRF blochează C9 pe membrană (restricție omoloagă), iar DAF disociază convertazele. Properdina este activator, nu inhibitor."}, {"id": 68, "category": "Sistemul Complement: MAC & Reglare", "type": "single", "text": "Ce mecanism de acțiune are C1-Inhibitorul (C1-Inh) în reglarea complementului?", "options": ["Este o serpină (inhibitor de serin-protează) care formează un complex stabil cu C1r și C1s, determinând disocierea lor de C1q.", "Polimerizează lanțurile C9 în pori de 10 Å.", "Clivează legătura tioesterică a C3 în stomac.", "Degradează peptidoglicanul bacterian în veziculele endocitice.", "Leagă histamina pe membrana mastocitelor."], "correct": [0], "explanation": "C1-Inh este o serpină circulantă care blochează activarea proteolitică a C1r și C1s (și a MASP), disociindu-le din complexul C1qrs și prevenind activarea spontană a căii clasice."}, {"id": 69, "category": "Complement: Efectori & Diapedeză", "type": "multiple", "text": "Care sunt principalele consecințe biologice ale activării sistemului complement? (Selectați variantele corecte)", "options": ["Liza celulară mediată osmotic de către MAC (bacterii, celule infectate viral, celule tumorale).", "Opsonizarea patogenilor prin fragmentele covalente C3b, C4b și iC3b, favorizând fagocitoza.", "Clearance-ul complexelor imune circulante: fixarea pe receptorul CR1 eritrocitar și transportul la splină/ficat.", "Efecte proinflamatorii și chemotactice mediate de anafilatoxinele C3a, C4a și C5a.", "Sinteza directă de cortizol în zona fasciculată a glandei suprarenale."], "correct": [0, 1, 2, 3], "explanation": "Efectorii complementului mediază: citoliză (MAC), opsonizare (C3b/iC3b), clearance imun al complexelor imune (via CR1 pe hematii) și inflamație acută prin anafilatoxine."}, {"id": 70, "category": "Complement: Efectori & Diapedeză", "type": "single", "text": "Care este cea mai puternică anafilatoxină a sistemului complement și ce enzimă serică îi asigură inactivarea rapidă?", "options": ["C5a este cea mai potentă, fiind inactivată de Carboxipeptidaza serică N prin clivarea argininei C-terminale.", "C4a este cea mai potentă, fiind inactivată de lizozim.", "C3a este cea mai potentă, fiind inactivată de histaminază.", "C3b este cea mai potentă, fiind degradată de Factorul B.", "C2b este cea mai potentă, fiind inactivată de Properdină."], "correct": [0], "explanation": "Ierarhia potenței este C5a > C3a > C4a. C5a este de departe cea mai puternică anafilatoxină și agent chemotactic, fiind transformată în derivatul mult mai slab C5a-desArg de către Carboxipeptidaza serică N."}, {"id": 71, "category": "Complement: Efectori & Diapedeză", "type": "single", "text": "Cum este realizată conexiunea integrată a complementului cu sistemul coagulării, kininelor și fibrinolizei?", "options": ["Prin proteina reglatoare C1-Inh, care inhibă concomitent C1r/C1s, Factorul XIIa al coagulării, kalicreina kininelor și plasmina fibrinolizei.", "Prin molecula CD47 care degradează fibrina.", "Prin MBL care polimerizează direct trombina.", "Prin acțiunea directă a proteinei C reactive pe trombocite.", "Prin sinteza de acid arahidonic în eritrocite."], "correct": [0], "explanation": "C1-Inhibitorul este un reglator multifuncțional central: inhibă C1r, C1s, factorul XIIa, kalicreina (prevenind excesul de bradikinină) și plasmina."}, {"id": 72, "category": "Complement: Efectori & Diapedeză", "type": "multiple", "text": "Care sunt cele 4 etape secvențiale ale diapedezei leucocitare (extravazarea neutrofilelor) descrise la pagina 24 din curs? (Alegeți variantele corecte)", "options": ["Rostogolirea (Rolling) – legarea reversibilă a selectinelor endoteliale E și P la liganzii mucin-like / sialil Lewis X de pe neutrofile.", "Activarea – stimularea neutrofilului prin chemoatractanți crește afinitatea integrinelor membranare.", "Fixarea și adeziunea fermă – legarea integrinei de mare afinitate (LFA-1) la molecule din superfamilia Ig (ICAM-1).", "Traversarea peretelui endotelial spre focarul tisular lezat.", "Degranularea eozinofilică a C9 în lumenul vasului."], "correct": [0, 1, 2, 3], "explanation": "Etapele diapedezei sunt: 1. Rostogolire (Selectine E/P - Sialyl-Lewis X); 2. Activare (chemokine, proteine G -> tranziție integrine în afinitate înaltă); 3. Fixare/adeziune fermă (LFA-1 - ICAM-1); 4. Transmigrare endotelială."}, {"id": 73, "category": "Patologia Complementului", "type": "single", "text": "Deficiențele componentelor inițiale ale căii clasice (C1q, C1r, C1s, C4, C2) se asociază clasic cu:", "options": ["Incapacitatea de eliminare a complexelor imune și apariția bolilor autoimune mediate de complexe imune, în special Lupus Eritematos Sistemic (LED) și glomerulonefrită.", "Sindromul de liză tumorală acută.", "Hemofilia congenitală tip A.", "Scăderea exclusivă a eozinofilelor din măduvă.", "Incompatibilitatea de grup sanguin Rh."], "correct": [0], "explanation": "Componentele C1, C4 și C2 sunt critice pentru solubilizarea și clearance-ul complexelor imune și a celulelor apoptotice. Deficitul lor genetic determină acumularea complexelor în țesuturi și declanșarea LED (Lupus) și a glomerulonefritelor."}, {"id": 74, "category": "Patologia Complementului", "type": "single", "text": "Deficiențele congenitale ale componentelor Complexului de Atac Membranar (C5, C6, C7, C8, C9) sau ale factorilor căii alternative (Properdină, Factor D) predispun pacientul în mod caracteristic la:", "options": ["Infecții recurente invazive severe cu bacterii din genul Neisseria (Neisseria meningitidis și gonorrhoeae).", "Infarct miocardic acut de ventricul drept.", "Diabet zaharat de tip 1 cu cetoacidoză.", "Osteomalacie refractară la vitamina D.", "Ulcer peptic gastroduodenal perforat."], "correct": [0], "explanation": "Bacteriile cu perete subțire din genul Neisseria depind critic de liza osmotică prin MAC pentru a fi distruse eficient. Deficitul de C5-C9 sau de properdină/factor D expune pacienții la meningite meningococice recurente."}, {"id": 75, "category": "Patologia Complementului", "type": "single", "text": "Deficiența congenitală a inhibitorului C1 (C1-Inh) este cauza cărei afecțiuni clinice descrise la pagina 25 din curs?", "options": ["Angioedemul ereditar (edeme localizate recurente, dureri abdominale colicative, edem glotic asfixiant).", "Hemoglobinuria paroxistică nocturnă.", "Sindromul limfocitului nud.", "Leucemia limfocitară cronică cu celule B.", "Anemia pernicioasă Biermer."], "correct": [0], "explanation": "Lipsa C1-Inh duce la activarea necontrolată a kalicreinei și a complementului, generând producție masivă de bradikinină, responsabilă de episoadele paroxistice de edem angioneurotic subcutanat și mucos (Angioedem Ereditar)."}, {"id": 76, "category": "Patologia Complementului", "type": "single", "text": "Defectul de ancorare membranară prin glicofosfatidilinozitol (GPI) a proteinelor de protecție DAF (CD55) și CD59 (HRF/MIRL) produce clinic:", "options": ["Hemoglobinuria Paroxistică Nocturnă (anemie hemolitică cronică intravasculară mediată de complement).", "Uveita simpatică post-traumatică.", "Sindromul de șoc toxico-septic stafilococic.", "Deficitul selectiv de IgA de mucoasă.", "Poliartrita reumatoidă seronegativă."], "correct": [0], "explanation": "DAF (CD55) și CD59 sunt ancorate prin GPI. Lipsa lor de pe eritrocite lasă celulele neprotejate în fața atacului spontan al complementului, provocând liză intravasculară, anemie hemolitică și hemoglobinurie paroxistică nocturnă."}, {"id": 77, "category": "Patologia Complementului", "type": "single", "text": "Deficiența componentei C3 a complementului se caracterizează prin:", "options": ["Infecții bacteriene piogene recurente severe, amenințătoare de viață, și defect major de opsonizare.", "Creșterea de 100 de ori a secreției de interferon gamma.", "Dezvoltarea rezistenței absolute la infecțiile stafilococice.", "Afectarea exclusivă a secreției lacrimale.", "Blocarea completă a digestiei glucidelor în stomac."], "correct": [0], "explanation": "C3 fiind piesa centrală comună a tuturor celor 3 căi de activare, deficitul de C3 anulează atât opsonizarea prin C3b, cât și formarea convertazelor C5 și sinteza de C5a/MAC, determinând infecții piogene severe fulminante."}];
+
+    // Încărcare din questions.json sau fallback intern complet
+    async function loadQuestions() {
+      try {
+        const res = await fetch('questions.json');
+        if (res.ok) {
+          MASTER_QUESTIONS = await res.json();
+          console.log(`Încărcat ${MASTER_QUESTIONS.length} grile din questions.json`);
+        } else {
+          throw new Error("HTTP error");
+        }
+      } catch (e) {
+        console.warn("Nu s-a putut încărca extern questions.json, utilizăm baza locală din memorie.");
+        // Folosim datele salvate în localStorage dacă există
+        const local = localStorage.getItem('umf_imuno_master_77');
+        if (local) {
+          MASTER_QUESTIONS = JSON.parse(local);
+        }
+      }
+      setupApp();
+    }
+
+    // Variabile de Stare
+    let currentMode = 'exam20'; // 'exam20', 'all77', 'cms'
+    let activeQueue = []; // Coada de întrebări active
+    let activeIndex = 0; // Indexul întrebării curente în coadă
+    let userSelections = {}; // { questionId: [selectedIndices] }
+    let evaluatedQuestions = {}; // { questionId: { correct: bool } }
+
+    // Cronometru
+    let timerTotalSeconds = 30 * 60; // 30 minute
+    let timerInterval = null;
+
+    // Utilitar Shuffle (Fisher-Yates)
+    function shuffle(arr) {
+      const a = [...arr];
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    // Inițializare Test Examen (Extrage 20 de întrebări aleatorii din 77)
+    function startNewExam20() {
+      currentMode = 'exam20';
+      const shuffledMaster = shuffle(MASTER_QUESTIONS);
+      activeQueue = shuffledMaster.slice(0, 20); // 20 de intrebari extrase
+      
+      // Amestecăm și opțiunile din fiecare întrebare
+      activeQueue.forEach(q => {
+        const mapped = q.options.map((opt, idx) => ({ text: opt, isCorrect: q.correct.includes(idx) }));
+        const shuf = shuffle(mapped);
+        q.options = shuf.map(m => m.text);
+        q.correct = [];
+        shuf.forEach((m, idx) => { if (m.isCorrect) q.correct.push(idx); });
+      });
+
+      activeIndex = 0;
+      userSelections = {};
+      evaluatedQuestions = {};
+
+      // Reset Cronometru 20:00
+      clearInterval(timerInterval);
+      timerTotalSeconds = 30 * 60;
+      updateTimerDisplay();
+      timerInterval = setInterval(() => {
+        timerTotalSeconds--;
+        updateTimerDisplay();
+        if (timerTotalSeconds <= 0) {
+          clearInterval(timerInterval);
+          finishExam("Timpul a expirat!");
+        }
+      }, 1000);
+
+      document.getElementById('stat-initial-count').innerText = "20";
+      document.getElementById('exam-mode-indicator').innerText = "Mod Oficial: 20 Grile";
+      updateHeaderCounts();
+      renderCurrentQuestion();
+    }
+
+    // Inițializare Mod Antrenament (Toate 77 de întrebări)
+    function startPracticeAll() {
+      currentMode = 'all77';
+      activeQueue = shuffle(MASTER_QUESTIONS);
+      activeIndex = 0;
+      userSelections = {};
+      evaluatedQuestions = {};
+
+      // FĂRĂ LIMITĂ DE TIMP pentru modul de învățare (toate 77 de grile)
+      clearInterval(timerInterval);
+      document.getElementById('stat-timer').innerText = "Nelimitat";
+
+      document.getElementById('stat-initial-count').innerText = `${activeQueue.length}`;
+      document.getElementById('exam-mode-indicator').innerText = `Antrenament: ${activeQueue.length} Grile (Timp Nelimitat)`;
+      updateHeaderCounts();
+      renderCurrentQuestion();
+    }
+
+    function updateTimerDisplay() {
+      if (currentMode === 'all77') {
+        document.getElementById('stat-timer').innerText = "Nelimitat";
+        return;
+      }
+      const min = Math.floor(timerTotalSeconds / 60);
+      const sec = timerTotalSeconds % 60;
+      document.getElementById('stat-timer').innerText = 
+        `${min.toString().padStart(2, '0')}:${sec.toString().padStart(2, '0')}`;
+    }
+
+    function updateHeaderCounts() {
+      let correct = 0;
+      let wrong = 0;
+      Object.values(evaluatedQuestions).forEach(st => {
+        if (st.correct) correct++; else wrong++;
+      });
+
+      const remaining = activeQueue.length - Object.keys(evaluatedQuestions).length;
+      document.getElementById('stat-remaining-count').innerText = remaining >= 0 ? remaining : 0;
+      document.getElementById('stat-correct-count').innerText = correct;
+      document.getElementById('stat-wrong-count').innerText = wrong;
+
+      // Calcul Notă Live în timp real (1 punct din oficiu + punctele acumulate)
+      const total = activeQueue.length > 0 ? activeQueue.length : 20;
+      const liveGrade = (1.00 + (correct / total) * 9.0).toFixed(2);
+      const gradeEl = document.getElementById('stat-grade-live');
+      if (gradeEl) {
+        gradeEl.innerText = liveGrade;
+        if (parseFloat(liveGrade) >= 8.50) {
+          gradeEl.className = "text-base sm:text-lg font-black text-emerald-600 dark:text-emerald-400";
+        } else if (parseFloat(liveGrade) >= 5.00) {
+          gradeEl.className = "text-base sm:text-lg font-black text-sky-600 dark:text-sky-400";
+        } else {
+          gradeEl.className = "text-base sm:text-lg font-black text-amber-600 dark:text-amber-400";
+        }
+      }
+    }
+
+    // Randare Întrebare Curentă în format DRPCIV
+    function renderCurrentQuestion() {
+      if (activeQueue.length === 0 || activeIndex >= activeQueue.length) {
+        finishExam("Ați completat toate întrebările!");
+        return;
+      }
+
+      const q = activeQueue[activeIndex];
+      const qNum = activeIndex + 1;
+      const total = activeQueue.length;
+
+      document.getElementById('badge-current-category').innerText = q.category;
+      document.getElementById('current-question-text').innerText = `${q.text}`;
+      document.getElementById('q-index-indicator').innerText = `Întrebarea ${qNum} din ${total}`;
+      
+      const typeBadge = document.getElementById('badge-current-type');
+      if (q.type === 'single') {
+        typeBadge.innerText = "Complement Simplu (CS - 1 singur răspuns)";
+        typeBadge.className = "text-sky-700 dark:text-sky-400 font-bold";
+      } else {
+        typeBadge.innerText = "Complement Multiplu (CM - alegeți toate variantele)";
+        typeBadge.className = "text-purple-700 dark:text-purple-400 font-bold";
+      }
+
+      // Variantele de răspuns (Stil DRPCIV: casetă gri cu litera în stânga, text în dreapta)
+      const optionsCol = document.getElementById('options-column');
+      optionsCol.innerHTML = '';
+      const letters = ['A', 'B', 'C', 'D', 'E'];
+
+      if (!userSelections[q.id]) userSelections[q.id] = [];
+      const selected = userSelections[q.id];
+      const evalStatus = evaluatedQuestions[q.id];
+
+      q.options.forEach((optText, optIdx) => {
+        const isSelected = selected.includes(optIdx);
+        const card = document.createElement('div');
+        
+        let cardStyle = "tap-target tap-scale flex items-stretch rounded-xl border transition-all cursor-pointer overflow-hidden shadow-sm ";
+        let badgeStyle = "w-14 sm:w-16 flex items-center justify-center font-black text-base sm:text-lg shrink-0 transition-colors ";
+        let textStyle = "p-3.5 sm:p-4 text-xs sm:text-sm font-medium leading-relaxed flex-1 flex items-center ";
+
+        if (evalStatus) {
+          // Post-verificare
+          const isCorrectChoice = q.correct.includes(optIdx);
+          if (isCorrectChoice) {
+            cardStyle += "bg-emerald-50 border-emerald-500 text-emerald-950 dark:bg-emerald-950/40 dark:text-emerald-100 font-bold";
+            badgeStyle += "bg-emerald-600 text-white";
+          } else if (isSelected && !isCorrectChoice) {
+            cardStyle += "bg-rose-50 border-rose-500 text-rose-950 dark:bg-rose-950/40 dark:text-rose-100 line-through opacity-85";
+            badgeStyle += "bg-rose-600 text-white";
+          } else {
+            cardStyle += "bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 opacity-40";
+            badgeStyle += "bg-slate-200 dark:bg-slate-800 text-slate-500";
+          }
+        } else {
+          // În timpul selecției
+          if (isSelected) {
+            cardStyle += "bg-sky-50 border-sky-600 text-sky-950 dark:bg-sky-950/40 dark:text-sky-100 ring-2 ring-sky-500/40 font-bold";
+            badgeStyle += "bg-sky-600 text-white";
+          } else {
+            cardStyle += "bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-700/80 hover:bg-slate-50 dark:hover:bg-slate-800/60 text-slate-800 dark:text-slate-200";
+            badgeStyle += "bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border-r border-slate-200 dark:border-slate-700";
+          }
+        }
+
+        card.className = cardStyle;
+        card.onclick = () => {
+          if (evalStatus) return; // Blocat după trimitere
+          toggleSelection(q, optIdx);
+        };
+
+        const badgeDiv = document.createElement('div');
+        badgeDiv.className = badgeStyle;
+        badgeDiv.innerText = letters[optIdx] || optIdx + 1;
+
+        const textDiv = document.createElement('div');
+        textDiv.className = textStyle;
+        textDiv.innerText = optText;
+
+        card.appendChild(badgeDiv);
+        card.appendChild(textDiv);
+        optionsCol.appendChild(card);
+      });
+
+      // Feedback Card Handling
+      const fbPanel = document.getElementById('feedback-panel');
+      const btnNextStep = document.getElementById('btn-next-step');
+      const btnSubmit = document.getElementById('btn-submit-answer');
+      const btnLater = document.getElementById('btn-answer-later');
+      const btnModify = document.getElementById('btn-modify-answer');
+
+      if (evalStatus) {
+        fbPanel.classList.remove('hidden');
+        if (evalStatus.correct) {
+          fbPanel.className = "bg-emerald-50 dark:bg-emerald-950/40 border-2 border-emerald-500/60 rounded-2xl p-4 shadow-md";
+          document.getElementById('feedback-status-icon').innerText = "✅";
+          document.getElementById('feedback-status-title').innerText = "Răspuns Corect!";
+          document.getElementById('feedback-status-title').className = "font-black text-sm text-emerald-700 dark:text-emerald-300";
+        } else {
+          fbPanel.className = "bg-rose-50 dark:bg-rose-950/40 border-2 border-rose-500/60 rounded-2xl p-4 shadow-md";
+          document.getElementById('feedback-status-icon').innerText = "❌";
+          document.getElementById('feedback-status-title').innerText = "Răspuns Greșit / Incomplet!";
+          document.getElementById('feedback-status-title').className = "font-black text-sm text-rose-700 dark:text-rose-300";
+        }
+        document.getElementById('feedback-explanation-text').innerText = q.explanation;
+
+        btnSubmit.classList.add('hidden');
+        btnLater.classList.add('hidden');
+        btnModify.classList.add('hidden');
+        btnNextStep.classList.remove('hidden');
+      } else {
+        fbPanel.classList.add('hidden');
+        btnSubmit.classList.remove('hidden');
+        btnLater.classList.remove('hidden');
+        btnModify.classList.remove('hidden');
+        btnNextStep.classList.add('hidden');
+      }
+
+      updateHeaderCounts();
+    }
+
+    // Toggle selecție variantă
+    function toggleSelection(q, optIdx) {
+      let cur = userSelections[q.id] || [];
+      if (q.type === 'single') {
+        cur = [optIdx];
+      } else {
+        if (cur.includes(optIdx)) {
+          cur = cur.filter(x => x !== optIdx);
+        } else {
+          cur.push(optIdx);
+        }
+      }
+      userSelections[q.id] = cur;
+      renderCurrentQuestion();
+    }
+
+    // 1. BUTONUL: Răspunde mai târziu (Mecanism clasic DRPCIV)
+    function onAnswerLater() {
+      if (activeQueue.length <= 1) return;
+      // Mută întrebarea curentă la sfârșitul cozii
+      const [postponed] = activeQueue.splice(activeIndex, 1);
+      activeQueue.push(postponed);
+      // Rămâne pe același index (care acum este următoarea întrebare)
+      if (activeIndex >= activeQueue.length) activeIndex = 0;
+      renderCurrentQuestion();
+    }
+
+    // 2. BUTONUL: Modifică răspunsul (Șterge bifele)
+    function onModifyAnswer() {
+      const q = activeQueue[activeIndex];
+      if (q && !evaluatedQuestions[q.id]) {
+        userSelections[q.id] = [];
+        renderCurrentQuestion();
+      }
+    }
+
+    // 3. BUTONUL: Trimite răspunsul (Validare stil examen)
+    function onSubmitAnswer() {
+      const q = activeQueue[activeIndex];
+      const sel = userSelections[q.id] || [];
+
+      if (sel.length === 0) {
+        alert("Selectați cel puțin o variantă înainte de a trimite răspunsul!");
+        return;
+      }
+
+      const cSorted = [...q.correct].sort();
+      const uSorted = [...sel].sort();
+      const isOk = cSorted.length === uSorted.length && cSorted.every((v, i) => v === uSorted[i]);
+
+      evaluatedQuestions[q.id] = { correct: isOk };
+
+      // Afișăm feedback și comutăm pe butonul URMĂTOAREA
+      renderCurrentQuestion();
+    }
+
+    function onNextStep() {
+      // Căutăm următoarea întrebare neevaluată
+      let nextUnanswered = -1;
+      for (let i = 0; i < activeQueue.length; i++) {
+        if (!evaluatedQuestions[activeQueue[i].id]) {
+          nextUnanswered = i;
+          break;
+        }
+      }
+
+      if (nextUnanswered !== -1) {
+        activeIndex = nextUnanswered;
+        renderCurrentQuestion();
+      } else {
+        // Toate au fost evaluate
+        finishExam("Felicitări! Ați parcurs toate cele 20 de întrebări!");
+      }
+    }
+
+    // Finalizare Examen & Afișare Notă UMF Iași
+    function finishExam(message) {
+      clearInterval(timerInterval);
+      
+      let correct = 0;
+      const total = activeQueue.length;
+      activeQueue.forEach(q => {
+        if (evaluatedQuestions[q.id] && evaluatedQuestions[q.id].correct) correct++;
+      });
+      const wrong = total - correct;
+      
+      // Calcul Nota UMF Iași (1.00 la 10.00 cu 1 punct din oficiu)
+      const grade = total > 0 ? ((correct / total) * 9 + 1).toFixed(2) : "1.00";
+
+      document.getElementById('modal-final-grade').innerText = grade;
+      document.getElementById('modal-correct-text').innerText = correct;
+      document.getElementById('modal-wrong-text').innerText = wrong;
+
+      const title = document.getElementById('modal-verdict-title');
+      const badge = document.getElementById('modal-status-badge');
+      const body = document.getElementById('modal-message-body');
+
+      if (parseFloat(grade) >= 8.5) {
+        title.innerText = "ADMIS CU SUCCES! (Notă de Bursă)";
+        title.className = "text-2xl font-black text-emerald-600 mb-0.5";
+        badge.className = "w-20 h-20 rounded-full flex items-center justify-center text-4xl mx-auto mb-3 shadow-lg bg-emerald-100 text-emerald-700";
+        badge.innerText = "🏆";
+        body.innerText = `${message} Ați obținut nota ${grade}. Stăpâniți excelent materia pentru examenul de Imunologie!`;
+      } else if (parseFloat(grade) >= 5.0) {
+        title.innerText = "ADMIS!";
+        title.className = "text-2xl font-black text-sky-600 mb-0.5";
+        badge.className = "w-20 h-20 rounded-full flex items-center justify-center text-4xl mx-auto mb-3 shadow-lg bg-sky-100 text-sky-700";
+        badge.innerText = "🎓";
+        body.innerText = `${message} Ați promovat cu nota ${grade}. Recomandăm revizuirea întrebărilor greșite pentru a atinge nota maximă.`;
+      } else {
+        title.innerText = "RESPINS!";
+        title.className = "text-2xl font-black text-rose-600 mb-0.5";
+        badge.className = "w-20 h-20 rounded-full flex items-center justify-center text-4xl mx-auto mb-3 shadow-lg bg-rose-100 text-rose-700";
+        badge.innerText = "❌";
+        body.innerText = `${message} Ați obținut nota ${grade} (sub baremul minim de 5.00). Vă recomandăm reluarea notițelor și generarea unei noi teze!`;
+      }
+
+      document.getElementById('results-modal').classList.remove('hidden');
+    }
+
+    // CMS RENDER
+    function renderCMS() {
+      const list = document.getElementById('cms-items-list');
+      const filter = document.getElementById('cms-search-input').value.toLowerCase();
+      list.innerHTML = '';
+
+      const matched = MASTER_QUESTIONS.filter(q => 
+        q.text.toLowerCase().includes(filter) || q.category.toLowerCase().includes(filter)
+      );
+
+      document.getElementById('cms-total-badge').innerText = `${matched.length} din ${MASTER_QUESTIONS.length} întrebări`;
+
+      matched.forEach(q => {
+        const item = document.createElement('div');
+        item.className = "p-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/60 flex items-start justify-between gap-3 text-xs";
+        item.innerHTML = `
+          <div>
+            <div class="font-bold text-sky-700 dark:text-sky-400">#${q.id} [${q.type === 'single' ? 'CS' : 'CM'}] ${q.category}</div>
+            <div class="font-semibold text-slate-800 dark:text-slate-100 mt-0.5">${q.text}</div>
+            <div class="text-[11px] text-slate-500 mt-1">Corect: opțiunile ${q.correct.map(i => ['A','B','C','D','E'][i]).join(', ')}</div>
+          </div>
+        `;
+        list.appendChild(item);
+      });
+    }
+
+    // Setare Butoane & Navigare
+    function setupApp() {
+      // Nav Tabs
+      document.getElementById('nav-mode-exam').onclick = () => {
+        document.getElementById('exam-main-panel').classList.remove('hidden');
+        document.getElementById('cms-panel').classList.add('hidden');
+        document.getElementById('nav-mode-exam').className = "px-2.5 py-1.5 rounded-lg bg-sky-600 text-white shadow-sm transition";
+        document.getElementById('nav-mode-practice').className = "px-2.5 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 transition";
+        document.getElementById('nav-mode-cms').className = "px-2 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 transition";
+        startNewExam20();
+      };
+
+      document.getElementById('nav-mode-practice').onclick = () => {
+        document.getElementById('exam-main-panel').classList.remove('hidden');
+        document.getElementById('cms-panel').classList.add('hidden');
+        document.getElementById('nav-mode-practice').className = "px-2.5 py-1.5 rounded-lg bg-sky-600 text-white shadow-sm transition";
+        document.getElementById('nav-mode-exam').className = "px-2.5 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 transition";
+        document.getElementById('nav-mode-cms').className = "px-2 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 transition";
+        startPracticeAll();
+      };
+
+      document.getElementById('nav-mode-cms').onclick = () => {
+        document.getElementById('exam-main-panel').classList.add('hidden');
+        document.getElementById('cms-panel').classList.remove('hidden');
+        document.getElementById('nav-mode-cms').className = "px-2 py-1.5 rounded-lg bg-sky-600 text-white shadow-sm transition";
+        document.getElementById('nav-mode-exam').className = "px-2.5 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 transition";
+        document.getElementById('nav-mode-practice').className = "px-2.5 py-1.5 rounded-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 transition";
+        renderCMS();
+      };
+
+      // Bottom Action Buttons
+      document.getElementById('btn-answer-later').onclick = onAnswerLater;
+      document.getElementById('btn-modify-answer').onclick = onModifyAnswer;
+      document.getElementById('btn-submit-answer').onclick = onSubmitAnswer;
+      document.getElementById('btn-next-step').onclick = onNextStep;
+
+      // Modal Actions
+      document.getElementById('modal-btn-restart-exam').onclick = () => {
+        document.getElementById('results-modal').classList.add('hidden');
+        startNewExam20();
+      };
+      document.getElementById('modal-btn-review').onclick = () => {
+        document.getElementById('results-modal').classList.add('hidden');
+        // Trece în revistă întrebările deja evaluate
+        activeIndex = 0;
+        renderCurrentQuestion();
+      };
+
+      // Export JSON
+      document.getElementById('cms-btn-export').onclick = () => {
+        const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(MASTER_QUESTIONS, null, 2));
+        const a = document.createElement('a');
+        a.href = dataStr;
+        a.download = "intrebari_imunologie_umfiasi_77.json";
+        a.click();
+      };
+
+      document.getElementById('cms-search-input').oninput = renderCMS;
+
+      // Start cu Modul Examen 20
+      startNewExam20();
+    }
+
+    // Pornire aplicație
+    loadQuestions();
+  </script>
+</body>
+</html>
