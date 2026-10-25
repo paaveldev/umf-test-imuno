@@ -1805,5 +1805,803 @@
       2
     ],
     "explanation": "Microbiota intestinală fermentează fibrele solubile generând acizi grași cu lanț scurt (SCFA): acetat, propionat și butirat. Butiratul furnizează până la 70% din energia necesară colonocitelor, menține etanșeitatea joncțiunilor celulare (tight junctions) și exercită un rol antiinflamator marcat."
+  },
+  {
+    "id": 101,
+    "category": "Microscopie & Colorații",
+    "type": "multiple",
+    "text": "În ce constă controlul calității colorației Gram și ce erori tipice de laborator pot apărea la decolorare? (Selectați variantele corecte)",
+    "options": [
+      "Se utilizează un frotiu martor alcătuit dintr-un amestec de bacterii Gram-pozitive cunoscute (coci) și Gram-negative cunoscute (bacili).",
+      "Subdecolorarea (timp insuficient de acțiune a alcool-acetonei): bacteriile Gram-negative și leucocitele rămân colorate în violet (rezultate fals Gram-pozitive).",
+      "Supradecolorarea (spălare prelungită cu alcool-acetonă): bacteriile Gram-pozitive își pierd colorantul primar și apar colorate în roz-roșu (rezultate fals Gram-negative).",
+      "Frotiul martor trebuie să conțină exclusiv celule epiteliale descuamate fără bacterii.",
+      "Colorația Gram nu necesită niciodată control de calitate."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Controlul de calitate în Gram folosește un frotiu martor (G+ și G-): subdecolorarea lasă bacteriile G- și leucocitele violete (fals G+), iar supradecolorarea spală complexul CV-I din bacteriile G+, făcându-le roz (fals G-)."
+  },
+  {
+    "id": 102,
+    "category": "Microscopie & Colorații",
+    "type": "single",
+    "text": "Care este pragul de sensibilitate numerică al examinării microscopice directe pe frotiu la mărire de 1000x (obiectiv de imersie)?",
+    "options": [
+      "1 bacterie pe câmp microscopic corespunde la aproximativ 10^5 UFC/ml (unități formatoare de colonii per mililitru) în produsul patologic.",
+      "1 bacterie pe câmp corespunde la 1 singură bacterie pe litru de puroi.",
+      "Microscopul optic poate detecta bacterii doar dacă sunt peste 10^12 bacterii/ml.",
+      "Orice bacterie izolată se vede indiferent de concentrația din probă.",
+      "Pragul de detecție este de 10 celule pe mililitru."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Bacterioscopia directă are o sensibilitate de circa 10^4 - 10^5 bacterii/ml: observarea a cel puțin 1 bacterie pe câmp microscopic la mărire 1000x cu imersie indică o încărcătură bacteriană masivă de aproximativ 10^5 UFC/ml în produsul patologic recoltat."
+  },
+  {
+    "id": 103,
+    "category": "Microscopie & Colorații",
+    "type": "single",
+    "text": "Cum este descrisă morfologia microscopică clasică a speciei Corynebacterium diphtheriae pe frotiul colorat Gram?",
+    "options": [
+      "Coci Gram-pozitivi în grămezi mari neregulate.",
+      "Bacili Gram-pozitivi drepți sau ușor curbați, cu extremități măciucate (umflate), dispuși în unghiuri ascuțite, palisade sau litere chinezești (V, L, Y).",
+      "Diplococi Gram-negativi în flacără de lumânare.",
+      "Bacili Gram-negativi foarte scurți cu spori subterminali.",
+      "Spirochete spiralate flexibile foarte mobile."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Corynebacterium diphtheriae prezintă o morfologie unică: bacili Gram-pozitivi polimorfi cu capete măciucate, așezați în unghiuri caracteristice asemănătoare literelor chinezești sau în palisade (gard de scânduri) datorită diviziunii incomplete prin 'snapping'."
+  },
+  {
+    "id": 104,
+    "category": "Microscopie & Colorații",
+    "type": "single",
+    "text": "Pentru observarea motilității reale a spirochetelor (cum este Treponema pallidum) sau a trofozoiților de protozoare, ce tip de preparat și microscopie se recomandă?",
+    "options": [
+      "Frotiu uscat și fixat prin căldură intensă.",
+      "Preparat nativ proaspăt între lamă și lamelă examinat la microscopul cu câmp întunecat (fond negru și iluminare laterală).",
+      "Preparat colorat Ziehl-Neelsen la fierbere.",
+      "Frotiu colorat cu tuș de China în cuptor.",
+      "Microscopie cu raze X."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Spirochetele sunt foarte subțiri (< 0.2 µm) și nu refractă lumina suficient în microscopia optică obișnuită; se examinează în preparat proaspăt nativ la microscopul cu câmp întunecat, unde apar ca filamente strălucitoare mobile pe fond negru."
+  },
+  {
+    "id": 105,
+    "category": "Medii de Cultură",
+    "type": "multiple",
+    "text": "Care sunt cerințele fizico-chimice optime pentru dezvoltarea majorității bacteriilor patogene pentru om? (Selectați variantele corecte)",
+    "options": [
+      "pH neutru spre ușor alcalin (optim 7.0 - 7.5).",
+      "Presiune osmotică izotonă (echivalentul unei soluții de 0.85-0.9% NaCl).",
+      "Temperatură de incubație mezofilă (optim 35 - 37°C, temperatura corpului uman).",
+      "Presiune hidrostatică de 500 de atmosfere.",
+      "pH puternic acid de 1.0 - 2.0 pentru toate bacteriile medicale."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Bacteriile de interes medical sunt mezofile (cresc optim la 35-37°C), neutrofile (pH 7.0-7.5) și necesită medii izotone. Bacteriile psihrofile cresc la <20°C, iar cele termofile la >45°C."
+  },
+  {
+    "id": 106,
+    "category": "Medii de Cultură",
+    "type": "multiple",
+    "text": "Cum se comportă diferitele tipuri fiziologice de bacterii când sunt cultivate într-un tub cu mediu LICHID (bulion)? (Selectați asocierile corecte)",
+    "options": [
+      "Bacteriile strict aerobe: cresc exclusiv la suprafața lichidului, formând o peliculă sau un văl superficial (ex: Pseudomonas aeruginosa, Mycobacterium).",
+      "Bacteriile strict anaerobe: cresc exclusiv la fundul tubului, unde tensiunea de O2 este minimă, formând un depozit (ex: Clostridium).",
+      "Bacteriile facultativ anaerobe: cresc în toată masa lichidului, generând o tulburare difuză omogenă (ex: Escherichia coli, Staphylococcus).",
+      "Bacteriile microaerofile: cresc într-o zonă îngustă situată puțin sub suprafața mediului.",
+      "Bacteriile anaerobe stricte plutesc întotdeauna deasupra lichidului în contact direct cu aerul."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "În mediu lichid: aerobi stricți = peliculă/văl la suprafață; anaerobi stricți = depozit la fundul eprubetei; facultativ anaerobi = tulburare în tot tubul; microaerofili = bandă discretă sub suprafață."
+  },
+  {
+    "id": 107,
+    "category": "Medii de Cultură",
+    "type": "single",
+    "text": "Bacteriile \"capnofile\" (cum sunt Neisseria meningitidis, Neisseria gonorrhoeae sau Brucella) necesită pentru cultivare in vitro o atmosferă specială îmbogățită cu:",
+    "options": [
+      "5% - 10% dioxid de carbon (CO2)",
+      "100% azot pur",
+      "Oxigen hiperbar la 3 atmosfere",
+      "Monoxid de carbon 20%",
+      "Argon și heliu"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Bacteriile capnofile sunt microorganisme care necesită o concentrație crescută de dioxid de carbon (5-10% CO2) pentru inițierea și susținerea creșterii optime pe mediile de cultură (obținută în termostate cu CO2 sau borcane cu lumânare)."
+  },
+  {
+    "id": 108,
+    "category": "Medii de Cultură",
+    "type": "single",
+    "text": "De ce se recomandă însămânțarea pe medii LICHIDE pentru produsele patologice normal sterile (LCR, sânge) și pe medii SOLIDE pentru produsele normal contaminate (spută, scaun)?",
+    "options": [
+      "Mediile lichide sunt mai ieftine și nu au nutrienți.",
+      "În produsele normal sterile, densitatea bacteriană poate fi extrem de mică, mediul lichid favorizând multiplicarea chiar și a unei singure bacterii; în produsele contaminate, mediul solid permite dispersia și izolarea coloniilor pure individuale din amestec.",
+      "Pe mediu solid nu cresc bacterii Gram-pozitive.",
+      "Produsele normal sterile conțin întotdeauna agar 2%.",
+      "Nu există nicio indicație specifică, utilizarea fiind la întâmplare."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "În probele normal sterile (sânge, LCR), se utilizează medii lichide de îmbogățire pentru a permite detectarea oricărui număr mic de bacterii; în probele colonizate (materii fecale, spută), se folosesc plăci cu agar solid pentru a dispersa flora și a separa coloniile izolate (cultură pură)."
+  },
+  {
+    "id": 109,
+    "category": "Medii de Cultură",
+    "type": "single",
+    "text": "Care este particularitatea compozițională a mediului diferențial CLED (Cistină, Lactoză, Electrolit-Deficient) utilizat pe scară largă în uroculturi?",
+    "options": [
+      "Conține 20% ser de bou pentru stafilococi.",
+      "Deficiența de electroliți (absența sărurilor minerale precum NaCl) previne fenomenul de invazie și cățărare în văl a bacteriilor din genul Proteus, permițând numărarea exactă a coloniilor.",
+      "Conține penicilină pentru inhibarea tuturor bacililor Gram-negativi.",
+      "Este un mediu strict anaerob pentru Clostridium.",
+      "Conține agar în concentrație de 10%."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Mediul CLED este deficitar în electroliți special pentru a preveni 'swarming'-ul (cățărarea în văl) a speciilor mobile de Proteus pe suprafața agarului, facilitând numărarea coloniilor și aprecierea bacteriuriei semnificative în urocultură."
+  },
+  {
+    "id": 110,
+    "category": "Medii de Cultură",
+    "type": "single",
+    "text": "În testul producerii de INDOL (componentă a mediului MIU), ce reactiv de laborator se adaugă la suprafața culturii bacteriene pentru evidențierea inelului roșu pozitiv?",
+    "options": [
+      "Reactivul Kovacs (care conține p-dimetilaminobenzaldehidă în alcool amilic și acid clorhidric)",
+      "Soluția Lugol concentrată",
+      "Acidul sulfuric concentrat",
+      "Peroxidul de hidrogen 30%",
+      "Verdele malachit"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Producția de indol rezultă din scindarea aminoacidului triptofan de către enzima triptofanază. La adăugarea reactivului Kovacs, indolul reacționează cu p-dimetilaminobenzaldehida formând un compus de condensare roz-roșu intens care plutește ca un inel la suprafață (pozitiv la E. coli, Proteus vulgaris)."
+  },
+  {
+    "id": 111,
+    "category": "Medii de Cultură",
+    "type": "multiple",
+    "text": "Care sunt caracterele morfologice macroscopice descrise la examinarea coloniilor bacteriene pe medii solide? (Selectați variantele corecte)",
+    "options": [
+      "Talia (dimensiunea): punctiforme (<1 mm), mici (1-2 mm), medii (2-3 mm), mari (>3 mm).",
+      "Conturul / marginea coloniei: regulată (netedă), ondulată, dințată, filamentoasă.",
+      "Profilul coloniei: plată, bombată, convexă, umbilicată (cu depresiune centrală).",
+      "Consistența și aspectul suprafeței: S (smooth - netedă, lucioasă), R (rough - rugoasă, mată), M (mucoasă, filantă).",
+      "Temperatura internă a coloniei măsurată cu termometrul cu mercur."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Caracterele de colonie analizate macroscopic includ: talie, formă, contur, profil/relief, consistență, culoare/pigment și aspectul suprafeței (S, R, M). Temperatura internă a coloniei este o aberație."
+  },
+  {
+    "id": 112,
+    "category": "Structura Celulei Bacteriene",
+    "type": "multiple",
+    "text": "Care sunt diferențele structurale și de proprietăți dintre Protoplaști, Sferoplaști și Formele L bacteriene? (Selectați variantele corecte)",
+    "options": [
+      "Protoplaștii sunt derivați din bacterii Gram-pozitive prin îndepărtarea completă a peretelui celular cu lizozim; sunt delimitați doar de membrana citoplasmatică și se lizează imediat în mediu hipoton.",
+      "Sferoplaștii sunt derivați din bacterii Gram-negative și conțin o membrană externă parțial conservată pe lângă membrana citoplasmatică.",
+      "Formele L sunt variante bacteriene lipsite parțial sau total de perete celular, dar care sunt capabile de diviziune și multiplicare in vitro sau in vivo.",
+      "Formele L pot fi induse de tratamentul cu antibiotice beta-lactamice și pot cauza infecții cronice recurente, fiind insensibile la peniciline.",
+      "Protoplaștii sunt extrem de rezistenți la șocul osmotic hipoton și pot trăi în apă distilată pură."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Protoplaștii (din G+) nu au perete deloc și se lizează osmotic în hipoton; Sferoplaștii (din G-) păstrează fragmente de membrană externă; Formele L sunt tulpini fără perete capabile de multiplicare, rezistente la beta-lactamine, generând persistență clinică."
+  },
+  {
+    "id": 113,
+    "category": "Structura Celulei Bacteriene",
+    "type": "single",
+    "text": "Ce structură proteică din membrana externă a bacteriilor Gram-negative este organizată în triplete și formează canale hidrofile transmembranare pentru pasajul nutrienților?",
+    "options": [
+      "Porinele (molecule proteice Omp în triplet)",
+      "Proteina SASP",
+      "Enzima ADN-girază",
+      "Flagelina L",
+      "Mezozomul central"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Porinele sunt proteine transmembranare asamblate în triplete (trimere) în membrana externă a bacteriilor Gram-negative; ele formează pori / canale apoase ce permit difuzia pasivă a moleculelor mici hidrofile (glucoză, aminoacizi, anumiți ioni și antibiotice beta-lactamice)."
+  },
+  {
+    "id": 114,
+    "category": "Structura Celulei Bacteriene",
+    "type": "single",
+    "text": "Ce rol esențial joacă bacteria Streptococcus mutans în patogenia plăcii bacteriene dentare și a cariei dentare?",
+    "options": [
+      "Sintetizează glucani insolubili (dextran) din zaharoza alimentară cu ajutorul glucosiltransferazei, formând matricea aderentă a plăcii dentare și eliberând acizi de fermentație ce demineralizează smalțul.",
+      "Secretă cantități mari de fosfatază alcalină care neutralizează saliva.",
+      "Produce sporularea rapidă a țesutului gingival.",
+      "Lizează hematiile prin endotoxina lipid A.",
+      "Inhibă multiplicarea oricărei alte bacterii din gură."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Streptococcus mutans descompune zaharoza din dietă în fructoză și glucoză; glucoza este polimerizată în glucani/dextrani aderenți care cimentează biofilmul plăcii dentare, în timp ce fermentarea glucidelor produce acizi (lactic) ce scad pH-ul sub 5.5, atacând hidroxiapatita smalțului."
+  },
+  {
+    "id": 115,
+    "category": "Structura Celulei Bacteriene",
+    "type": "single",
+    "text": "Cum este alcătuit cromozomul bacterian procariot din punct de vedere genetic și molecular?",
+    "options": [
+      "Mai mulți cromozomi liniari asociați cu histone nucleosomale ca la eucariote.",
+      "O moleculă unică, circulară, de ADN dublucatenar, neseparată de citoplasmă printr-o membrană nucleară (haploidă), superrăsucită cu ajutorul topoizomerazelor.",
+      "Fragmente de ARN monocatenar legate covalent de ribozomii 80S.",
+      "Un complex de acizi micolici fără baze azotate.",
+      "Doi cromozomi diploizi separați printr-un fus de diviziune mitotic."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Genomul bacterian esențial este reprezentat de un cromozom unic, circular, alcătuit din ADN dublucatenar haploid (absența diploidiei face ca orice mutație să se manifeste fenotipic direct). Este lipsit de membrană nucleară și histone veritabile, fiind compactat prin superrăsucire negativă."
+  },
+  {
+    "id": 116,
+    "category": "Virusologie",
+    "type": "single",
+    "text": "Conform regulilor taxonomice virale oficiale (ICTV), care sunt sufixele standard utilizate pentru denumirea Familiei și Subfamiliei virale?",
+    "options": [
+      "Familia se termină în \"-virales\", iar Subfamilia în \"-virus\".",
+      "Familia se termină în \"-viridae\", iar Subfamilia se termină în \"-virinae\".",
+      "Familia se termină în \"-bacter\", iar Subfamilia în \"-myces\".",
+      "Familia se termină în \"-peplos\", iar Subfamilia în \"-capsida\".",
+      "Nu există sufixe standardizate."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "În nomenclatura internațională virală: Ordinul se termină în -virales, Familia include sufixul obligatoriu -viridae (ex: Herpesviridae, Retroviridae), Subfamilia include sufixul -virinae (ex: Alphaherpesvirinae), iar Genul se termină în -virus."
+  },
+  {
+    "id": 117,
+    "category": "Virusologie",
+    "type": "single",
+    "text": "Ce reprezintă \"Faza de Eclipsă\" din ciclul replicativ viral intracelular?",
+    "options": [
+      "Momentul în care virusul ucide instantaneu pacientul.",
+      "Intervalul de timp cuprins între decapsidarea genomului viral și asamblarea primilor virioni noi maturi, perioadă în care virionul infecțios inițial nu mai poate fi detectat în celulă prin microscopie sau teste de infectivitate.",
+      "Etapa în care virusul călătorește prin torentul sanguin.",
+      "Perioada de incubare a oului embrionat.",
+      "Timpul necesar colorării preparatului cu fuxină."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Faza de eclipsă este perioada din interiorul celulei infectate în care particula virală parentală s-a dezmembrat (decapsidat) pentru a-și exprima genomul; virionul intact a dispărut fizic și este în plin proces de biosinteză moleculară până la asamblarea descendenților."
+  },
+  {
+    "id": 118,
+    "category": "Virusologie",
+    "type": "single",
+    "text": "În legătură cu simetria capsidei virale, care este o regulă structurală valabilă pentru TOATE virusurile cu simetrie helicală care parazitează omul?",
+    "options": [
+      "Sunt întotdeauna virusuri nude fără anvelopă.",
+      "Toate virusurile umane cu simetrie helicală sunt obligatoriu ANVELOPATE (posedă peplos/înveliș extern lipidic, ex: Gripă, Rujeolă, Rabie, Coronavirus).",
+      "Au genom exclusiv din ADN dublucatenar circular.",
+      "Sunt rezistente la acțiunea eterului și a detergenților.",
+      "Se transmit exclusiv pe cale fecal-orală."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "O regulă clasică de virusologie medicală: toate virusurile umane cu simetrie helicală a nucleocapsidei sunt anvelopate (au înveliș extern peplos lipidic). Virusurile nude umane au toate simetrie icosaedrică (cubică)."
+  },
+  {
+    "id": 119,
+    "category": "Virusologie",
+    "type": "multiple",
+    "text": "Care sunt modalitățile posibile de evoluție a unei infecții virale la nivelul celulei gazdă? (Selectați variantele corecte)",
+    "options": [
+      "Infecție litică (acută): replicare virală masivă soldată cu moartea și liza celulei gazdă.",
+      "Infecție persistentă (cronică): eliberarea continuă de noi virioni prin înmugurire fără distrugerea imediată a celulei (ex: virusul hepatitei B).",
+      "Infecție latentă: genomul viral persistă în celulă fără producție activă de virioni infecțioși, dar se poate reactiva periodic (ex: virusul herpes simplex în ganglionii senzitivi).",
+      "Transformare oncogenă: virusul modifică controlul ciclului celular și induce transformare malignă (ex: HPV tipurile 16 și 18, virusul Epstein-Barr).",
+      "Transformarea celulei umane într-o bacterie sporulată Gram-pozitivă."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Infecțiile virale celulare pot evolua ca: litice (distrugere acută), persistente cronice, latente (genom silențios reactivabil) sau transformante oncogene (inducere de cancere prin alterarea p53/pRb)."
+  },
+  {
+    "id": 120,
+    "category": "Paraziți & Fungi Medicali",
+    "type": "single",
+    "text": "Prin ce particularitate biologică distinctivă se diferențiază viermele adult Taenia saginata (tenia vacii) de Taenia solium (tenia porcului)?",
+    "options": [
+      "Taenia saginata are un scolex inerm (fără cârlige, doar cu 4 ventuze) și proglote uterine mature foarte ramificate (>15 ramuri uterine) care se elimină activ, spontan, una câte una între scaune prin forțarea sfincterului anal.",
+      "Taenia saginata are o lungime de doar 2 milimetri.",
+      "Taenia saginata se transmite exclusiv prin mușcătura de căpușă.",
+      "Taenia saginata produce cisticercoză cerebrală frecventă la om.",
+      "Taenia saginata este un vierme cilindric nematod cu sexe separate."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Taenia saginata (tenia inermă, fără coroană de cârlige, doar ventuze) are proglote terminale mobile cu musculatură proprie care forțează sfincterul anal și se elimină activ între defecații; Taenia solium are scolex armat (cârlige) și segmentele se elimină pasiv în scaun în lanțuri."
+  },
+  {
+    "id": 121,
+    "category": "Paraziți & Fungi Medicali",
+    "type": "single",
+    "text": "Care este diferența morfologică fundamentală dintre miceliul vegetativ și miceliul aerian (reproductiv) la fungii filamentoși (mucegaiuri)?",
+    "options": [
+      "Miceliul vegetativ pătrunde în substratul nutritiv pentru a absorbi substanțele nutritive, în timp ce miceliul aerian se dezvoltă la suprafață și poartă organele de fructificare și sporii asexuați/sexuați pentru diseminare.",
+      "Miceliul vegetativ conține flageli peritrichi.",
+      "Miceliul aerian este alcătuit exclusiv din celule stem hematopoietice.",
+      "Miceliul vegetativ produce întotdeauna bacteriofagi.",
+      "Nu există nicio diferență de poziție sau funcție."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "La mucegaiuri, hifele formează două compartimente funcționale: miceliul vegetativ (ancorat în profunzimea mediului, cu rol de hrănire și absorbție) și miceliul aerian (ridicat deasupra coloniilor, specializat în producerea sporilor și conidiilor pentru propagare aeriană)."
+  },
+  {
+    "id": 122,
+    "category": "Paraziți & Fungi Medicali",
+    "type": "single",
+    "text": "Ce trăsătură morfologică generală caracterizează viermii nematozi (viermi cilindrici) adulți în ceea ce privește reproducerea?",
+    "options": [
+      "Sunt toți hermafrodiți având ambele sexe în aceeași proglotă.",
+      "Au sexe separate (sunt dioici) cu dimorfism sexual pronunțat: femela este considerabil mai mare decât masculul, iar masculul are extremitatea posterioară recurbată.",
+      "Se înmulțesc exclusiv prin fisiune binară transversală.",
+      "Nu au niciun organ genital.",
+      "Formează spori termorezistenți în sol."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Nematodele (Ascaris, Enterobius, Trichuris) au sexe complet separate (dioice); femelele sunt mari și drepte (adaptate pentru producerea a zeci de mii de ouă), iar masculii sunt vizibil mai mici și au coada recurbată ventral cu spiculi copulatori."
+  },
+  {
+    "id": 123,
+    "category": "Nutriție & Creștere Bacteriană",
+    "type": "single",
+    "text": "Dacă o cultură de Escherichia coli are un timp de generație (G) de 20 de minute, câte bacterii vor rezulta teoretic dintr-o singură celulă bacteriană inițială după 2 ore de creștere logaritmică neîntreruptă?",
+    "options": [
+      "12 bacterii",
+      "64 de bacterii (deoarece în 120 de minute au loc 6 diviziuni succesive: 2^6 = 64)",
+      "1.000.000 de bacterii",
+      "6 bacterii",
+      "20 de bacterii"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Creșterea bacteriană logaritmică urmează formula N = N0 * 2^n. În 2 ore (120 minute), cu un timp de dublare de 20 minute, numărul de generații n = 120 / 20 = 6 generații. Dintr-o singură bacterie rezultă 2^6 = 64 de bacterii."
+  },
+  {
+    "id": 124,
+    "category": "Genetică Microbiană",
+    "type": "single",
+    "text": "Ce fenomen genetic definește \"incompatibilitatea plasmidică\" într-o celulă bacteriană?",
+    "options": [
+      "Plasmidele distrug imediat cromozomul bacterian.",
+      "Incapacitatea a două plasmide diferite care aparțin aceluiași grup de reglare a replicării de a coexista stabil împreună în aceeași celulă bacteriană (unul dintre ele fiind pierdut la diviziune).",
+      "Refuzul bacteriei de a primi acizi nucleici prin transformare.",
+      "Inactivarea pilului sexual la 37°C.",
+      "Liza bacteriei la contactul cu plasmidul R."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Două plasmide aparțin aceluiași grup de incompatibilitate dacă împart același sistem molecular de control al replicării și partiționării celulare; ele concurează pentru aceeași mașinărie, astfel că în lipsa unei presiuni de selecție unul dintre plasmide este eliminat la generațiile următoare."
+  },
+  {
+    "id": 125,
+    "category": "Genetică Microbiană",
+    "type": "multiple",
+    "text": "Ce gene specifice și structuri funcționale conține plasmidul de fertilitate (factorul F) al bacteriilor? (Selectați variantele corecte)",
+    "options": [
+      "Regiunea tra (transfer operon) care codifică sinteza pilului sexual și a enzimelor necesare conjugării.",
+      "O origine de replicare vegetativă (oriV) și o origine de transfer conjugativ (oriT).",
+      "Genul pentru sinteza membranei nucleare.",
+      "Secvențe de inserție (elemente IS) care permit integrarea prin recombinare a factorului F în cromozomul bacterian (generând tulpini Hfr).",
+      "Genele pentru sinteza ergosterolului."
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Plasmidul F conține genele operonului tra (pili sexuali, relaxază, pompă de transfer), originea oriT/oriV și secvențe de inserție IS ce mediază recombinarea omoloagă cu cromozomul bacterian pentru a forma starea Hfr."
+  },
+  {
+    "id": 126,
+    "category": "Diagnostic Microbiologic",
+    "type": "single",
+    "text": "De ce probele de urină și materii fecale trebuie trimise imediat la laborator sau REFRIGERATE la 4°C dacă prelucrarea întârzie peste 2 ore?",
+    "options": [
+      "Deoarece bacteriile se evaporă la temperatura camerei.",
+      "Deoarece la temperatura camerei bacteriile contaminante se multiplică exponențial la fiecare 20-30 de minute, ducând la rezultate fals pozitive sau la modificarea compoziției florei inițiale.",
+      "Deoarece frigul sterilizează urina de leucocite.",
+      "Deoarece la 4°C bacteriile formează spori.",
+      "Refrigerarea urinei este strict contraindicată."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Lăsată la temperatura camerei, flora din urină sau materii fecale își continuă diviziunea rapidă; numărul de UFC/ml crește artificial, transformând o probă neinfectată într-o urocultură fals-pozitivă (>10^5 UFC/ml). Refrigerarea la 4°C blochează multiplicarea fără a distruge viabilitatea."
+  },
+  {
+    "id": 127,
+    "category": "Diagnostic Microbiologic",
+    "type": "multiple",
+    "text": "Care dintre următoarele produse patologice sunt considerate în practica medicală \"prelevate necontaminate\" (recoltate din zone normal sterile)? (Selectați variantele corecte)",
+    "options": [
+      "Sângele pentru hemocultură.",
+      "Lichidul cefalorahidian (LCR) recoltat prin puncție lombară.",
+      "Lichidul pleural și lichidul sinovial (articular).",
+      "Puroiul aspirat cu seringa dintr-o colecție profundă închisă.",
+      "Exsudatul faringian recoltat de pe amigdale."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Prelevatele necontaminate provin din cavități închise normal sterile (sânge, LCR, lichide seroase, puroi profund aspirat); orice bacterie izolată de aici are semnificație etiologică directă. Exsudatul faringian este recoltat dintr-o zonă intens colonizată."
+  },
+  {
+    "id": 128,
+    "category": "Diagnostic Microbiologic",
+    "type": "multiple",
+    "text": "Care sunt modificările biologice nespecifice ale hemoleucogramei care orientează clinicianul spre o infecție acută bacteriană vs. virală? (Selectați variantele corecte)",
+    "options": [
+      "Infecțiile bacteriene acute determină frecvent leucocitoză cu neutrofilie (creșterea numărului de PMN neutrofile) și deviere spre stânga a formulei leucocitare.",
+      "Infecțiile virale se asociază mai des cu un număr normal de leucocite sau leucopenie cu limfocitoză relativă/absolută.",
+      "Creșterea marcată a proteinei C reactive (CRP) și a VSH-ului indică prezența unui sindrom inflamator acut.",
+      "Infecția tuberculoasă determină o scădere totală a eritrocitelor în primele 5 minute.",
+      "Hemoleucograma nu are nicio relevanță în patologia infecțioasă."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Hemoleucograma aduce indicii majore: bacteriene = leucocitoză cu neutrofilie și CRP mare; virale = leucocite normale/mici cu limfocitoză; VSH și CRP crescute în inflamații sistemice."
+  },
+  {
+    "id": 129,
+    "category": "Diagnostic Microbiologic",
+    "type": "single",
+    "text": "Cum este definit termenul serologic de \"Seroconversie\" în diagnosticul microbiologic indirect?",
+    "options": [
+      "Dispariția totală a anticorpilor după administrarea de penicilină.",
+      "Trecerea de la un rezultat serologic negativ (absența anticorpilor specifici în prima probă de ser recoltată la debut) la un rezultat serologic pozitiv (prezența anticorpilor specifici în a doua probă recoltată în convalescență).",
+      "Transformarea anticorpilor IgG în anticorpi IgA secretori.",
+      "Precipitarea complementului în eprubetă.",
+      "Inactivarea anticorpilor la congelator."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Seroconversia reprezintă apariția dovedită a anticorpilor specifici îndreptați împotriva unui patogen în serul unui pacient la care aceștia erau absenți la debutul bolii, constituind dovada certă a infecției primare recente."
+  },
+  {
+    "id": 130,
+    "category": "Diagnostic Microbiologic",
+    "type": "single",
+    "text": "La cât timp după debutul unei infecții cu microorganisme facultativ intracelulare (cum este Mycobacterium tuberculosis) se instalează sensibilitatea de tip întârziat evidențiabilă prin intradermoreacție?",
+    "options": [
+      "În primele 10 secunde de la contact.",
+      "După aproximativ 4 săptămâni de la debutul infecției, persistând apoi ani de zile sau toată viața.",
+      "Doar după 50 de ani de la vindecare.",
+      "Exclusiv în timpul somnului nocturn.",
+      "Intradermoreacția este pozitivă doar în primele 24 de ore de la debut."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Hipersensibilitatea de tip întârziat (mediată de limfocitele T) necesită timp pentru activarea și expansiunea clonelor celulare specifice; ea devine detectabilă la circa 2-4 săptămâni de la debutul infecției și persistă pe termen lung datorită celulelor T cu memorie."
+  },
+  {
+    "id": 131,
+    "category": "Relații Gazdă-Microorganism & Microbiotă",
+    "type": "single",
+    "text": "Cum este clasificată asocierea simbiotică de tip \"Mutualism\" între organismul uman și microbiota sa colonică?",
+    "options": [
+      "O relație întâmplătoare fără niciun schimb de substanțe.",
+      "O interacțiune obligatorie reciproc avantajoasă, în care ambii parteneri beneficiază și depind funcțional unul de celălalt (microbiota primește nutrienți și adăpost, iar omul primește vitamine esențiale și protecție de barieră).",
+      "O parazitare agresivă cu distrugerea peretelui intestinal.",
+      "O stare de neutralism absolut.",
+      "O asociere patologică letală."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Mutualismul este forma superioară de simbioză cu beneficiu bilateral: bacteria găsește un biotop ideal cu nutrienți stabili, iar gazda beneficiază de sinteza vitaminelor (K, B), digestia fibrelor în SCFA și maturarea sistemului imunitar."
+  },
+  {
+    "id": 132,
+    "category": "Relații Gazdă-Microorganism & Microbiotă",
+    "type": "multiple",
+    "text": "Prin ce mecanisme biologice realizează microbiota indigenă normală \"Efectul de Barieră\" (rezistența la colonizare) împotriva bacteriilor patogene exogene? (Selectați variantele corecte)",
+    "options": [
+      "Ocuparea fizică a receptorilor specifici de pe suprafața celulelor epiteliale (competiție pentru spațiul de aderență).",
+      "Competiția aprigă pentru nutrienții esențiali disponibili în lumen.",
+      "Secreția de compuși antimicrobieni inhibitori: acizi grași volatili, acid lactic (scăderea pH-ului), apă oxigenată și bacteriocine specifice.",
+      "Stimularea continuă a producerii de mucus și a secreției de IgA secretor de către celulele imune ale mucoasei.",
+      "Liza directă a tuturor leucocitelor gazdei."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Efectul de barieră (antagonism microbian) se bazează pe competiție pentru aderență și hrană, secreție de bacteriocine și metaboliți acizi toxici pentru patogeni, și stimularea tonică a barierei mucoase și a anticorpilor sIgA."
+  },
+  {
+    "id": 133,
+    "category": "Relații Gazdă-Microorganism & Microbiotă",
+    "type": "single",
+    "text": "Cum participă microbiota colonică la recircularea enterohepatică a hormonilor steroizi și a acizilor biliari?",
+    "options": [
+      "Prin hidroliza și deconjugarea glucuronoconjugaților și sulfoconjugaților excretați în bilă, eliberând moleculele active liposolubile care pot fi reabsorbite prin mucoasa intestinală înapoi în sânge.",
+      "Prin oxidarea completă a colesterolului în dioxid de carbon.",
+      "Prin sinteza de insulină și glucagon colonic.",
+      "Prin blocarea ireversibilă a venei porte hepatice.",
+      "Microbiota nu intervine în metabolismul steroizilor."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Ficatul conjugă hormonii steroizi și acizii biliari cu acid glucuronic sau sulfat pentru a-i elimina prin bilă; bacteriile colonice (prin beta-glucuronidaze) scindează aceste grupări polare, permițând reabsorbția hormonilor și recircularea lor enterohepatică."
+  },
+  {
+    "id": 134,
+    "category": "Relații Gazdă-Microorganism & Microbiotă",
+    "type": "single",
+    "text": "Ce bacterie anaerobă din cavitatea bucală și glandele sebacee este implicată direct în patogenia acneei vulgare prin stimularea inflamației locale în foliculul pilosebaceu?",
+    "options": [
+      "Cutibacterium (Propionibacterium) acnes",
+      "Bacteroides fragilis",
+      "Vibrio cholerae",
+      "Treponema pallidum",
+      "Clostridium botulinum"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Cutibacterium (fost Propionibacterium) acnes este o bacterie Gram-pozitivă anaerobă aerotolerantă rezidentă în glandele sebacee; lipazele sale hidrolizează trigliceridele sebumului în acizi grași liberi proinflamatori, declanșând reacția inflamatorie din acnee."
+  },
+  {
+    "id": 135,
+    "category": "Relații Gazdă-Microorganism & Microbiotă",
+    "type": "multiple",
+    "text": "Care sunt consecințele demonstrabile la animalele de laborator crescute în condiții complet sterile (animale gnotobiotice / \"germ-free\")? (Selectați variantele corecte)",
+    "options": [
+      "Au un sistem imunitar subdezvoltat, cu hipoplazia țesutului limfoid asociat mucoaselor (GALT) și niveluri extrem de scăzute de imunoglobuline.",
+      "Peretele intestinal este mult subțiat și atrofic comparativ cu animalele convenționale.",
+      "Necesită suplimentarea obligatorie a dietei cu vitamine (în special vitamina K și complexul B).",
+      "Sunt extrem de vulnerabile la infecții chiar și cu doze infecțioase minuscule de patogeni oportuniști.",
+      "Animalele fără microbiotă trăiesc de 10 ori mai mult și nu au nevoie de hrană."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Animalele 'germ-free' (gnotobiotice) demonstrează rolul vital al microbiotei: au atrofie mucoasă colonică, cecum mărit disproporționat, sistem imun imatur (GALT slab dezvoltat, anticorpi scăzuți), deficit de vitamine K și B și susceptibilitate extremă la infecții."
+  },
+  {
+    "id": 136,
+    "category": "Virusologie",
+    "type": "single",
+    "text": "Ce fenomene de variație antigenică majoră și minoră caracterizează genomul segmentat al Virusului Gripal de tip A?",
+    "options": [
+      "Shift antigenic (variație majoră prin reasortare genetică între tulpini diferite, responsabilă de pandemii) și Drift antigenic (variație minoră prin mutații punctiforme în genele HA și NA, responsabilă de epidemiile sezoniere).",
+      "Înmulțirea exclusivă pe medii MacConkey.",
+      "Transformarea virusului gripal într-o bacterie sporulată.",
+      "Sinteza de peptidoglican în celulele alveolare.",
+      "Deplasarea prin flageli lofotrichi."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Virusul gripal A suferă variații minore (antigenic drift = mutații punctiforme acumulare lent) ce impun actualizarea anuală a vaccinului, și variații majore (antigenic shift = reasortarea segmentelor de ARN între virusuri umane și animale) ce dau naștere la noi subtipuri pandemice."
+  },
+  {
+    "id": 137,
+    "category": "Reacții Ag-Ac & Metode Moleculare",
+    "type": "single",
+    "text": "De ce în timpul electroforezei pe gel de agaroză fragmentele de ADN amplificate prin PCR migrează de la catod (-) spre anod (+)?",
+    "options": [
+      "Deoarece scheletul fosfodiesteric al acizilor nucleici conține grupări fosfat încărcate negativ la pH-ul tamponului de migrare, fiind atrase de polul pozitiv (anod).",
+      "Deoarece ADN-ul conține ioni de calciu pozitivi.",
+      "Deoarece gelul de agaroză este magnetizat.",
+      "Deoarece primerii trag fizic moleculele spre fundul cuvei.",
+      "ADN-ul nu migrează spre anod, ci plutește la suprafață."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Grupările fosfat din scheletul de dezoxiriboză-fosfat conferă ADN-ului o sarcină electrică netă negativă constantă; sub influența câmpului electric, moleculele migrează prin porii gelului spre electrodul pozitiv (anod), separându-se strict în funcție de mărimea moleculară (lungimea în perechi de baze)."
+  },
+  {
+    "id": 138,
+    "category": "Reacții Ag-Ac & Metode Moleculare",
+    "type": "single",
+    "text": "Care este rolul colorantului intercalant (precum bromura de etidiu sau GelRed) adăugat în gelul de agaroză la electroforeză?",
+    "options": [
+      "Se intercalează între bazele azotate ale ADN-ului dublucatenar și emite o fluorescență vizibilă (portocalie/roșie) sub incidența luminii ultraviolete (UV), permițând vizualizarea benzilor de ampliconi.",
+      "Oprește curentul electric din cuvă.",
+      "Dizolvă proteinele bacteriene.",
+      "Sintetizează copii noi de ARN mesager.",
+      "Dezinfectează gelul de bacterii contaminante."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Bromura de etidiu (sau compușii moderni GelRed/GelGreen) este un agent intercalant fluorogen: se leagă între perechile de baze azotate și, la excitarea cu lumină UV (transiluminator), emite o fluorescență puternică, evidențiind benzile de ADN amplificate."
+  },
+  {
+    "id": 139,
+    "category": "Diagnostic Microbiologic",
+    "type": "single",
+    "text": "În cadrul testelor rapide imunocromatografice cu flux lateral (pentru antigene SARS-CoV-2 sau Gripă), cum este interpretat un test în care apare DOAR linia de control (C), iar linia de test (T) este absentă?",
+    "options": [
+      "Test invalid, trebuie repetat cu un alt dispozitiv.",
+      "Test NEGATIV (arată că proba nu conține antigenul căutat la o concentrație detectabilă, iar reactivii și migrarea lichidului pe membrană au funcționat corect).",
+      "Test intens pozitiv pentru ambele virusuri.",
+      "Testul indică prezența de spori tetanici.",
+      "Semnifică o infecție vindecată în urmă cu 5 ani."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "La testele rapide cu flux lateral: Linia C (Control) este obligatorie pentru validitate (arată că lichidul a migrat corect); apariția DOAR a liniei C înseamnă test NEGATIV. Apariția ambelor linii (C și T) înseamnă test POZITIV. Lipsa liniei C invalidează testul."
+  },
+  {
+    "id": 140,
+    "category": "Virusologie",
+    "type": "single",
+    "text": "Ce fenomen de laborator poartă numele de \"Hemadsorbție\" în culturile celulare infectate cu virusuri respiratorii (precum virusul gripal sau paragripal)?",
+    "options": [
+      "Dizolvarea eritrocitelor în faza de lag.",
+      "Aderența fizică a eritrocitelor de cobai sau berbec pe suprafața celulelor monostratului infectat, datorită expresiei glicoproteinelor virale (hemaglutinine) în membrana celulei gazdă înainte de apariția lizei celulare.",
+      "Absorbția de apă de către capsida virală.",
+      "Precipitarea sărurilor de calciu.",
+      "Multiplicarea bacteriilor în hematie."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Hemadsorbția este proprietatea celulelor infectate cu virusuri ce posedă hemaglutinine (Orthomyxo, Paramyxo): pe măsură ce virusul asamblează noi virioni, inseră hemaglutinina în membrana celulară a gazdei; la adăugarea unei suspensii de hematii, acestea aderă ferm de celulele infectate, confirmând infecția chiar în absența efectului citopatic vizibil."
+  },
+  {
+    "id": 141,
+    "category": "Structura Celulei Bacteriene",
+    "type": "multiple",
+    "text": "Care sunt elementele structurale chimice ce alcătuiesc miezul intern (Core R) al Lipopolizaharidului (LPS) la bacteriile Gram-negative? (Selectați componentele definitorii)",
+    "options": [
+      "Acidul 2-ceto-3-deoxioctonic (KDO)",
+      "Zaharuri din categoria heptozei (L-glicero-D-manoheptoză)",
+      "Lanțuri lungi de ergosterol fosforilat",
+      "Acidul poli-D-glutamic",
+      "Chitina reticulată"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "explanation": "Miezul carbohidrat intern al LPS leagă Lipidul A de antigenul O și conține zaharuri unice specifice bacteriilor: KDO (acid 2-ceto-3-deoxioctonic) și heptoze fosforilate. Acesta este conservat în cadrul aceleiași specii sau gen."
+  },
+  {
+    "id": 142,
+    "category": "Medii de Cultură",
+    "type": "single",
+    "text": "Care este mecanismul prin care mediul diferențial Citrat Simmons virează de la culoarea VERDE la culoarea ALBASTRU intens?",
+    "options": [
+      "Bacteriile care pot utiliza citratul de sodiu ca unică sursă de carbon consumă acizii și eliberează ioni de sodiu care se combină cu $\\text{CO}_2$ formând carbonat de sodiu alcalin; pH-ul crește, iar indicatorul albastru de bromtimol virează la albastru.",
+      "Bacteriile produc mari cantități de acid clorhidric.",
+      "Mediul conține albastru de metilen care se oxidează.",
+      "Bacteriile sintetizează piocianină difuzabilă.",
+      "Este o reacție de precipitare a fierului."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Pe mediul Simmons, citratul de sodiu este unica sursă de carbon, iar fosfatul de amoniu unica sursă de azot. Utilizarea citratului generează carbonat și bicarbonat de sodiu (alcalinizare $\\text{pH} > 7.6$), virând indicatorul albastru de bromtimol de la verde la albastru intens."
+  },
+  {
+    "id": 143,
+    "category": "Genetică Microbiană",
+    "type": "single",
+    "text": "Ce deosebește o secvență de inserție simplă (element IS) de un Transpozon compus în genetica bacteriană?",
+    "options": [
+      "Elementul IS conține doar gena pentru enzima transpozază mărginită de secvențe repetate inversate (IR), în timp ce un transpozon compus transportă între două elemente IS și gene suplimentare utile bacteriei (cum sunt genele de rezistență la antibiotice).",
+      "Elementele IS sunt făcute din proteine, iar transpozonii din lipide.",
+      "Transpozonii pot fi transmiși doar prin picături respiratorii.",
+      "Elementele IS se găsesc doar la virusurile ARN.",
+      "Nu există nicio deosebire genetică."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Elementele IS (Insertion Sequences) sunt cele mai simple elemente genetice transpozabile (codează doar transpozaza flancată de secvențe IR). Transpozonii compuși transportă gene suplimentare (frecvent rezistență la antibiotice, ex: gena rezistenței la tetraciclină sau ampicilină) mărginite de două secvențe IS."
+  },
+  {
+    "id": 144,
+    "category": "Structura Celulei Bacteriene",
+    "type": "single",
+    "text": "Ce sunt \"Mezozomii\" bacterieni și ce roluri fiziologice le sunt atribuite în celula procariotă?",
+    "options": [
+      "Sunt organite înconjurate de o membrană dublă cu criste mitocondriale.",
+      "Sunt invaginări lamelare, tubulare sau veziculare ale membranei citoplasmatice, asociate cu ancorarea și separarea cromozomului bacterian la diviziune și cu formarea septului transversal.",
+      "Sunt incluzii de azot gazos pentru plutire.",
+      "Sunt vacuole digestive de fagocitoză.",
+      "Sunt structuri formate din peptidoglican extern."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Mezozomii reprezintă pliuri complexe și invaginări ale membranei citoplasmatice spre interiorul celulei procariote; mezozomii septali sunt implicați în replicarea ADN-ului cromozomial, ancorarea acestuia și formarea septului transversal de diviziune celulară."
+  },
+  {
+    "id": 145,
+    "category": "Relații Gazdă-Microorganism & Microbiotă",
+    "type": "multiple",
+    "text": "Care dintre următoarele afirmații despre rolul microbiotei indigene în sinteza vitaminelor și nutriția umană sunt ADEVĂRATE? (Selectați variantele corecte)",
+    "options": [
+      "Bacteriile din genul Bacteroides și Escherichia coli sintetizează cantități semnificative de Vitamina K2 (menachinonă), esențială pentru coagularea sângelui.",
+      "Microbiota sintetizează vitamine din complexul B: tiamină (B1), riboflavină (B2), piridoxină (B6), cobalamină (B12), acid folic și biotină.",
+      "Nou-născutul este lipsit inițial de floră colonică și are un risc fiziologic de boală hemoragică a nou-născutului prin deficit de vitamina K, necesitând profilaxie cu vitamina K la naștere.",
+      "Microbiota colonică sintetizează vitamina C în cantități de 100 de grame pe zi.",
+      "Tratamentele antibiotice prelungite pot precipita sindroame hemoragipare prin distrugerea bacteriilor secretoare de vitamina K."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation": "Flora colonică sintetizează vitamina K și vitamine din complexul B. La nou-născut (intestin steril în primele ore), deficitul de vitamina K poate declanșa boala hemoragică, justificând injecția profilactică de vitamina K. Antibioticele pe termen lung scad sinteza de vitamina K, crescând timpul de protrombină."
   }
 ]
