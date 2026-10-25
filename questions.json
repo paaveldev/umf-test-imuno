@@ -1539,5 +1539,271 @@
       1
     ],
     "explanation": "Mediul Chapman conține o concentrație mare de NaCl (7.5%), hipersalinitatea fiind un factor inhibitor puternic pentru flora microbiană obișnuită, dar tolerată excelent de stafilococi (bacterii halotolerante)."
+  },
+  {
+    "id": 86,
+    "category": "Istoricul Microbiologiei",
+    "type": "multiple",
+    "text": "Care sunt principalele excepții și limitări recunoscute în practica medicală modernă față de Postulatele clasice ale lui Robert Koch? (Selectați variantele corecte)",
+    "options": [
+      "Există bacterii patogene obligatorii care NU pot fi cultivate in vitro pe medii artificiale inerte (ex: Treponema pallidum - agentul sifilisului, Mycobacterium leprae - agentul leprei).",
+      "Multe infecții specifice omului nu au modele animale receptive care să reproducă fidel tabloul clinic (ex: Neisseria gonorrhoeae).",
+      "Existența purtătorilor asimptomatici sănătoși (microorganismul patogen este prezent la persoane fără semne clinice de boală, încălcând primul postulat).",
+      "Numeroase boli infecțioase sunt polimicrobiene sau sunt produse de microorganisme oportuniste ale microbiotei proprii.",
+      "Postulatele lui Koch nu sunt valabile pentru că bacteriile nu au genom propriu."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Limitările clasice ale postulatelor lui Koch includ: imposibilitatea cultivării unor patogeni pe medii inerte (Treponema, lepră, virusuri), lipsa modelelor animale pentru agenți strict umani, existența purtătorilor asimptomatici (S. aureus, N. meningitidis) și etiologiile polimicrobiene."
+  },
+  {
+    "id": 87,
+    "category": "Microscopie & Colorații",
+    "type": "single",
+    "text": "Care este principiul metodei de colorație negativă (colorația de relief cu tuș de China sau metoda Burri) și pentru ce structură este utilizată de elecție?",
+    "options": [
+      "Particulele fine de cărbune din tușul de China nu penetrează capsula și nu colorează celula, ci formează un fond negru opac pe care capsula apare ca un halou clar, refringent și bine delimitat (utilizată pentru evidențierea capsulei la bacterii și la levura Cryptococcus neoformans în LCR).",
+      "Colorează selectiv peretele de peptidoglican în galben strălucitor.",
+      "Se folosește exclusiv pentru evidențierea leucocitelor eozinofile din spută.",
+      "Lizează membrana bacteriană și eliberează ADN-ul pe lamă.",
+      "Evidențiază flagelii prin precipitarea sărurilor de argint."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Colorația negativă (tuș de China/Burri) colorează doar fondul preparatului în negru; particulele de tuș nu pot pătrunde în capsula polizaharidică hidratată, aceasta apărând ca un halou clar refringent în jurul celulei. Este metoda clasică de laborator pentru evidențierea capsulei la bacterii și la Cryptococcus neoformans."
+  },
+  {
+    "id": 88,
+    "category": "Microscopie & Colorații",
+    "type": "single",
+    "text": "Ce structuri particulare intracitoplasmatice sunt evidențiate la microscop prin colorația Neisser sau Albert la specia Corynebacterium diphtheriae (bacilul difteric)?",
+    "options": [
+      "Endosporii termorezistenți ovalari",
+      "Corpusculii Babeș-Ernst (granulații metacromatice de polifosfat anorganic / volutină)",
+      "Chisturile de rezistență",
+      "Flagelii peritrichi",
+      "Plasmidele de virulență"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Colorațiile speciale Neisser și Albert evidențiază granulațiile metacromatice (corpusculii Babeș-Ernst / polifosfat anorganic) situate la polii bacilului difteric, care se colorează mai intens (albastru închis spre negru) decât restul corpului bacterian."
+  },
+  {
+    "id": 89,
+    "category": "Microscopie & Colorații",
+    "type": "single",
+    "text": "De ce este obligatorie etapa de \"dehemoglobinizare\" în prepararea picăturii groase de sânge pentru diagnosticul microscopic al malariei (Plasmodium)?",
+    "options": [
+      "Pentru a distruge paraziții și a lăsa doar leucocitele intacte.",
+      "Pentru a liza masa uriașă de eritrocite mature, făcând preparatul transparent și permițând vizualizarea paraziților și leucocitelor într-un volum concentrat de sânge.",
+      "Pentru a coagula fibrinogenul plasmatic.",
+      "Pentru a steriliza preparatul înainte de examinare.",
+      "Dehemoglobinizarea este strict interzisă în diagnosticul malariei."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "În picătura groasă, sângele este aplicat în strat dens; dacă hematiile ar rămâne intacte, preparatul ar fi complet opac. Dehemoglobinizarea (liza hematiilor în apă sau soluție de colorare apoasă nefixată) elimină hemoglobina și eliberează paraziții, permițând concentrarea lor de 20-30 de ori față de frotiul subțire."
+  },
+  {
+    "id": 90,
+    "category": "Medii de Cultură",
+    "type": "single",
+    "text": "Cum permite Testul Catalazei (cu peroxid de hidrogen 3%) diferențierea rapidă și de bază a cocilor Gram-pozitivi în laborator?",
+    "options": [
+      "Stafilococii sunt CATALAZO-POZITIVI (produc efervescență/bule abundente de O2 prin descompunerea H2O2), în timp ce streptococii și enterococii sunt CATALAZO-NEGATIVI (nu produc bule).",
+      "Streptococii produc efervescență, iar stafilococii nu.",
+      "Catalaza colorează bacteriile în verde fluorescent.",
+      "Testul catalazei se aplică doar la bacilii Gram-negativi entereci.",
+      "Toate bacteriile Gram-pozitive sunt strict catalazo-negative."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Testul catalazei este cel mai rapid test orientativ pentru cocii G+: genul Staphylococcus este catalazo-pozitiv (H2O2 -> H2O + O2, bule imediate), în timp ce genurile Streptococcus și Enterococcus sunt catalazo-negative."
+  },
+  {
+    "id": 91,
+    "category": "Medii de Cultură",
+    "type": "single",
+    "text": "Ce semnificație are Testul Oxidazei (cu tetrametil-p-fenilendiamină) în diferențierea bacililor Gram-negativi?",
+    "options": [
+      "Bacteriile din familia Enterobacteriaceae sunt OXIDAZO-NEGATIVE, în timp ce Pseudomonas aeruginosa și Neisseria spp. sunt OXIDAZO-POZITIVE (reacție manifestată prin apariția rapidă a unei culori violet-închis / negru în 10-30 secunde).",
+      "Toate bacteriile anaerobe sunt oxidazo-pozitive.",
+      "Oxidaza pozitivă înseamnă că bacteria fermentează lactoza pe mediul MacConkey.",
+      "Testul oxidazei măsoară producția de acid uric în urină.",
+      "Pseudomonas aeruginosa este strict oxidazo-negativ."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Testul oxidazei detectează prezența citocrom-c oxidazei: bacteriile oxidazo-pozitive (Pseudomonas aeruginosa, Vibrio, Neisseria) virează reactivul la violet închis în câteva secunde. Familia Enterobacteriaceae (E. coli, Klebsiella, Salmonella, Proteus) este caracterizată prin faptul că este strict oxidazo-negativă."
+  },
+  {
+    "id": 92,
+    "category": "Medii de Cultură",
+    "type": "single",
+    "text": "În identificarea biochimică a enterobacteriilor, cum se realizează și ce indică Testul Fenilalanin-Deaminazei (PAD)?",
+    "options": [
+      "Adăugarea a câteva picături de clorură ferică 10% (FeCl3) determină apariția unei culori VERZI intense la suprafața pantei de agar dacă bacteria produce fenilalanin-deaminază (test pozitiv caracteristic pentru tribul Proteeae: Proteus, Providencia, Morganella).",
+      "Adăugarea de acid sulfuric produce lichefierea mediului.",
+      "Testul este pozitiv dacă mediul rămâne alb imaculat.",
+      "Indică producerea de peroxid de hidrogen de către pneumococ.",
+      "Este un test utilizat exclusiv pentru diagnosticul fungilor."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Testul fenilalanin-deaminazei (PAD) arată capacitatea de dezaminare oxidativă a fenilalaninei în acid fenilpiruvic. La adăugarea reactivului FeCl3 10%, acidul fenilpiruvic formează un complex chelat de culoare verde intens (caracteristic genurilor Proteus, Providencia și Morganella)."
+  },
+  {
+    "id": 93,
+    "category": "Structura Celulei Bacteriene",
+    "type": "single",
+    "text": "Din ce cauză este alimentată rotația flagelilor bacterieni și cum este ancorat corpul bazal la bacteriile Gram-negative vs. Gram-pozitive?",
+    "options": [
+      "Rotația este alimentată direct de hidroliza glicogenului nuclear.",
+      "Rotația flagelului este propulsată de forța proton-motrice (flux de ioni H+ prin complexul proteic Mot); corpul bazal are 4 inele la bacteriile Gram-negative (L, P, S, M) și doar 2 inele la cele Gram-pozitive (S și M).",
+      "Bacteriile Gram-pozitive au 6 inele, iar cele Gram-negative nu au niciun inel.",
+      "Rotația flagelului este alimentată de lumină ultravioletă.",
+      "Flagelii nu se rotesc, ci au o mișcare pendulară dată de miozină."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Flagelii bacterieni funcționează ca un motor rotativ propulsat de forța proton-motrice (gradientul electrochimic de protoni generat de membrana celulară). Corpul bazal are 4 inele la G- (L în LPS, P în peptidoglican, S și M în membrană) și doar 2 inele la G+ (S și M)."
+  },
+  {
+    "id": 94,
+    "category": "Structura Celulei Bacteriene",
+    "type": "single",
+    "text": "În ce constă Reacția Neufeld Quellung (reacția de umflare a capsulei) utilizată în identificarea serologică a pneumococului (Streptococcus pneumoniae)?",
+    "options": [
+      "Capsula se dizolvă complet la adăugarea de alcool 96°.",
+      "Punerea în contact a bacteriei cu un ser imun specific anti-capsular determină fixarea anticorpilor pe capsulă, mărindu-i indicele de refracție și făcând-o vizibilă la microscop ca un halou clar gigant delimitat pronunțat.",
+      "Bacteria își pierde virulența și devine mobilă.",
+      "Capsula se colorează în negru datorită precipitării fierului.",
+      "Este o reacție de amplificare genică prin PCR."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Reacția Neufeld Quellung (umflarea capsulei) se produce prin combinarea specifică a anticorpilor din antiserum cu polizaharidele capsulare: indicele de refracție crește brusc, creând iluzia optică microscopică de umflare masivă a capsulei, permițând serotiparea pneumococilor și a altor bacterii capsulate."
+  },
+  {
+    "id": 95,
+    "category": "Virusologie",
+    "type": "multiple",
+    "text": "Care sunt particularitățile culturilor de celule utilizate pentru izolarea și propagarea virusurilor în laborator? (Selectați variantele corecte)",
+    "options": [
+      "Culturi primare: obținute direct prin disocierea enzimatică a unui țesut proaspăt de la om sau animale (ex: rinichi de maimuță), mențin cariotipul normal, dar supraviețuiesc doar un număr limitat de pasaje (5-10 subcultivări).",
+      "Linii celulare diploide: celule fibroblastice embrionare (ex: WI-38, MRC-5) care păstrează numărul diploid de cromozomi și suportă până la 40-50 de pasaje înainte de senescență.",
+      "Linii celulare continue (heteroploide): celule derivate din tumori maligne (ex: HeLa din cancer de col uterin, Hep-2), au număr anormal de cromozomi, sunt \"nemuritoare\" (se pot subcultiva indefinit).",
+      "Virusurile pot fi cultivate pe agar simplu fără celule vii dacă se adaugă glucoză 20%.",
+      "Mediul de cultură pentru celule conține aminoacizi, glucoză, vitamine, tampon de pH și ser fetal bovin (SFB)."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation": "Cultivarea virusurilor impune substraturi celulare vii: culturi primare (durată scurtă), tulpini diploide (până la 50 pasaje) și linii celulare continue tumorale nemuritoare (HeLa, Hep-2). Virusurile nu pot crește pe medii inerte sintetice fără celule."
+  },
+  {
+    "id": 96,
+    "category": "Virusologie",
+    "type": "multiple",
+    "text": "În cultivarea virusurilor pe ouă embrionate de găină, care sunt situsurile anatomice de inoculare și asocierile lor de utilitate? (Selectați variantele corecte)",
+    "options": [
+      "Membrana corioalantoidiană (CAM): pentru izolarea virusurilor ce produc leziuni focale caracteristice (pustule / pocks), cum sunt Poxvirusurile (variolă) și Herpesvirusurile.",
+      "Cavitatea amniotică: calea de elecție pentru izolarea primară a virusului gripal din produse patologice respiratorii.",
+      "Cavitatea alantoidiană: utilizată pentru propagarea în cantități mari și prepararea vaccinurilor gripale.",
+      "Sacul vitelin: utilizat pentru cultivarea unor microorganisme cu parazitism intracelular obligatoriu (Chlamydia, Rickettsia).",
+      "Oul embrionat este un mediu inert lipsit de celule vii."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Oul de găină embrionat de 8-12 zile oferă cavități distincte: membrana corioalantoidiană (leziuni focale pocks), cavitatea amniotică (izolare gripă), cavitatea alantoidiană (randament mare pentru vaccinuri) și sacul vitelin (Chlamydia/Rickettsia)."
+  },
+  {
+    "id": 97,
+    "category": "Paraziți & Fungi Medicali",
+    "type": "single",
+    "text": "Ce test rapid de laborator permite diferențierea speciei Candida albicans de majoritatea celorlalte specii de Candida în doar 2-3 ore?",
+    "options": [
+      "Testul fermentării ureei pe mediu Christensen",
+      "Testul formării tubilor de germinație (testul de filamentare în ser la 37°C / germ tube test)",
+      "Colorația Ziehl-Neelsen la rece",
+      "Testul oxidazei cu discuri de hârtie",
+      "Inocularea pe agar MacConkey la 4°C"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Testul formării tubilor de germinație (germ tube test) este testul de confirmare rapidă pentru Candida albicans: incubarea levurilor în ser uman sau fetal la 37°C timp de 2-3 ore determină producerea unor proeminențe filamentoase caracteristice (tubi de germinație) la peste 95% din tulpinile de C. albicans."
+  },
+  {
+    "id": 98,
+    "category": "Diagnostic Microbiologic",
+    "type": "single",
+    "text": "Care este rolul CĂRBUNELUI ACTIV adăugat în mediile speciale de transport microbiologic (precum mediile Stuart sau Amies)?",
+    "options": [
+      "Să acționeze ca sursă de glucoză pentru multiplicarea accelerată.",
+      "Să neutralizeze și să absoarbă acizii grași liberi și alte substanțe toxice care ar putea distruge bacteriile pretențioase (cum este Neisseria gonorrhoeae) în timpul transportului.",
+      "Să coloreze puroiul în negru pentru vizualizare.",
+      "Să prevină evaporarea apei din recipient.",
+      "Să omoare flora comensală bacteriană."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Cărbunele activ din mediile de transport (ex: Amies) are rolul esențial de a adsorbi produșii metabolici toxici, acizii grași liberi și metaboliții oxidați, protejând viabilitatea bacteriilor extrem de fragile și sensibile precum Neisseria gonorrhoeae sau Bordetella pertussis."
+  },
+  {
+    "id": 99,
+    "category": "Genetică Microbiană",
+    "type": "single",
+    "text": "Ce enzimă bacteriană celulară este obligatorie pentru desfășurarea procesului de Recombinare Genetică Omoloagă (generală)?",
+    "options": [
+      "Enzima RecA (recombinaza A)",
+      "Enzima Transpozază",
+      "Enzima Catalază",
+      "Enzima Urează",
+      "Lizozimul periplasmic"
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Proteina RecA (recombinaza A) este factorul cheie absolut necesar pentru recombinarea genetică omoloagă: ea recunoaște regiunile cu secvențe ADN omoloage între molecula donor și cea receptor și catalizează schimbul și alinierea catenelor de ADN."
+  },
+  {
+    "id": 100,
+    "category": "Relații Gazdă-Microorganism & Microbiotă",
+    "type": "multiple",
+    "text": "Ce acizi grași cu lanț scurt (SCFA) sunt generați de microbiota colonică prin fermentarea polizaharidelor nedigerabile și ce rol fiziologic vital îndeplinesc aceștia? (Selectați variantele corecte)",
+    "options": [
+      "Acizii butirat, acetat și propionat.",
+      "Butiratul reprezintă principala sursă de energie directă pentru celulele epiteliale colonice (colonocite).",
+      "SCFA contribuie la menținerea integrității barierei mucoase intestinale și au efecte imunomodulatoare și antiinflamatorii.",
+      "Acizii butirici stimulează proliferarea bacililor tetanici în măduva osoasă.",
+      "Fermentarea fibrelor în SCFA este un proces pur toxic ce trebuie oprit prin antibiotice."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Microbiota intestinală fermentează fibrele solubile generând acizi grași cu lanț scurt (SCFA): acetat, propionat și butirat. Butiratul furnizează până la 70% din energia necesară colonocitelor, menține etanșeitatea joncțiunilor celulare (tight junctions) și exercită un rol antiinflamator marcat."
   }
 ]
