@@ -1,32 +1,32 @@
 [
   {
     "id": 1,
-    "category": "Teorii despre Anticorpi",
+    "category": "Istoricul Microbiologiei",
     "type": "single",
-    "text": "Conform teoriei catenelor laterale enunțate de Paul Ehrlich, care este mecanismul formării anticorpilor?",
+    "text": "Cine este savantul care în 1677 a descris pentru prima dată microorganismele vii (\"animalculi\"), utilizând microscoape simple confecționate manual?",
     "options": [
-      "Antigenul pătrunde în celulă și acționează ca tipar fizic (matriță) pentru sinteza lanțurilor polipeptidice.",
-      "Receptorii ('catenele laterale') preexistă în mod natural pe suprafața celulei, iar antigenul selectează catena specifică, celula producând-o apoi în exces.",
-      "Antigenul ghidează răsucirea spațială a lanțului polipeptidic exclusiv în faza finală a sintezei proteice.",
-      "Anticorpii sunt generați doar după ce enzimele celulare degradează complet antigenul în fragmente peptidice.",
-      "Celulele sintetizează anticorpi doar dacă sunt infectate de virusuri citopatice."
+      "Louis Pasteur",
+      "Anton van Leeuwenhoek",
+      "Robert Koch",
+      "Joseph Lister",
+      "Victor Babeș"
     ],
     "correct": [
       1
     ],
-    "explanation": "Paul Ehrlich a formulat prima teorie selecționistă: receptorii există preformați ca elemente naturale pe suprafața celulei; antigenul selectează catena laterală complementară stereochimic, iar celula renunță la restul și sintetizează în exces doar catena aleasă, eliberând-o ca anticorp."
+    "explanation": "Anton van Leeuwenhoek (1677) a observat și descris pentru prima dată microorganismele vii (\"animalculi\") folosind lentile simple șlefuite manual cu o putere de mărire de până la 300x."
   },
   {
     "id": 2,
-    "category": "Teorii despre Anticorpi",
+    "category": "Istoricul Microbiologiei",
     "type": "multiple",
-    "text": "Ce concepte fundamentale a introdus Paul Ehrlich în cadrul teoriei catenelor laterale? (Alegeți variantele corecte)",
+    "text": "Care dintre următoarele realizări științifice majore îi aparțin lui Louis Pasteur? (Selectați variantele corecte)",
     "options": [
-      "Noțiunea de receptor celular.",
-      "Conceptul de afinitate chimică între substanțe și organele vii.",
-      "Conceptul de situs funcțional al moleculei de anticorp.",
-      "Relația stereochimică unică de complementaritate între antigen și anticorp.",
-      "Mecanismul recombinării genetice V(D)J mediat de enzimele RAG."
+      "Dezaprobarea definitivă a teoriei generației spontane prin experimentul baloanelor cu gât curbat în formă de lebădă.",
+      "Demonstrarea naturii microbiene a fermentațiilor.",
+      "Dezvoltarea vaccinului antirabic și a vaccinului împotriva cărbunelui (antrax).",
+      "Introducerea metodei pasteurizării pentru conservarea lichidelor alimentare.",
+      "Descoperirea primului antibiotic (penicilina) din culturi de mucegai."
     ],
     "correct": [
       0,
@@ -34,109 +34,110 @@
       2,
       3
     ],
-    "explanation": "Paul Ehrlich a introdus conceptele de receptor, afinitate chimică, situs funcțional și complementaritate stereochimică. Recombinarea V(D)J este o descoperire de genetică moleculară din a doua jumătate a secolului XX (Tonegawa)."
+    "explanation": "Louis Pasteur a infirmat generația spontană (1861), a explicat fermentațiile, a creat pasteurizarea și a dezvoltat vaccinurile antirabic și anticarbunos. Penicilina a fost descoperită ulterior de Alexander Fleming (1928)."
   },
   {
     "id": 3,
-    "category": "Teorii despre Anticorpi",
-    "type": "single",
-    "text": "În ce consta 'Teoria Tiparului' (matriței) formulată de Haurowitz și Breinl în cadrul teoriilor instructive?",
+    "category": "Istoricul Microbiologiei",
+    "type": "multiple",
+    "text": "Care sunt enunțurile ce alcătuiesc Postulatele clasice ale lui Robert Koch (1890)? (Selectați variantele corecte)",
     "options": [
-      "Antigenul era transportat la situsul celular de sinteză proteică, unde servea drept model (matriță) pentru moleculele de anticorp nascente.",
-      "Anticorpii preexistau în ser în cantități infime și erau activați prin contact mecanic.",
-      "Antigenul activa direct diviziunea mitotică a limfocitului B fără a pătrunde în interiorul celulei.",
-      "Celula gazdă producea anticorpi identici cu toxinele bacteriene prin mutații induse.",
-      "Anticorpii erau sintetizați exclusiv în timus sub controlul hormonului timulină."
+      "Microorganismul trebuie să fie prezent la toți indivizii bolnavi și absent la cei sănătoși.",
+      "Microorganismul trebuie izolat din organismul bolnav și cultivat în cultură pură.",
+      "Microorganismul din cultura pură trebuie să reproducă boala specifică la inocularea unui animal de laborator receptiv.",
+      "Microorganismul trebuie să poată fi reizolat în cultură pură din leziunile animalului infectat experimental.",
+      "Microorganismul trebuie să fie sensibil in vitro la toate antibioticele din clasa beta-lactaminelor."
     ],
     "correct": [
-      0
+      0,
+      1,
+      2,
+      3
     ],
-    "explanation": "Forma definitivă a teoriilor instructive aparține lui Haurowitz și Breinl (teoria tiparului): antigenul pătrunde la nivelul situsului de sinteză a proteinelor și servește direct drept matriță fizică în jurul căreia se pliază lanțurile proteice ale anticorpului."
+    "explanation": "Postulatele lui Koch (1890) stabilesc relația cauzală microorganism-boală: 1. Prezența la bolnavi și absența la sănătoși; 2. Izolarea în cultură pură; 3. Reproducerea bolii la animal receptiv; 4. Reizolarea din animalul infectat. Sensibilitatea la antibiotice nu face parte din postulate."
   },
   {
     "id": 4,
-    "category": "Teorii despre Anticorpi",
+    "category": "Istoricul Microbiologiei",
     "type": "single",
-    "text": "Cum a simplificat Linus Pauling teoria instructivă a formării anticorpilor?",
+    "text": "Ce contribuție fundamentală a adus Joseph Lister în practica medicală chirurgicală în anul 1867?",
     "options": [
-      "A susținut că antigenul intervine doar în faza finală a sintezei proteice, dirijând răsucirea în spațiu a lanțului polipeptidic.",
-      "A demonstrat că anticorpii sunt sintetizați exclusiv de macrofage prin fagocitoză.",
-      "A afirmat că sinteza de anticorpi este independentă de prezența antigenului.",
-      "A dovedit că anticorpii au o structură lipidică amfifilică.",
-      "A propus că fiecare anticorp este codat de o genă unică din linia germinală."
+      "A descoperit bacilul tuberculozei.",
+      "A introdus chirurgia antiseptică prin utilizarea acidului carbolic (fenol) pentru dezinfectarea plăgilor și instrumentarului.",
+      "A inventat tehnica reacției de polimerizare în lanț (PCR).",
+      "A izolat primul virus filtrabil prin filtre de porțelan.",
+      "A formulat primul vaccin recombinant împotriva hepatitei B."
     ],
     "correct": [
-      0
+      1
     ],
-    "explanation": "Pauling a susținut că secvența de aminoacizi este sintetizată normal, iar antigenul servește ca șablon (template) doar pentru faza finală de pliere și răsucire spațială a lanțului polipeptidic."
+    "explanation": "Joseph Lister (1867) a fondat chirurgia antiseptică, pulverizând acid carbolic (fenol) în sălile de operație și aplicându-l pe instrumente și pansamente, reducând spectaculos infecțiile postoperatorii."
   },
   {
     "id": 5,
-    "category": "Teorii despre Anticorpi",
+    "category": "Istoricul Microbiologiei",
     "type": "multiple",
-    "text": "Care au fost cele 3 argumente fundamentale prin care MacFarlane Burnet a infirmat teoria instructivă a lui Pauling? (Alegeți variantele corecte)",
+    "text": "Ce contribuții științifice fundamentale i se datorează savantului român Victor Babeș? (Selectați variantele corecte)",
     "options": [
-      "Teoriile instructive nu țin cont de importanța enzimelor în mecanismele de sinteză și metabolismul intracelular.",
-      "Teoriile instructive implică în mod obligatoriu persistența îndelungată a antigenului pe tot parcursul sintezei anticorpilor.",
-      "Producția de anticorpi este o funcție transmisă atât celulelor stimulate inițial, cât și descendenților (clonelor) acestora.",
-      "Anticorpii nu sunt proteine, ci glicolipide de membrană.",
-      "Antigenul este distrus în mai puțin de o secundă de la pătrunderea în organism."
+      "A publicat la Paris în 1885, împreună cu André-Victor Cornil, primul tratat complet de bacteriologie din lume.",
+      "A fost promotorul seroterapiei pasive și a introdus vaccinarea antirabică asociată cu ser imun în România.",
+      "A descris granulațiile metacromatice la bacilul difteric (corpusculii Babeș-Ernst).",
+      "A descris incluziile caracteristice din celulele nervoase în rabie (corpusculii Babeș-Negri).",
+      "A inventat microscopul electronic cu baleiaj."
     ],
     "correct": [
       0,
       1,
-      2
+      2,
+      3
     ],
-    "explanation": "Burnet a arătat că: 1. Sinteza proteică este dependentă de enzime și genom, nu de matrițe pasive; 2. Antigenul nu persistă permanent în celulă; 3. Sinteza este clonală, perpetuată la nivelul descendenților celulari."
+    "explanation": "Victor Babeș este coautorul primului tratat de bacteriologie din lume (1885), promotor al seroterapiei, a descris corpusculii Babeș-Ernst (Corynebacterium diphtheriae) și corpusculii Babeș-Negri (rabie). Microscopul electronic a fost inventat de Ruska și Knoll."
   },
   {
     "id": 6,
-    "category": "Teorii despre Anticorpi",
+    "category": "Istoricul Microbiologiei",
     "type": "single",
-    "text": "Ce postula teoria selecției naturale enunțată de Niels Jerne?",
+    "text": "Care cercetători au demonstrat existența virusurilor filtrabile studiind boala mozaicului tutunului la sfârșitul secolului al XIX-lea?",
     "options": [
-      "Anticorpi cu o mare varietate de specificități sunt sintetizați fiziologic în cantități mici în sânge, iar antigenul se combină cu aceștia și îi transportă către celule pentru reproducere.",
-      "Sistemul imunitar este complet lipsit de anticorpi până la primul contact infectios.",
-      "Fiecare celulă sintetizează o infinitate de anticorpi diferiți pe parcursul vieții.",
-      "Anticorpii sunt molecule fără specificitate, care se adaptează după fagocitoză.",
-      "Organismul vertebratelor elimină toate limfocitele B înainte de naștere."
+      "Dmitri Ivanovski și Martinus Beijerinck",
+      "Robert Koch și Louis Pasteur",
+      "Kary Mullis și Frederick Sanger",
+      "Alexander Fleming și Howard Florey",
+      "Paul Ehrlich și Elie Metchnikoff"
     ],
     "correct": [
       0
     ],
-    "explanation": "Niels Jerne a afirmat că vertebratele produc în mod normal un repertoriu vast de anticorpi naturali circulanți; antigenul se leagă de aceștia, iar complexul format ghidează semnalul către celulele specializate pentru a reproduce anticorpul."
+    "explanation": "Dmitri Ivanovski (1892) și Martinus Beijerinck (1898) au descoperit că agentul mozaicului tutunului trece prin filtrele de porțelan Chamberland care rețineau bacteriile, Beijerinck numindu-l \"contagium vivum fluidum\" (virus filtrabil)."
   },
   {
     "id": 7,
-    "category": "Teorii despre Anticorpi",
-    "type": "multiple",
-    "text": "În legătură cu Teoria Selecției Clonale (Burnet, Talmage, Lederberg – 1959), care afirmații sunt ADEVĂRATE? (Alegeți variantele corecte)",
+    "category": "Microscopie & Colorații",
+    "type": "single",
+    "text": "La microscopul optic cu lumină transmisă, cum se calculează mărirea totală a imaginii?",
     "options": [
-      "Este teoria fundamentală pe care se bazează imunologia modernă.",
-      "Anticorpii (receptorii) se găsesc pe suprafața celulelor limfoide înaintea contactului cu antigenul.",
-      "Fiecare clonă limfoidă are o dispoziție restrânsă fenotipic, fiind dedicată unei singure specificități.",
-      "Interacțiunea cu antigenul declanșează semnalul pentru proliferarea și activarea clonelor celulare specifice.",
-      "Antigenul acționează ca un tipar intracelular pentru modelarea chimică a situsului de legare."
+      "Prin adunarea puterii de mărire a obiectivului cu puterea de mărire a ocularului.",
+      "Prin produsul dintre puterea de mărire a obiectivului și puterea de mărire a ocularului.",
+      "Exclusiv prin puterea de rezoluție a lentilei condensatorului.",
+      "Prin raportul dintre lungimea tubului optic și distanța focală a ocularului.",
+      "Prin deschiderea numerică a diafragmei iris."
     ],
     "correct": [
-      0,
-      1,
-      2,
-      3
+      1
     ],
-    "explanation": "Teoria selecției clonale susține că receptorii preexistă pe suprafața celulelor limfoide, o clonă având o singură specificitate; antigenul doar selectează clona potrivită și declanșează expansiunea clonală. Nu este o teorie instructivă."
+    "explanation": "Mărirea totală a microscopului optic reprezintă produsul matematic dintre puterea de mărire a obiectivului și puterea de mărire a ocularului (de exemplu: obiectiv 100x * ocular 10x = mărire de 1000 de ori)."
   },
   {
     "id": 8,
-    "category": "Organizarea Sistemului Imun",
+    "category": "Microscopie & Colorații",
     "type": "multiple",
-    "text": "Care dintre următoarele elemente anatomice și reflexe fiziologice fac parte din prima linie de apărare a imunității înnăscute? (Selectați variantele corecte)",
+    "text": "Care sunt etapele corecte și obligatorii în realizarea unui preparat microscopic fixat și colorat (frotiu bacterian)? (Selectați variantele corecte)",
     "options": [
-      "Pielea și secrețiile acide ale glandelor sebacee și sudoripare.",
-      "Mucoasele și mucusul protector care le acoperă.",
-      "Reflexul de tuse și de strănut.",
-      "Secreția lacrimală și mișcarea oscilatorie a cililor respiratori.",
-      "Limfocitele B cu memorie și plasmocitele producătoare de IgG."
+      "Etalarea (întinderea) suspensiei bacteriene pe o lamă de sticlă curată și degresată.",
+      "Uscarea completă a frotiului la temperatura camerei (la aer).",
+      "Fixarea frotiului (fizică prin trecere prin flacără sau chimică cu metanol/alcool).",
+      "Colorarea frotiului conform tehnicii alese (simplă, Gram sau Ziehl-Neelsen).",
+      "Centrifugarea lamei de sticlă la 10.000 rotații pe minut înainte de colorare."
     ],
     "correct": [
       0,
@@ -144,109 +145,109 @@
       2,
       3
     ],
-    "explanation": "Tegumentul, secrețiile acide, mucusul, reflexele mecanice (tuse, strănut), lacrimile și aparatul mucociliar aparțin apărării înnăscute. Plasmocitele și limfocitele B cu memorie aparțin imunității adaptative."
+    "explanation": "Realizarea frotiului presupune etapele clasice: etalare, uscare la aer, fixare (termică sau chimică pentru a omorî bacteriile și a le fixa proteinele de sticlă) și colorare. Centrifugarea lamei este o aberație tehnică."
   },
   {
     "id": 9,
-    "category": "Organizarea Sistemului Imun",
+    "category": "Microscopie & Colorații",
     "type": "single",
-    "text": "Care dintre următoarele celule ale imunității înnăscute sunt considerate un subset de limfocite primitive cu activitate citotoxică nespecifică?",
+    "text": "Care este succesiunea corectă a reactivilor utilizați în cadrul Colorației Gram (colorație diferențială de bază)?",
     "options": [
-      "Celulele Natural Killer (NK)",
-      "Plasmocitele efectoare",
-      "Limfocitele T helper 2 (Th2)",
-      "Eritrocitele senescente",
-      "Celulele foliculare dendritice (FDC)"
+      "Fuxină diluată -> Alcool-acetonă -> Soluție Lugol -> Cristal violet",
+      "Cristal violet -> Soluție Lugol -> Alcool-acetonă -> Fuxină diluată (sau safranină)",
+      "Albastru de metilen -> Acid sulfuric -> Alcool etilic -> Fuxină fenicată",
+      "Soluție Lugol -> Cristal violet -> Apă distilată -> Alcool 70%",
+      "Tuș de China -> Alcool-acetonă -> Verde malachit -> Safranin"
     ],
     "correct": [
-      0
+      1
     ],
-    "explanation": "Celulele Natural Killer (NK) sunt celule limfoide mari, non-fagocitare, considerate un subset primitiv cu activitate citotoxică nespecifică în cadrul imunității înnăscute."
+    "explanation": "Etapele colorației Gram: 1. Colorant primar: Cristal violet (1-2 min); 2. Mordant: Soluție Lugol (1-2 min, formează complex insolubil I2-CV); 3. Decolorant: Alcool-acetonă (10-15 secunde, etapă diferențială critică); 4. Colorant de contrast: Fuxină diluată sau safranină (1 min)."
   },
   {
     "id": 10,
-    "category": "Organizarea Sistemului Imun",
+    "category": "Microscopie & Colorații",
     "type": "multiple",
-    "text": "Care sunt cele 5 funcții cardinale ale sistemului imunitar descrise în cursul universitar? (Alegeți variantele corecte)",
+    "text": "La examinarea microscopică a unui frotiu colorat Gram, care sunt caracteristicile bacteriilor Gram-pozitive vs. Gram-negative? (Selectați variantele corecte)",
     "options": [
-      "Supraveghere – distincția dintre self și non-self.",
-      "Apărare – declanșarea răspunsului împotriva agresorilor.",
-      "Reglare – controlul răspunsului în scopul menținerii homeostaziei.",
-      "Memorie imunologică – răspuns optimizat la un nou contact cu același antigen.",
-      "Toleranță – stare de neresponsivitate fiziologică față de propriile antigene (self).",
-      "Secreția exclusivă de insulină și glucagon."
+      "Bacteriile Gram-pozitive se colorează în violet / albastru închis.",
+      "Bacteriile Gram-negative se colorează în roz / roșu.",
+      "Bacteriile Gram-pozitive rețin complexul cristal violet - iod datorită peretelui gros de peptidoglican deshidratat de alcool.",
+      "Bacteriile Gram-negative pierd colorantul primar la decolorarea cu alcool deoarece lipidele din membrana externă sunt dizolvate și peretele de peptidoglican este subțire.",
+      "Bacteriile Gram-pozitive își datorează culoarea exclusiv colorantului secundar (fuxina diluată)."
     ],
     "correct": [
       0,
       1,
       2,
-      3,
-      4
+      3
     ],
-    "explanation": "Cele 5 funcții fundamentale ale SI sunt: supraveghere, apărare, reglare (homeostazie), memorie imunologică și toleranță față de self."
+    "explanation": "Bacteriile Gram-pozitive rămân violete (rețin complexul inițial în rețeaua densă de peptidoglican), în timp ce bacteriile Gram-negative sunt decolorate de amestecul alcool-acetonă și se recolorează cu fuxină diluată, devenind roz/roșii."
   },
   {
     "id": 11,
-    "category": "Organizarea Sistemului Imun",
+    "category": "Microscopie & Colorații",
     "type": "single",
-    "text": "Care este organul limfoid primar în care limfocitele T își desăvârșesc maturarea și diferențierea în subseturi helper și citotoxice?",
+    "text": "Care dintre următoarele asocieri dintre specia bacteriană și morfologia microscopică pe frotiul Gram este INCORECTĂ?",
     "options": [
-      "Splina",
-      "Timusul",
-      "Ganglionii limfatici mezenterici",
-      "Măduva osoasă hematogenă",
-      "Plăcile Peyer"
+      "Staphylococcus aureus – coci Gram-pozitivi dispuși în grămezi neregulate (în ciorchine).",
+      "Streptococcus pyogenes – coci Gram-pozitivi dispuși în lanțuri de lungimi variabile.",
+      "Streptococcus pneumoniae (pneumococ) – diplococi Gram-pozitivi lanceolați (în flacără de lumânare), adesea capsulați.",
+      "Neisseria gonorrhoeae / meningitidis – diplococi Gram-negativi reniformi (în boabă de cafea), adesea intraleucocitari.",
+      "Escherichia coli – bacili Gram-pozitivi mari cu spori voluminoși centrali deformanți."
     ],
     "correct": [
-      1
+      4
     ],
-    "explanation": "Limfocitele T migrează din măduvă și se maturează în timus (unde se diferențiază în CD4+ T helper și CD8+ T citotoxice). Măduva osoasă este organul primar de maturare pentru limfocitele B."
+    "explanation": "Escherichia coli este un bacil Gram-NEGATIV nesporulat (membru al familiei Enterobacteriaceae). Bacilii Gram-pozitivi sporați aparțin genurilor Bacillus și Clostridium."
   },
   {
     "id": 12,
-    "category": "Organizarea Sistemului Imun",
-    "type": "single",
-    "text": "Activarea limfocitelor B și diferențierea lor în celule efectoare conduce la apariția:",
+    "category": "Microscopie & Colorații",
+    "type": "multiple",
+    "text": "Ce cauze tehnice pot determina erori în interpretarea colorației Gram (bacterii Gram-pozitive care apar fals Gram-negative)? (Selectați variantele corecte)",
     "options": [
-      "Plasmocitelor care secretă anticorpi solubili capabili să recunoască antigenele.",
-      "Fibroblaștilor dermici secretoare de colagen tip IV.",
-      "Celulelor Kupffer din sinusoidele hepatice.",
-      "Eozinofilelor din măduva hematopoietică.",
-      "Enterocitelor din mucoasa ileală."
+      "Decolorarea excesivă sau prelungită cu amestecul alcool-acetonă.",
+      "Utilizarea unei culturi bacteriene vechi (senescente, peste 24-48 ore), la care peretele de peptidoglican a suferit autoliză.",
+      "Încălzirea excesivă a frotiului în timpul etapei de fixare prin căldură, distrugând integritatea peretelui celular.",
+      "Realizarea unui frotiu mult prea subțire și omogen.",
+      "Spălarea frotiului cu apă distilată între etape."
     ],
     "correct": [
-      0
+      0,
+      1,
+      2
     ],
-    "explanation": "Limfocitele B stimulate antigenic se diferențiază în celule B cu memorie și plasmocite, acestea din urmă fiind 'uzinele' formatoare și secretoare de anticorpi specifici (răspuns umoral)."
+    "explanation": "Decolorarea prea lungă, culturile îmbătrânite (perete degradat ce nu mai ține colorantul) și supraîncălzirea la flacără sunt cauze majore de rezultate fals Gram-negative (bacterii G+ care apar roz)."
   },
   {
     "id": 13,
-    "category": "Antigene & Imunogenitate",
+    "category": "Microscopie & Colorații",
     "type": "single",
-    "text": "Proprietatea unei structuri biologice de a se combina specific cu receptorii limfocitari sau cu anticorpii preformați poartă numele de:",
+    "text": "Care este principiul și utilitatea principală a Colorației Ziehl-Neelsen?",
     "options": [
-      "Imunogenitate",
-      "Antigenicitate",
-      "Alergenicitate",
-      "Tolerogenitate",
-      "Opsonizare"
+      "Evidențierea capsulei bacteriene prin contrast negativ cu tuș de China.",
+      "Evidențierea bacililor acido-alcoolo-rezistenți (BAAR), precum Mycobacterium tuberculosis, datorită cantității mari de acizi micolici din perete.",
+      "Diferențierea bacteriilor aerobe de cele strict anaerobe.",
+      "Colorarea specifică a flagelilor peritrichi la enterobacterii.",
+      "Numărarea leucocitelor polinucleare din urină."
     ],
     "correct": [
       1
     ],
-    "explanation": "Antigenicitatea reprezintă exclusiv proprietatea de a se combina specific cu receptorii sau anticorpii. Imunogenitatea include atât capacitatea de inducere a răspunsului imun de novo, cât și aceea de a reacționa cu produșii finali."
+    "explanation": "Colorația Ziehl-Neelsen evidențiază bacilii acido-alcoolo-rezistenți (BAAR: genul Mycobacterium). Datorită acizilor micolici din perete, aceștia se colorează la cald cu fuxină fenicată și rezistă la decolorarea agresivă cu alcool-acid, apărând roșii pe fondul albastru de metilen."
   },
   {
     "id": 14,
-    "category": "Antigene & Imunogenitate",
+    "category": "Microscopie & Colorații",
     "type": "multiple",
-    "text": "Ce efecte biologice poate declanșa pătrunderea unui antigen în organism? (Alegeți variantele corecte)",
+    "text": "În legătură cu morfologia sporilor bacterieni pe frotiuri colorate, care afirmații sunt ADEVĂRATE? (Selectați variantele corecte)",
     "options": [
-      "Activarea limfocitelor T și/sau B (comportament de imunogen).",
-      "Conducerea la sinteza de anticorpi specifici.",
-      "Declanșarea unor reacții de hipersensibilitate / răspunsuri exagerate.",
-      "Inducerea toleranței imunologice (absența răspunsului imun).",
-      "Clivarea spontană a insulinei pancreatice."
+      "Clostridium tetani prezintă un spor rotund situat terminal, deformant, conferind bacteriei aspectul tipic de \"băț de tobă\" sau ac de gămălie.",
+      "Clostridium botulinum prezintă un spor ovalar subterminal deformant, conferind aspectul de \"rachetă de tenis\".",
+      "Bacillus anthracis prezintă un spor ovalar situat central, care NU deformează corpul bacterian.",
+      "Sporii maturi sunt impermeabili la coloranții uzuali și apar necolorați (refringenți) în colorația Gram.",
+      "Toate bacteriile Gram-negative produc spori terminali foarte termorezistenți."
     ],
     "correct": [
       0,
@@ -254,384 +255,381 @@
       2,
       3
     ],
-    "explanation": "Antigenul poate acționa ca imunogen (activare limfocite, anticorpi), ca alergen (reacții exagerate de hipersensibilitate) sau ca tolerogen (inducerea stării de toleranță / neresponsivitate)."
+    "explanation": "Endosporii sunt produși DOAR de bacterii Gram-pozitive (genurile Bacillus și Clostridium). Nicio bacterie Gram-negativă de interes medical nu produce endospori!"
   },
   {
     "id": 15,
-    "category": "Antigene & Imunogenitate",
+    "category": "Microscopie & Colorații",
     "type": "single",
-    "text": "Cum este definită o 'Haptenă' în imunologie?",
+    "text": "Prin ce metodă microscopică parazitologică de elecție se stabilește diagnosticul de oxiuroză (Enterobius vermicularis)?",
     "options": [
-      "O macromoleculă proteică cu greutate de peste 100 kDa.",
-      "Un antigen incomplet, lipsit de imunogenitate prin el însuși, dar care poate induce răspuns imun când este cuplat chimic la o moleculă purtătoare (carrier).",
-      "O opsonină plasmatică derivată din componenta C3 a complementului.",
-      "O toxină bacteriană inactivată prin căldură.",
-      "Un anticorp monoclonar utilizat în diagnosticul serologic."
+      "Urocultură din jetul mijlociu.",
+      "Amprenta anală (metoda Graham / banda adezivă de celofan aplicată pe pliurile perianale dimineața înainte de toaletă).",
+      "Picătura groasă de sânge colorată May-Grünwald Giemsa.",
+      "Frotiu din spută colorat Ziehl-Neelsen.",
+      "Biopsie musculară din deltoid."
     ],
     "correct": [
       1
     ],
-    "explanation": "Haptenele sunt substanțe cu greutate moleculară mică (<1 kDa), neimunogene izolat, dar capabile să reacționeze cu anticorpii specifici. Ele devin imunogene numai prin conjugare covalentă cu o moleculă carrier (de regulă o proteină)."
+    "explanation": "Diagnosticul oxiurozei se pune prin amprenta anală (tehnica Graham cu bandă celofan adezivă): femela de Enterobius vermicularis migrează noaptea și depune ouăle pe pliurile perianale; recoltarea se face dimineața devreme, înainte de defecație și toaleta locală."
   },
   {
     "id": 16,
-    "category": "Antigene & Imunogenitate",
-    "type": "single",
-    "text": "De ce majoritatea medicamentelor de sinteză au o greutate moleculară mai mică de 1 kDa?",
+    "category": "Microscopie & Colorații",
+    "type": "multiple",
+    "text": "Care sunt metodele microscopice obligatorii pentru diagnosticul de laborator al malariei (Plasmodium spp.) în sângele periferic? (Selectați variantele corecte)",
     "options": [
-      "Pentru a fi eliminate mai rapid pe cale biliară.",
-      "Pentru a nu fi percepute ca imunogene de către sistemul imunitar al gazdei.",
-      "Pentru a stimula proliferarea limfocitelor NK.",
-      "Pentru a activa calea lectinelor a complementului.",
-      "Pentru a preveni degradarea lor de către lizozim."
+      "Picătura groasă (permite concentrarea paraziților dintr-un volum mai mare de sânge și depistarea infecției chiar la densități parazitare mici).",
+      "Frotiul subțire de sânge (permite aprecierea morfologiei parazitului, a trofozoiților, schizonților, gametociților și identificarea speciei exacte de Plasmodium).",
+      "Colorarea preparatelor cu tehnica May-Grünwald Giemsa.",
+      "Colorarea preparatului exclusiv cu tuș de China.",
+      "Însămânțarea sângelui pe mediu agar MacConkey la 42°C."
     ],
     "correct": [
-      1
+      0,
+      1,
+      2
     ],
-    "explanation": "Medicamentele au de regulă GM < 1 kDa special pentru a nu fi recunoscute ca imunogene și pentru a evita apariția reacțiilor imunologice adverse. Dacă se cuplează accidental cu proteine self, pot acționa ca haptene, declanșând alergii."
+    "explanation": "Examenul parazitologic al sângelui pentru malarie combină picătura groasă (metodă de concentrare pentru depistare rapidă) cu frotiul subțire (pentru diagnosticul precis de specie: P. falciparum, P. vivax, etc.), ambele colorate Giemsa."
   },
   {
     "id": 17,
-    "category": "Antigene & Imunogenitate",
-    "type": "multiple",
-    "text": "În legătură cu antigenele sechestrate și barierele imune, care afirmații sunt ADEVĂRATE? (Alegeți variantele corecte)",
+    "category": "Structura Celulei Bacteriene",
+    "type": "single",
+    "text": "Care este componenta structurală fundamentală a ribozomilor bacterieni 70S utilizată pe scară largă în taxonomie și identificare filogenetică prin secvențiere genetică?",
     "options": [
-      "Sunt structuri separate fizic/anatomic de sistemul imunitar în cursul dezvoltării embrionare.",
-      "Un traumatism la nivelul unui ochi poate elibera proteine sechestrate în circulație.",
-      "Răspunsul imun declanșat împotriva proteinelor oculare eliberate poate ataca ochiul congener sănătos, determinând uveita simpatică.",
-      "Camera anterioară a ochiului, creierul și testiculele sunt considerate zone cu privilegiu imun.",
-      "Antigenele sechestrate induc în mod normal toleranță centrală masivă în măduvă."
+      "Molecula de ADN plasmidic circular.",
+      "Molecula de ARN ribozomal 16S (ARNr 16S din subunitatea mică 30S).",
+      "Lanțul lipidic A din endotoxină.",
+      "Polimerul de acid poli-D-glutamic.",
+      "Proteina flagelină din corpul bazal."
     ],
     "correct": [
-      0,
-      1,
-      2,
-      3
+      1
     ],
-    "explanation": "Antigenele sechestrate sunt ferite anatomic de contactul cu limfocitele în timpul selecției clonale. Ruperea barierei prin traumatism (ex: ocular) expune aceste structuri, generând un răspuns autoimun agresiv la ambii ochi (uveita simpatică)."
+    "explanation": "ARNr 16S (parte a subunității ribozomale mici 30S a procariotelor) conține secvențe înalt conservate și regiuni hipervariabile specifice fiecărei specii, fiind reperul de aur în clasificarea și identificarea filogenetică moleculară a bacteriilor."
   },
   {
     "id": 18,
-    "category": "Antigene & Imunogenitate",
-    "type": "single",
-    "text": "O grefă de țesut transferată între doi gemeni monozigoți (identici genetic) este clasificată drept un transplant cu antigen:",
+    "category": "Structura Celulei Bacteriene",
+    "type": "multiple",
+    "text": "Care sunt caracteristicile esențiale ale membranei citoplasmatice a bacteriilor? (Selectați variantele corecte)",
     "options": [
-      "Autolog",
-      "Singeneic (izogen)",
-      "Alogeneic",
-      "Xenogeneic",
-      "Heterofil"
+      "Este alcătuită dintr-un dublu strat fosfolipidic în care sunt inserate proteine funcționale (modelul mozaicului fluid).",
+      "NU conține steroli (colesterol), cu excepția notabilă a bacteriilor din genul Mycoplasma care încorporează steroli din gazdă.",
+      "Este sediul fosforilării oxidative și a generării de ATP (înlocuind rolul mitocondriilor care lipsesc la procariote).",
+      "Participă activ la biosinteza peptidoglicanului și conține proteinele ce leagă penicilinele (PBP).",
+      "Este responsabilă de acido-alcoolo-rezistența demonstrată prin colorația Ziehl-Neelsen."
     ],
     "correct": [
-      1
+      0,
+      1,
+      2,
+      3
     ],
-    "explanation": "Antigenele singeneice provin de la indivizi identici din punct de vedere genetic (gemeni univitelini / monozigoți sau linii pure consangvinizate de animale). Autolog = același individ; Alogeneic = membri diferiți ai aceleiași specii; Xenogeneic = specii diferite."
+    "explanation": "Membrana citoplasmatică bacteriană este lipsită de steroli (cu excepția Mycoplasma), realizează transportul de electroni și sinteza de ATP, și conține transpeptidazele PBP. Acido-alcoolo-rezistența este o proprietate a peretelui celular (acizi micolici), nu a membranei."
   },
   {
     "id": 19,
-    "category": "Antigene & Imunogenitate",
-    "type": "multiple",
-    "text": "Care dintre următoarele modificări structurale cresc semnificativ imunogenitatea unei proteine simple sau a unui polipeptid? (Alegeți variantele corecte)",
+    "category": "Structura Celulei Bacteriene",
+    "type": "single",
+    "text": "Din ce componente chimice de bază este alcătuit peptidoglicanul (mureina) peretelui celular bacterian?",
     "options": [
-      "Adăugarea unei grupări chimice precum dinitrofenolul (DNP).",
-      "Încorporarea de aminoacizi aromatici (ex: tirozină, fenilalanină).",
-      "Creșterea heterogenității prin utilizarea de copolimeri alcătuiți din mai mulți aminoacizi diferiți.",
-      "Înlocuirea L-aminoacizilor cu D-aminoacizi sintetici.",
-      "Transformarea moleculei dintr-o formă insolubilă agregată într-o formă solubilă monomerică de 500 Da."
+      "Lanțuri liniare de glucoză unite prin punți fosfodiesterice.",
+      "Lanțuri paralele de polizaharide formate din N-acetilglucozamină (NAG) și acid N-acetilmuramic (NAM) unite prin legături beta(1-4), reticulate prin punți tetrapeptidice.",
+      "Acizi micolici esterificați cu trehaloză.",
+      "Polimeri puri de ergosterol și chitină.",
+      "Fosfolipide asimetrice asociate cu glicoproteine gp120."
     ],
     "correct": [
-      0,
-      1,
-      2
+      1
     ],
-    "explanation": "Complexitatea chimică crește imunogenitatea: adăugarea de DNP, introducerea aminoacizilor aromatici sau copolimerizarea amplifică recunoașterea. D-aminoacizii scad sau anulează imunogenitatea (lipsă degradabilitate), iar moleculele insolubile sunt mai imunogene decât monomerii solubili mici."
+    "explanation": "Peptidoglicanul constă dintr-un schelet carbohidrat format din alternanța subunităților de NAG și NAM legate beta(1-4), consolidate prin tetrapeptide legate de acidul muramic și unite transversal prin reacția de transpeptidare."
   },
   {
     "id": 20,
-    "category": "Antigene & Imunogenitate",
-    "type": "single",
-    "text": "Lipopolizaharidul (LPS) și polizaharidul capsular pneumococic prezintă proprietatea remarcabilă de a:",
+    "category": "Structura Celulei Bacteriene",
+    "type": "multiple",
+    "text": "Ce caracteristici diferențiază peretele celular al bacteriilor Gram-pozitive de cel al bacteriilor Gram-negative? (Selectați variantele corecte)",
     "options": [
-      "Fi procesate exclusiv în calea citosolică a MHC I.",
-      "Stimula limfocitele B în mod direct, trecând peste ajutorul limfocitelor T helper (antigene T-independente).",
-      "Activa exclusiv limfocitele T citotoxice CD8+.",
-      "Fi degradate instantaneu fără a lăsa memorie imunologică sau secreție de anticorpi.",
-      "Inhiba ireversibil fosforilarea tirozin-kinazei ZAP-70."
+      "Peretele Gram-pozitiv conține un strat gros de peptidoglican (40-90% din masa uscată) asociat cu acizi teicoici și lipoteicoici.",
+      "Peretele Gram-negativ conține un strat subțire de peptidoglican (5-10%) localizat în spațiul periplasmic.",
+      "Peretele Gram-negativ posedă o membrană externă asimetrică ce conține lipopolizaharid (LPS / endotoxină) și porine.",
+      "Bacteriile Gram-pozitive au un spațiu periplasmic larg și o cantitate uriașă de endotoxină (LPS).",
+      "Membrana externă a bacteriilor Gram-negative este ancorată de peptidoglican prin intermediul lipoproteinei Braun."
     ],
     "correct": [
-      1
+      0,
+      1,
+      2,
+      4
     ],
-    "explanation": "LPS și polizaharidul pneumococic sunt antigene T-independente: prezintă epitopi repetați care leagă încrucișat multiple BCR-uri pe suprafața limfocitelor B, activându-le direct, fără necesitatea cooperării cu limfocitele Th."
+    "explanation": "Bacteriile Gram-pozitive au un perete gros de peptidoglican cu acizi teicoici/lipoteicoici, dar NU au membrană externă și NU au LPS. LPS-ul și membrana externă ancorată de Braun aparțin exclusiv bacteriilor Gram-negative."
   },
   {
     "id": 21,
-    "category": "Antigene & Imunogenitate",
+    "category": "Structura Celulei Bacteriene",
     "type": "single",
-    "text": "Prin ce sistem molecular specializat pot fi prezentate antigenele lipidice limfocitelor sistemului imunitar?",
+    "text": "Care componentă chimică a Lipopolizaharidului (LPS) din membrana externă a bacteriilor Gram-negative este responsabilă de activitatea sa toxică (endotoxică)?",
     "options": [
-      "Prin moleculele clasice HLA-A și HLA-B.",
-      "Prin familia moleculelor neclasice CD1.",
-      "Prin receptorul scavenger MARCO.",
-      "Prin complexul C1qrs al complementului.",
-      "Prin receptorul pentru transferină."
+      "Antigenul somatic O (lanțul specific O)",
+      "Miezul polizaharidic (Core R)",
+      "Lipidul A",
+      "Porina trimerică OmpA",
+      "Lipoproteina Braun"
     ],
     "correct": [
-      1
+      2
     ],
-    "explanation": "Antigenele lipidice și glicolipidice (de exemplu cele din peretele micobacteriilor) nu pot fi ancorate în fanta clasică a MHC I/II, ci sunt prezentate prin intermediul familiei de molecule CD1 (CD1a-e)."
+    "explanation": "Lipidul A este porțiunea fosfolipidică toxică a moleculei de LPS (endotoxină). El se leagă de receptorul TLR4 de pe macrofage și declanșează eliberarea masivă de TNF-alfa, IL-1 și IL-6, provocând febră, vasodilatație, CID și șoc septic endotoxinic."
   },
   {
     "id": 22,
-    "category": "Antigene & Imunogenitate",
-    "type": "multiple",
-    "text": "În ce condiții patologice pot deveni acizii nucleici (ADN, ARN) ținte ale unui răspuns imun distructiv? (Alegeți variantele corecte)",
+    "category": "Structura Celulei Bacteriene",
+    "type": "single",
+    "text": "Prin ce particularitate unică se remarcă capsula bacteriei Bacillus anthracis (bacilul cărbunelui) comparativ cu majoritatea covârșitoare a celorlalte bacterii capsulate?",
     "options": [
-      "Când se combină cu proteine purtătoare (carrier) în contextul bolilor autoimune, precum Lupusul Eritematos Sistemic (LED).",
-      "În mod spontan la toți indivizii sănătoși după ingestia de carbohidrați.",
-      "Când generează anticorpi antinucleari (ANA) și anti-ADN dublucatenar.",
-      "Când sunt clivați complet de către RNase L în salivă.",
-      "Când mimează structura capsulei de pneumococ."
+      "Este alcătuită exclusiv din acid hialuronic.",
+      "Este de natură polipeptidică (polimer de acid poli-D-glutamic), spre deosebire de natura polizaharidică a celorlalte capsule.",
+      "Se colorează intens în verde în colorația Gram.",
+      "Este alcătuită din lipopolizaharid cu conținut ridicat de lipid A.",
+      "Nu are rol antifagocitar, ci exclusiv de mobilitate."
     ],
     "correct": [
-      0,
-      2
+      1
     ],
-    "explanation": "Acizii nucleici puri sunt neimunogeni; totuși, complexați cu proteine nucleare (histone, ribonucleoproteine), devin imunogene patologice în LED, stimulând sinteza de anticorpi anti-ADN dc."
+    "explanation": "Bacillus anthracis reprezintă marea excepție din microbiologie: capsula sa nu este polizaharidică, ci este un polipeptid format exclusiv din reziduuri de acid poli-D-glutamic, cu efect antifagocitar major."
   },
   {
     "id": 23,
-    "category": "Antigene & Imunogenitate",
-    "type": "single",
-    "text": "Care este rolul 'degradabilității' enzimatice a unui antigen în declanșarea răspunsului imun adaptativ?",
+    "category": "Structura Celulei Bacteriene",
+    "type": "multiple",
+    "text": "Care sunt funcțiile și proprietățile capsulei bacteriene? (Selectați variantele corecte)",
     "options": [
-      "Permite celulelor prezentatoare de antigen (APC) să proceseze proteinele în peptide mici pentru a fi expuse în cupa MHC și recunoscute de celulele T.",
-      "Asigură transformarea antigenului în glicogen de depozit.",
-      "Permite polimerizarea moleculelor de clatrină în plasmocit.",
-      "Previne orice activare a limfocitelor B din ganglionii limfatici.",
-      "Blochează secreția de interferon gamma."
+      "Reprezintă un factor major de virulență prin inhibarea fagocitozei de către leucocite.",
+      "Favorizează aderența bacteriilor la celulele gazdei sau la dispozitive medicale.",
+      "Protejează bacteria împotriva desicării în mediul extern.",
+      "Este o structură inconstantă (facultativă), a cărei pierdere nu afectează viabilitatea bacteriei în laborator.",
+      "Este strict necesară pentru realizarea respirației celulare și a fosforilării oxidative."
     ],
     "correct": [
-      0
+      0,
+      1,
+      2,
+      3
     ],
-    "explanation": "Pentru activarea limfocitelor T, antigenul proteic trebuie captat de APC, supus proteolizei controlate (procesare) și exprimat pe membrană sub formă de peptide fixate în fanta MHC. Substanțele complet nedegradabile induc granuloame cronice de corp străin."
+    "explanation": "Capsula protejează de fagocitoză, ajută aderența și protejează de desicare, dar este o structură facultativă (neesențială pentru viață in vitro). Fosforilarea oxidativă are loc în membrana citoplasmatică."
   },
   {
     "id": 24,
-    "category": "Condiții de Administrare & Adjuvanți",
-    "type": "multiple",
-    "text": "Care dintre următoarele căi de administrare a unui imunogen sunt utilizate experimental sau clinic pentru a favoriza stimularea imună? (Alegeți variantele corecte)",
+    "category": "Structura Celulei Bacteriene",
+    "type": "single",
+    "text": "Bacteriile dotate cu flageli inserați pe întreaga suprafață a corpului bacterian (precum Escherichia coli, Proteus sau Salmonella) se numesc:",
     "options": [
-      "Calea subcutanată (s.c.) – drenează în ganglionii limfatici regionali proximali.",
-      "Calea intramusculară (i.m.) – utilizată pe scară largă pentru vaccinurile solubile umane.",
-      "Calea intraperitoneală (i.p.) – eficientă în modele animale pentru imunogene celulare sau bacteriene.",
-      "Calea intravenoasă (i.v.) – de cele mai multe ori evitată deoarece duce antigenul direct în splină și poate induce toleranță.",
-      "Orice cale care șuntează complet celulele prezentatoare de antigen."
+      "Bacterii monotriche",
+      "Bacterii lofotriche",
+      "Bacterii amfitriche",
+      "Bacterii peritriche",
+      "Bacterii atriche"
     ],
     "correct": [
-      0,
-      1,
-      2,
       3
     ],
-    "explanation": "Căile optime sunt cele parenterale (s.c., i.m., i.p.) care optimizează întâlnirea cu APC locale. Calea i.v. este în general evitată, iar șuntarea APC nu este recomandată deoarece compromite prezentarea către limfocitele T."
+    "explanation": "Dispunerea peritrichă descrie prezența a numeroși flageli distribuiți uniform pe toată suprafața celulei bacteriene. Monotrich = 1 flagel polar (Vibrio cholerae, Pseudomonas); Lofotrich = smoc la un pol; Amfitrich = flageli la ambii poli."
   },
   {
     "id": 25,
-    "category": "Condiții de Administrare & Adjuvanți",
+    "category": "Structura Celulei Bacteriene",
     "type": "multiple",
-    "text": "Prin ce mecanisme acționează adjuvanții imunologici? (Alegeți variantele corecte)",
+    "text": "Ce substanță chimică specifică și în concentrație mare se găsește în protoplastul (miezul) endosporului bacterian și este esențială pentru termorezistența sa extremă?",
     "options": [
-      "Prelungirea persistenței antigenului la locul injectării prin eliberare lentă.",
-      "Amplificarea semnalelor costimulatoare (creșterea expresiei B7 și secreției de IL-1).",
-      "Formarea de granuloame inflamatorii locale ce concentrează celulele imune.",
-      "Stimularea nespecifică a proliferării limfocitare.",
-      "Transformarea unei substanțe neantigenice într-o enzimă litică."
+      "Dipicolinatul de calciu (acid dipicolinic asociat cu ioni de Ca2+)",
+      "Proteinele SASP (Small Acid-Soluble Proteins) legate de ADN",
+      "Acidul lipoteicoic",
+      "Ergosterolul membranar",
+      "Fuxina fenicată"
     ],
     "correct": [
       0,
-      1,
-      2,
-      3
+      1
     ],
-    "explanation": "Adjuvanții acționează prin formare de depozit tisular (eliberare lentă), inducerea costimulării pe APC, recrutare celulară granulomatoasă și stimulare nespecifică. Ei nu conferă antigenitate substanțelor inerte."
+    "explanation": "Termorezistența sporului se datorează deshidratării miezului (10-25% apă), prezenței complexe de dipicolinat de calciu (până la 10-15% din greutatea uscată a sporului) și proteinelor SASP care protejează ADN-ul împotriva denaturării termice și razelor UV."
   },
   {
     "id": 26,
-    "category": "Condiții de Administrare & Adjuvanți",
+    "category": "Structura Celulei Bacteriene",
     "type": "single",
-    "text": "Ce conține Adjuvantul Complet Freund (CFA) și care este restricția sa de utilizare?",
+    "text": "Care este diferența funcțională majoră dintre fimbriile (pilii) comune și fimbriile (pilii) sexuali?",
     "options": [
-      "Conține sulfat de aluminiu și este folosit de rutină în vaccinarea copiilor.",
-      "Conține o suspensie de micobacterii omorâte (*Mycobacterium tuberculosis*) într-o emulsie uleioasă și se utilizează doar în cercetare animală, exclusiv la prima administrare.",
-      "Conține toxoid tetanic purificat și se administrează trimestrial.",
-      "Conține lipopolizaharid recombinat și se administrează intravenos.",
-      "Conține carbohidrați din grupul sanguin AB0."
+      "Pilii comuni conferă mobilitate prin rotație rapidă, iar pilii sexuali conferă rezistență la uscăciune.",
+      "Pilii comuni sunt numeroși și au rol de adezine celulare pentru colonizare, în timp ce pilul sexual (1-4/celulă) codificat de plasmidul F realizează contactul fizic și transferul de ADN în timpul conjugării.",
+      "Pilii sexuali sunt prezenți doar la bacteriile Gram-pozitive sporulate.",
+      "Pilii comuni sunt alcătuiți din peptidoglican, iar pilii sexuali din lipopolizaharid.",
+      "Pilii sexuali asigură protecția împotriva fagocitozei."
     ],
     "correct": [
       1
     ],
-    "explanation": "CFA conține micobacterii omorâte în ulei mineral; induce reacții inflamatorii granulomatoase necrozante severe și ulcerații, fiind interzis la om și limitat strict la prima injectare în protocoalele de cercetare pe animale."
+    "explanation": "Fimbriile comune (în număr de sute) sunt responsabile de aderența specifică la receptorii celulari epiteliali (factor de virulență), în timp ce pilii sexuali (mai lungi, 1-4 per celulă) sunt codificați de plasmidul F și conectează bacteria donor la bacteria receptor pentru transferul genetic prin conjugare."
   },
   {
     "id": 27,
-    "category": "Condiții de Administrare & Adjuvanți",
+    "category": "Structura Celulei Bacteriene",
     "type": "multiple",
-    "text": "Care dintre următoarele microorganisme sau fracțiuni bacteriene sunt utilizate ca adjuvanți imunologici? (Alegeți variantele corecte)",
+    "text": "În ce condiții un biofilm bacterian (de exemplu format de Staphylococcus epidermidis sau Pseudomonas aeruginosa pe catetere ori proteze) devine o problemă medicală gravă? (Selectați variantele corecte)",
     "options": [
-      "Bacillus Calmette-Guérin (BCG)",
-      "Corynebacterium parvum",
-      "Bordetella pertussis",
-      "Muramyl dipeptid sintetic (MDP)",
-      "Lipopolizaharidul (LPS)"
+      "Bacteriile din biofilm sunt protejate de o matrice de exopolizaharide autogenerată care împiedică penetrarea antibioticelor și a anticorpilor.",
+      "Bacteriile din profunzimea biofilmului au un metabolism redus (stare persistentă), devenind de până la 1000 de ori mai rezistente la antibiotice decât celulele planctonice.",
+      "Biofilmul poate elibera periodic celule bacteriene în circulație, provocând bacteriemii recurente și embolii septice.",
+      "De cele mai multe ori, eradicarea unei infecții asociate de biofilm pe un dispozitiv protetic necesită îndepărtarea chirurgicală a dispozitivului.",
+      "Biofilmele sunt distruse complet și instantaneu prin simpla spălare cu ser fiziologic steril."
     ],
     "correct": [
       0,
       1,
       2,
-      3,
-      4
+      3
     ],
-    "explanation": "Toate aceste structuri microbiene sunt adjuvanți clasici recunoscuți de PRR, stimulând macrofagele și celulele dendritice să exprime molecule costimulatoare și citokine proinflamatorii."
+    "explanation": "Biofilmele creează o barieră fizico-chimică de exopolizaharid ce împiedică accesul leucocitelor și antibioticelor, adăpostesc celule cu rată metabolică scăzută (persisters) și duc adesea la eșecul antibioterapiei, necesitând extragerea cateterului sau a protezei."
   },
   {
     "id": 28,
-    "category": "Epitopi B vs. Epitopi T",
+    "category": "Medii de Cultură",
     "type": "single",
-    "text": "Epitopii recunoscuți de receptorii limfocitelor B (BCR / anticorpi) sunt caracterizați prin:",
+    "text": "Ce concentrație uzuală de agar-agar este utilizată pentru obținerea mediilor de cultură solide (în plăci Petri sau tuburi înclinate)?",
     "options": [
-      "Localizare internă, în miezul hidrofob al proteinei.",
-      "Compunere din aminoacizi hidrofilici dispuși pe suprafața tridimensională a moleculei native.",
-      "Necesitatea asocierii obligatorii cu beta-2-microglobulina.",
-      "Faptul că sunt compuși exclusiv din secvențe liniare de 8-10 aminoacizi.",
-      "Imposibilitatea de a fi conformaționali."
+      "0.05% - 0.1%",
+      "0.2% - 0.5%",
+      "1.5% - 2.0%",
+      "10% - 15%",
+      "50%"
+    ],
+    "correct": [
+      2
+    ],
+    "explanation": "Mediile solide conțin 1.5 - 2% agar (polizaharid extras din alge marine, inert metabolic, care se topește la 95-100°C și se solidifică la 42-45°C). Mediile semisolide conțin 0.2-0.5% agar (utilizate pentru studiul mobilității)."
+  },
+  {
+    "id": 29,
+    "category": "Medii de Cultură",
+    "type": "multiple",
+    "text": "Care dintre următoarele medii de cultură sunt clasificate drept MEDII SELECTIVE? (Selectați variantele corecte)",
+    "options": [
+      "Mediul Chapman (agar cu 7.5% NaCl și manitol pentru izolarea selectivă a stafilococilor).",
+      "Mediul MacConkey (conține săruri biliare și cristal violet care inhibă bacteriile Gram-pozitive, selectând bacilii Gram-negativi).",
+      "Mediul Sabouraud cu cloramfenicol (selectiv pentru cultivarea fungilor / levurilor prin inhibarea bacteriilor).",
+      "Agarul simplu nutritiv.",
+      "Bulionul simplu peptonat."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Mediile selective conțin agenți inhibitori (NaCl în concentrație mare, săruri biliare, coloranți sau antibiotice) care permit doar creșterea anumitor microorganisme, inhibând restul florei. Chapman, MacConkey și Sabouraud sunt medii selective clasice."
+  },
+  {
+    "id": 30,
+    "category": "Medii de Cultură",
+    "type": "single",
+    "text": "Prin ce se deosebește agarul-chocolat de agarul-sânge proaspăt și pentru ce bacterii fastidioase este de neînlocuit?",
+    "options": [
+      "Conține pulbere de cacao și se folosește doar pentru cultivarea bacilului tetanic.",
+      "Este preparat prin încălzirea sângelui la 80°C, ceea ce eliberează factorii X (hemina) și V (NAD), fiind esențial pentru Haemophilus influenzae și Neisseria spp.",
+      "Este un mediu strict anaerob lipsit de aminoacizi.",
+      "Conține 20% NaCl pentru selectarea streptococilor hemolitici.",
+      "Este utilizat exclusiv pentru izolarea virusurilor respiratorii."
     ],
     "correct": [
       1
     ],
-    "explanation": "Epitopii B sunt situați la suprafața accesibilă a macromoleculei, sunt hidrofili și pot fi conformaționali (apropiați prin plierea 3D) sau secvențiali (continui)."
-  },
-  {
-    "id": 29,
-    "category": "Epitopi B vs. Epitopi T",
-    "type": "multiple",
-    "text": "Ce trăsături definesc epitopii recunoscuți de limfocitele T (TCR)? (Alegeți variantele corecte)",
-    "options": [
-      "Sunt de cele mai multe ori secvențe scurte de aminoacizi ascunse în interiorul proteinei native.",
-      "Necesită denaturarea și degradarea proteolitică a antigenului de către APC.",
-      "Sunt recunoscuți exclusiv ca peptide oligomerice ancorate în cupa unei molecule MHC (restricție MHC).",
-      "Epitopii T-dominanți sunt determinați de setul specific de alele MHC exprimate de individ.",
-      "Sunt recunoscuți direct din faza fluidă fără contact celular."
-    ],
-    "correct": [
-      0,
-      1,
-      2,
-      3
-    ],
-    "explanation": "Epitopii T sunt interni, liniari, rezultați din procesare și prezentați obligatoriu în fanta MHC în cadrul complexului trimolecular TCR-peptid-MHC. Nu pot fi recunoscuți liberi în soluție."
-  },
-  {
-    "id": 30,
-    "category": "Imunitate Înnăscută & Bariere",
-    "type": "multiple",
-    "text": "Ce caracteristici structurale și chimice conferă pielii umane statutul de barieră primară împotriva infecțiilor? (Alegeți variantele corecte)",
-    "options": [
-      "Atinge la om o greutate cumulată de circa 5 kg.",
-      "Epidermul este avascular, format din celule cheratinizate moarte impermeabile la apă.",
-      "Dermul conține glande sebacee care produc sebum cu pH acid (3-6).",
-      "Hipodermul reprezintă o barieră mecanică și termică suplimentară de grăsime.",
-      "Pielea conține o densitate crescută de receptori CD47 solubili în stratul cornos."
-    ],
-    "correct": [
-      0,
-      1,
-      2,
-      3
-    ],
-    "explanation": "Tegumentul cântărește ~5 kg, are epiderm descuamativ impermeabil avascular, sebum acid (pH 3-6) bactericid produs în derm și hipoderm protector. CD47 nu este o moleculă a stratului cornos."
+    "explanation": "Agarul-chocolat se prepară prin încălzirea sângelui defibrinat la 80°C: hematiile se lizează, eliberând factorul X (hemina) și factorul V (nicotinamid-adenin-dinucleotid / NAD), inactivând enzimele degradative. Este esențial pentru bacterii pretențioase nutritive precum Haemophilus și Neisseria."
   },
   {
     "id": 31,
-    "category": "Imunitate Înnăscută & Bariere",
-    "type": "single",
-    "text": "Care este substratul enzimatic hidrolizat specific de către lizozimul din lacrimi, salivă și mucus?",
+    "category": "Medii de Cultură",
+    "type": "multiple",
+    "text": "Care sunt tipurile clasice de hemoliză descrise pe mediul agar-sânge? (Selectați asocierile corecte)",
     "options": [
-      "Legăturile beta(1-4) glicozidice din peptidoglicanul pereților bacterieni.",
-      "Legăturile peptidice din fragmentul Fc al imunoglobulinelor.",
-      "Legătura tioesterică internă a componentei C3.",
-      "Inozitol trifosfatul din membrana neutrofilelor.",
-      "Laminina și fibronectina din joncțiunea dermo-epidermică."
+      "Beta-hemoliză: liză completă a hematiilor, generând o zonă clară, transparentă și luminoasă în jurul coloniei (ex: Streptococcus pyogenes, Staphylococcus aureus).",
+      "Alfa-hemoliză: liză incompletă / parțială a hematiilor cu transformarea hemoglobinei în methemoglobină, generând un halou verzui în jurul coloniei (ex: Streptococcus pneumoniae, streptococi viridans).",
+      "Gamma-hemoliză (ne-hemolitic): absența oricărei modificări sau lize a hematiilor din jurul coloniilor (ex: Enterococcus faecalis).",
+      "Delta-hemoliză: transformarea agarului într-o suspensie neagră ca tăciunele.",
+      "Hemoliza beta este întâlnită doar la virusurile ARN."
     ],
     "correct": [
-      0
+      0,
+      1,
+      2
     ],
-    "explanation": "Lizozimul este o muramidază care hidrolizează legătura beta(1-4) dintre acidul N-acetilmuramic și N-acetilglucozamină din peptidoglicanul peretelui celular bacterian."
+    "explanation": "Pe agar-sânge se disting 3 tipuri majore de hemoliză: beta (completă, clară), alfa (incompletă, verzuie) și gamma (absența hemolizei). Nu există delta-hemoliză în clasificarea streptococilor."
   },
   {
     "id": 32,
-    "category": "Imunitate Înnăscută & Bariere",
+    "category": "Medii de Cultură",
     "type": "single",
-    "text": "Defensinele sunt peptide antimicrobiene secretate de:",
+    "text": "Pe mediul selectiv și diferențial MacConkey, cum se diferențiază bacteriile lactozo-pozitive (ex: Escherichia coli, Klebsiella) de cele lactozo-negative (ex: Salmonella, Shigella)?",
     "options": [
-      "Neutrofile, cheratinocite și celulele epiteliului intestinal.",
-      "Eritrocitele mature anucleate.",
-      "Neuronii din coarnele anterioare ale măduvei.",
-      "Hepatocitele centrolobulare.",
-      "Plasmocitele efectoare secretoare de IgA."
+      "Lactozo-pozitivele formează colonii roz-roșii (prin virarea indicatorului roșu neutru în mediu acid), în timp ce lactozo-negativele formează colonii incolore sau gălbui.",
+      "Lactozo-pozitivele produc un halou albastru fluorescent la lumina UV.",
+      "Lactozo-negativele dizolvă complet agarul producând lichefiere.",
+      "Lactozo-pozitivele se colorează în negru datorită producției de H2S.",
+      "Pe MacConkey nu cresc bacterii Gram-negative, doar coci Gram-pozitivi."
     ],
     "correct": [
       0
     ],
-    "explanation": "Defensinele sunt sintetizate abundent de leucocitele polimorfonucleare (neutrofile) și de celulele epiteliale de la nivelul pielii (cheratinocite) și mucoasei intestinale (celulele Paneth)."
+    "explanation": "Fermentarea lactozei de pe MacConkey eliberează acizi care scad pH-ul; indicatorul roșu neutru virează la roz/roșu intens (colonii lactozo-pozitive: E. coli, Klebsiella). Speciile lactozo-negative (Salmonella, Shigella, Proteus, Pseudomonas) nu fermentează lactoza și formează colonii incolore/translucide."
   },
   {
     "id": 33,
-    "category": "Sistemul Interferonilor",
+    "category": "Medii de Cultură",
     "type": "multiple",
-    "text": "Interferonii de tip I cuprind următoarele molecule polipeptidice și origini celulare: (Alegeți variantele corecte)",
+    "text": "Ce zaharuri și ingrediente biochimice de diferențiere conține mediul politrop TSI (Triple Sugar Iron / Kligler-Hajna)? (Selectați variantele corecte)",
     "options": [
-      "IFN-α: familie de aproximativ 20 de polipeptide sintetizate în special de leucocite.",
-      "IFN-β: sintetizat în principal de fibroblaști.",
-      "IFN-ω: membru al familiei interferonilor de tip I.",
-      "IFN-γ: sintetizat de celulele epiteliale descuamative.",
-      "Interferonii de tip I sunt induși rapid de stimulii virali (ex: ARN dublucatenar)."
+      "Glucoză în concentrație mică (0.1%).",
+      "Lactoză (1.0%) și Zaharoză (1.0%).",
+      "Tiosulfat de sodiu și sulfat feros pentru evidențierea producției de hidrogen sulfurat (H2S -> precipitat negru de FeS).",
+      "Indicatorul de pH roșu fenol (galben în mediu acid, roșu în mediu alcalin).",
+      "Penicilină G pentru selecția bacililor tuberculozei."
     ],
     "correct": [
       0,
       1,
       2,
-      4
+      3
     ],
-    "explanation": "IFN de tip I sunt IFN-α (leucocite), IFN-β (fibroblaști) și IFN-ω, activați de infecțiile virale. IFN-γ este interferonul de tip II (imun), sintetizat de limfocite T și NK."
+    "explanation": "Mediul TSI conține glucoză 0.1%, lactoză 1%, zaharoză 1%, roșu fenol ca indicator și săruri de fier/tiosulfat pentru detecția H2S (precipitat negru). Nu conține antibiotice."
   },
   {
     "id": 34,
-    "category": "Sistemul Interferonilor",
+    "category": "Medii de Cultură",
     "type": "single",
-    "text": "Ce enzimă inductibilă este sintetizată sub acțiunea IFN-α/β și fosforilează factorul eIF-2 pentru a bloca translația virală?",
+    "text": "Care este semnificația reacției pozitive în testul ureazei (mediul MIU sau Christensen), manifestată prin virarea indicatorului în roz-fucsia intens?",
     "options": [
-      "PKR (Protein-Kinaza R)",
-      "NADPH-oxidaza",
-      "Superoxid-dismutaza",
-      "Kalicreina",
-      "Arilsulfataza B"
+      "Bacteria degradează glucoza producând acid lactic.",
+      "Bacteria sintetizează enzima urează, care scindează ureea în amoniac și dioxid de carbon, alcalinizând puternic mediul (ex: Proteus spp., Helicobacter pylori).",
+      "Bacteria formează un pigment carotenoid nedifuzabil.",
+      "Bacteria nu are mobilitate în agar semisolid.",
+      "Bacteria eliberează peroxid de hidrogen."
     ],
     "correct": [
-      0
+      1
     ],
-    "explanation": "PKR (Protein Kinase R) este activată de dsRNA și fosforilează factorul eIF-2, care formează un complex inactiv cu eIF2B, ducând la oprirea completă a sintezei proteice în celula infectată."
+    "explanation": "Enzima urează hidrolizează ureea eliberând amoniac (NH3); amoniacul crește pH-ul (alcalinizare), iar indicatorul de pH (roșu fenol) virează spectaculos spre roz-fucsia aprins (test pozitiv intens la Proteus spp., Klebsiella, Helicobacter pylori)."
   },
   {
     "id": 35,
-    "category": "Sistemul Interferonilor",
+    "category": "Medii de Cultură",
     "type": "multiple",
-    "text": "Prin ce acțiuni biochimice limitează interferonii de tip I replicarea virală? (Alegeți variantele corecte)",
+    "text": "Care dintre următoarele asocieri dintre specia bacteriană și caracterul particular de cultură pe medii solide este CORECTĂ? (Selectați variantele corecte)",
     "options": [
-      "Activarea PKR -> fosforilarea eIF-2 -> scăderea sintezei de proteine.",
-      "Activarea PKR induce RNase L, care distruge ARN-ul viral și celular.",
-      "Creșterea activității proteinei supresoare tumorale p53, stimulând apoptoza celulei infectate.",
-      "Stimularea potențialului litic al celulelor Natural Killer (NK).",
-      "Blocarea completă a expresiei moleculelor MHC de clasă I."
+      "Proteus mirabilis / vulgaris – fenomenul de văl (cățărare în valuri concentrice pe suprafața agarului datorită mobilității peritriche extreme).",
+      "Pseudomonas aeruginosa – produce pigmenți difuzabili în agar: piocianină (albastru) și pioverdină (verde fluorescent), însoțiți de miros caracteristic aromat (de flori de tei / iasomie).",
+      "Staphylococcus aureus – colonii bombate, cremoase, cu pigment carotenoid galben-auriu nedifuzabil (rămâne cantonat în colonie).",
+      "Klebsiella pneumoniae – colonii voluminoase, confluente, puternic mucoase (aspect M) datorită cantității mari de capsulă polizaharidică.",
+      "Streptococcus pneumoniae – formează colonii gigantice uscate cu pigment violet difuzabil în tot mediul."
     ],
     "correct": [
       0,
@@ -639,146 +637,107 @@
       2,
       3
     ],
-    "explanation": "IFN tip I opresc translația (PKR/eIF-2), degradează ARN-ul (RNase L), induc apoptoza (p53), stimulează NK și CRESC (nu blochează) expresia MHC I pentru prezentare către CD8+."
+    "explanation": "Proteus dă fenomen de cățărare/văl; Pseudomonas produce piocianină și pioverdină (difuzabili, agar verde-albăstrui); S. aureus produce pigment auriu nedifuzabil; Klebsiella produce colonii mucoase filante M. Pneumococii formează colonii mici alfa-hemolitice, nu colonii gigantice violete."
   },
   {
     "id": 36,
-    "category": "Proteine de Fază Acută & Antagonism",
+    "category": "Nutriție & Creștere Bacteriană",
     "type": "single",
-    "text": "Ce citokine proinflamatorii secretate de macrofage și neutrofile stimulează hepatocitele să producă proteine de fază acută?",
+    "text": "Cum este clasificată o bacterie de interes medical din punct de vedere al sursei de carbon și de energie utilizate fiziologic?",
     "options": [
-      "IL-1, IL-6 și TNF-α",
-      "IL-10, IL-4 și TGF-β",
-      "Histamina și bradikinina",
-      "Perforinele și granzimele",
-      "Eritropoietina și trombopoietina"
+      "Foto-autotrofă",
+      "Chimio-heterotrofă (organotrofă)",
+      "Foto-heterotrofă",
+      "Chimio-litotrofă obligată",
+      "Termo-autotrofă"
     ],
     "correct": [
-      0
+      1
     ],
-    "explanation": "Triada clasică de citokine proinflamatorii macrofagice (IL-1, IL-6 și TNF-α) acționează asupra ficatului declanșând răspunsul sistemic hepatic de fază acută."
+    "explanation": "Toate bacteriile patogene pentru om sunt chimio-heterotrofe (sau chimio-organotrofe): își procură energia prin oxidarea compușilor chimici și utilizează carbon organic preformat (glucoză, aminoacizi) din țesuturile gazdei."
   },
   {
     "id": 37,
-    "category": "Proteine de Fază Acută & Antagonism",
-    "type": "multiple",
-    "text": "Care dintre următoarele proteine serice sunt Proteine de Fază Acută POZITIVE? (Alegeți variantele corecte)",
+    "category": "Nutriție & Creștere Bacteriană",
+    "type": "single",
+    "text": "Ce deosebește o bacterie prototrofă de o bacterie auxotrofă?",
     "options": [
-      "Proteina C reactivă (PCR)",
-      "Serum amiloidul A (SAA)",
-      "Fibrinogenul",
-      "Ceruloplasmina și haptoglobina",
-      "Albumina și transferina"
+      "Bacteria prototrofă poate sintetiza toți metaboliții esențiali dintr-o sursă simplă de carbon și săruri minerale, în timp ce bacteria auxotrofă a pierdut prin mutație capacitatea de sinteză și necesită adăugarea obligatorie a unor factori de creștere în mediu.",
+      "Bacteria prototrofă este obligatoriu anaerobă, iar auxotrofa este strict aerobă.",
+      "Bacteria auxotrofă se colorează Gram-pozitiv, iar prototrofa Gram-negativ.",
+      "Bacteriile auxotrofe produc întotdeauna endospori.",
+      "Nu există nicio diferență genetică între cele două."
     ],
     "correct": [
-      0,
-      1,
-      2,
-      3
+      0
     ],
-    "explanation": "PCR, SAA, fibrinogenul, ceruloplasmina și haptoglobina cresc marcat în ser în timpul inflamației (pozitive). Albumina și transferina sunt proteine de fază acută negative (scad)."
+    "explanation": "Bacteriile prototrofe (sălbatice) au mașinăria metabolică completă pentru a genera toți aminoacizii și vitaminele necesare. Auxotrofele sunt tulpini mutante dependente de factori de creștere exogeni (vitamine, baze azotate, aminoacizi) adăugați în mediul de cultură."
   },
   {
     "id": 38,
-    "category": "Proteine de Fază Acută & Antagonism",
-    "type": "single",
-    "text": "Care sunt funcțiile biologice majore ale Proteinei C Reactive (PCR)?",
+    "category": "Nutriție & Creștere Bacteriană",
+    "type": "multiple",
+    "text": "Care sunt cele 4 faze succesive ale curbei de creștere a unei populații bacteriene într-un sistem închis (cultură de tip batch)? (Selectați variantele corecte)",
     "options": [
-      "Funcționează ca opsonină (stimulează fagocitoza) și este un activator puternic al complementului pe cale clasică.",
-      "Inhibă ireversibil factorul Hageman al coagulării.",
-      "Blochează degranularea mastocitelor și eozinofilelor.",
-      "Distruge selectiv membrana eritrocitelor tinere.",
-      "Secreta histamină în lumenul capilar."
+      "Faza de lag (de adaptare / latență): numărul de bacterii este constant, volumul celular crește, are loc o sinteză enzimatică intensă.",
+      "Faza logaritmică (exponențială): rata de diviziune este maximă și constantă, numărul de bacterii crește exponențial (2^n), sensibilitatea la antibioticele active pe perete este maximă.",
+      "Faza staționară: rata de multiplicare este egală cu rata de mortalitate, nutrienții se epuizează, metaboliții toxici se acumulează, numărul de bacterii atinge un platou.",
+      "Faza de declin (deces celular): rata de mortalitate depășește rata de diviziune, bacteriile mor și se lizează sub acțiunea propriilor autolizine.",
+      "Faza mitotică: bacteriile realizează meioză reducțională urmată de cariocineză."
     ],
     "correct": [
-      0
+      0,
+      1,
+      2,
+      3
     ],
-    "explanation": "PCR se leagă de fosfocolina de pe pereții microbieni, acționând ca o opsonină eficientă și legând C1q pentru a activa cascada complementului pe calea clasică."
+    "explanation": "Curba clasică de creștere în sistem închis parcurge 4 faze: lag -> logaritmică -> staționară -> declin. Bacteriile se divid prin fisiune binară (sciziparitate), nu prin meioză sau mitoză eucariotă."
   },
   {
     "id": 39,
-    "category": "Proteine de Fază Acută & Antagonism",
-    "type": "multiple",
-    "text": "Prin ce mecanisme asigură flora bacteriană comensală (antagonismul bacterian) protecția împotriva patogenilor? (Alegeți variantele corecte)",
+    "category": "Nutriție & Creștere Bacteriană",
+    "type": "single",
+    "text": "De ce bacteriile strict anaerobe (precum cele din genul Clostridium sau Bacteroides) NU pot supraviețui și crește în prezența oxigenului atmosferic?",
     "options": [
-      "Competiție directă pentru nutrienții esențiali din mediu.",
-      "Ocuparea fizică a situsurilor de legare de pe epiteliu.",
-      "Secreția selectivă de molecule toxice și bactericine.",
-      "Stimularea și menținerea stării de alertă fiziologică a celulelor sistemului imun.",
-      "Sinteza directă de componente C9 ale complementului."
+      "Deoarece peretele lor de peptidoglican se dizolvă instantaneu în aer uscat.",
+      "Deoarece sunt lipsite de enzimele antioxidante esențiale catalaza și superoxid-dismutaza (SOD), acumulând derivați toxici reactivi ai oxigenului (H2O2, anioni superoxid) care le distrug structurile vitale.",
+      "Deoarece ribozomii lor 70S sunt inactivați prin fosforilare în prezența azotului.",
+      "Deoarece flagelii lor peritrichi se coagulează la o tensiune de O2 mai mare de 1%.",
+      "Deoarece oxigenul stimulează germinarea sporilor."
     ],
     "correct": [
-      0,
-      1,
-      2,
-      3
+      1
     ],
-    "explanation": "Microbiota indigenă protejează gazda prin competiție pentru nutrienți, ocuparea nișelor ecologice, secreție de factori antimicrobieni și stimularea tonică a sistemului imunitar."
+    "explanation": "Metabolizarea oxigenului produce radicali liberi toxici (superoxid, peroxid de hidrogen). Bacteriile aerobe au superoxid-dismutază (SOD) și catalază/peroxidază pentru a-i neutraliza. Anaerobii stricți sunt lipsiți de aceste enzime și sunt uciși prin stres oxidativ masiv."
   },
   {
     "id": 40,
-    "category": "Internalizarea Antigenelor & Fagocitoză",
-    "type": "multiple",
-    "text": "Care sunt cele 3 procese responsabile pentru internalizarea macromoleculelor și celulelor străine? (Alegeți variantele corecte)",
+    "category": "Genetică Microbiană",
+    "type": "single",
+    "text": "Ce reprezintă un \"replicon\" în genetica bacteriană?",
     "options": [
-      "Macropinocitoza (internalizarea nespecifică a fluidului extracelular prin macropinozomi).",
-      "Endocitoza mediată de receptori tapetați cu clatrină.",
-      "Fagocitoza (ingestia particulelor cu diametru mai mare de 0,5 µm).",
-      "Transducția de semnal mediată de receptorul Notch-1.",
-      "Recombinarea somatică mediată de RAG-1 și RAG-2."
+      "O proteină de membrană ce transportă glucoza.",
+      "O unitate structurală de ADN capabilă de replicare autonomă independentă in vivo (de exemplu cromozomul bacterian sau plasmidele).",
+      "Un antibiotic secretat de fungii din genul Penicillium.",
+      "O enzimă care degradează penicilinele în spațiul periplasmic.",
+      "Un tip particular de pil sexual inactiv."
     ],
     "correct": [
-      0,
-      1,
-      2
+      1
     ],
-    "explanation": "Cele 3 mecanisme celulare majore de internalizare sunt: macropinocitoza (fază fluidă), endocitoza (dependentă de clatrină) și fagocitoza (particule > 0,5 µm mediate de actină)."
+    "explanation": "Repliconul este definit ca o moleculă sau o secvență de acid nucleic dotată cu o origine de replicare proprie (oriC), capabilă să își comande și să își desfășoare replicarea autonom in vivo (cromozomul și plasmidele bacteriene)."
   },
   {
     "id": 41,
-    "category": "Internalizarea Antigenelor & Fagocitoză",
-    "type": "single",
-    "text": "Fagocitoza este declanșată prin legarea secvențială a multiplilor receptori de suprafață la liganzii particulei, mecanism cunoscut sub numele de:",
-    "options": [
-      "Mecanism de fermoar (zipper mechanism)",
-      "Transcitoză polarizată",
-      "Oligomerizare mitotică",
-      "Comutare de clasă",
-      "Selecție clonală"
-    ],
-    "correct": [
-      0
-    ],
-    "explanation": "Fagocitoza progresează prin înaintarea pseudopodelor membranare în jurul particulei datorită legării succesive a receptorilor membranari de liganzii de pe țintă ('zipper mechanism'), proces guvernat de polimerizarea actinei."
-  },
-  {
-    "id": 42,
-    "category": "Internalizarea Antigenelor & Fagocitoză",
-    "type": "single",
-    "text": "Ce proteină membranară celulară facilitează evenimentele de fuziune și desprindere veziculară prin legarea la fosfolipide în cursul evoluției fagolizozomului?",
-    "options": [
-      "Anexina",
-      "Clatrina",
-      "Properdina",
-      "Albumina",
-      "Kalicreina"
-    ],
-    "correct": [
-      0
-    ],
-    "explanation": "Anexinele sunt proteine solubile dependente de calciu care leagă fosfolipidele membranare și mediază fuziunea fagozomilor cu endozomii și lizozomii pentru formarea fagolizozomului."
-  },
-  {
-    "id": 43,
-    "category": "Bactericidie Intracelulară",
+    "category": "Genetică Microbiană",
     "type": "multiple",
-    "text": "În cadrul mecanismelor oxigen-dependente (burst respirator) ale fagocitelor, ce compuși antimicrobieni iau naștere succesiv? (Alegeți variantele corecte)",
+    "text": "Care sunt proprietățile caracteristice ale plasmidelor bacteriene? (Selectați variantele corecte)",
     "options": [
-      "Anionul superoxid (O2•-) generat de NADPH-oxidază.",
-      "Peroxidul de hidrogen (H2O2) și oxigenul singlet (1O2) generați sub acțiunea SOD.",
-      "Radicalii liberi hidroxil (OH•) rezultați din reacția superoxidului cu apa oxigenată.",
-      "Oxidul nitric (NO) sintetizat din L-arginină de către iNOS.",
-      "Molecula C4b2a a căii clasice."
+      "Sunt molecule circulare mici de ADN dublucatenar extracromozomial cu replicare autonomă.",
+      "Nu sunt strict esențiale pentru supraviețuirea bacteriei în condiții ideale de laborator, dar conferă avantaje selective majore în medii ostile.",
+      "Pot purta gene de rezistență la antibiotice (plasmide R) sau gene de virulență / toxine (plasmide de virulență).",
+      "Pot fi transferate de la o bacterie la alta prin conjugare dacă sunt plasmide conjugative dotate cu factor de transfer (ex: plasmidul F).",
+      "Sunt alcătuite exclusiv din lanțuri de ARN monocatenar cu simetrie helicală."
     ],
     "correct": [
       0,
@@ -786,36 +745,147 @@
       2,
       3
     ],
-    "explanation": "Burst-ul respirator generează specii reactive ale oxigenului: O2•- -> H2O2 + 1O2 -> OH•. Concomitent, activarea iNOS duce la sinteza de oxid nitric (NO) și peroxinitrit."
+    "explanation": "Plasmidele sunt molecule de ADN dublucatenar extracromozomial, repliconi autonomi, neesențiale fiziologic, dar vitale clinic (codează rezistența la antibiotice pe plasmide R, sinteza de toxine, pili sexuali pe plasmidul F)."
+  },
+  {
+    "id": 42,
+    "category": "Genetică Microbiană",
+    "type": "single",
+    "text": "Cum este definit fenomenul de variație fenotipică (modificație) la bacterii?",
+    "options": [
+      "O mutație punctiformă ireversibilă transmisibilă descendenților.",
+      "O adaptare fiziologică reversibilă declanșată de factorii de mediu, care NU modifică structura genomului și NU se transmite ereditar descendenților.",
+      "O recombinare omoloagă mediată de fagi virulenți.",
+      "Transferul unui plasmid R prin intermediul apei.",
+      "Pierderea completă a cromozomului bacterian."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Variația fenotipică reprezintă o modificare temporară, adaptativă și reversibilă a caracterelor unei bacterii ca răspuns la condițiile de mediu (ex: sinteza de flageli la 37°C și pierderea lor la 20°C); genomul rămâne identic, iar modificarea nu se transmite ereditar."
+  },
+  {
+    "id": 43,
+    "category": "Genetică Microbiană",
+    "type": "single",
+    "text": "Ce mecanism de transfer genetic orizontal a fost demonstrat în experimentul istoric al lui Frederick Griffith (1928) pe șoareci inoculați cu Streptococcus pneumoniae?",
+    "options": [
+      "Conjugarea bacteriană mediată de pilul sexual",
+      "Transformarea genetică (preluarea de ADN liber din mediu de către celule competente)",
+      "Transducția specializată mediată de fagul lambda",
+      "Transpoziția simplă prin inserția elementelor IS",
+      "Conversia lizogenică mediată de toxina difterică"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Griffith a descoperit Transformarea: bacteriile R neîncapsulate (avirulente) au preluat ADN liber provenit de la bacteriile S încapsulate omorâte prin căldură, devenind tulpini S virulente capabile să omoare șoarecii. Ulterior, Avery, MacLeod și McCarty (1944) au dovedit că factorul transformator este ADN-ul."
   },
   {
     "id": 44,
-    "category": "Bactericidie Intracelulară",
-    "type": "single",
-    "text": "Ce rol îndeplinește oxidul nitric (NO) derivat din macrofagele activate împotriva patogenilor și celulelor tumorale?",
+    "category": "Genetică Microbiană",
+    "type": "multiple",
+    "text": "Care sunt caracteristicile conjugării bacteriene ca mecanism de transfer orizontal de gene? (Selectați variantele corecte)",
     "options": [
-      "Inhibă sinteza de ADN și afectează metabolismul energetic al celulelor țintă.",
-      "Stimulează polimerizarea fibrelor de colagen în derm.",
-      "Sintetizează lanțurile ușoare lambda ale anticorpilor.",
-      "Accelerează clearance-ul eritrocitar prin intermediul receptorului CR1.",
-      "Produce inactivarea directă a factorului I al complementului."
+      "Necesită contact fizic direct celulă-celulă între bacteria donor și bacteria receptor.",
+      "Este mediată de pilul sexual codificat de genele plasmidului de fertilitate (F).",
+      "Transferul de ADN se realizează într-un singur sens (unidirecțional, de la donorul F+ la receptorul F-).",
+      "După conjugarea cu o bacterie F+, celula receptor F- primește o catenă a plasmidului F, sintetizează catena complementară și devine la rândul său celulă F+ (fertilă).",
+      "Are loc exclusiv în prezența particulelor virale bacteriofagice libere."
     ],
     "correct": [
-      0
+      0,
+      1,
+      2,
+      3
     ],
-    "explanation": "Oxidul nitric este o moleculă gazosă puternic reactivă care alterează proteinele fier-sulf din lanțul respirator și inhibă sinteza de ADN, având efect citostatic și citocid asupra bacteriilor și celulelor tumorale."
+    "explanation": "Conjugarea necesită contact fizic intercelular mediat de pilul sexual (F); donorul F+ transferă o catenă plasmidică spre F-, iar ambele celule devin F+. Nu implică bacteriofagi (fagii intervin doar la transducție)."
   },
   {
     "id": 45,
-    "category": "Celule Efectoare Înăscute",
-    "type": "multiple",
-    "text": "Care sunt denumirile specifice ale macrofagelor în funcție de țesutul în care sunt rezidente? (Alegeți asocierile corecte)",
+    "category": "Genetică Microbiană",
+    "type": "single",
+    "text": "Ce este o celulă bacteriană de tip Hfr (High Frequency of Recombination) și ce se întâmplă în cursul conjugării dintre o celulă Hfr și una F-?",
     "options": [
-      "Histiocite – în țesutul conjunctiv.",
-      "Macrofage alveolare – la nivel pulmonar.",
-      "Celule Kupffer – în ficat.",
-      "Celule mezangiale – în glomerulii renali.",
-      "Microglii – în sistemul nervos central; Osteoclaste – în țesutul osos."
+      "O bacterie lipsită complet de cromozom, care transferă doar proteine de membrană.",
+      "O bacterie la care plasmidul F s-a integrat prin recombinare în cromozomul bacterian; la conjugare, ea inițiază transferul cromozomului bacterian, dar receptorul primește doar gene cromozomiale și rămâne de regulă F-.",
+      "O bacterie infectată cu un fag litic care se divide de 100 de ori mai repede.",
+      "O bacterie rezistentă la toate dezinfectantele pe bază de clor.",
+      "O bacterie care a suferit o deleție totală a genelor de rezistență."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Tulpina Hfr are plasmidul F integrat în cromozomul bacterian. În timpul conjugării, ea transferă gene din cromozomul propriu către bacteria receptor; puntea conjugativă se rupe de regulă înainte de transferul complet al întregului cromozom și al factorului F, astfel încât celula receptor primește caractere noi, dar RĂMÂNE F-."
+  },
+  {
+    "id": 46,
+    "category": "Genetică Microbiană",
+    "type": "multiple",
+    "text": "Care sunt diferențele esențiale dintre Transducția Generalizată și Transducția Specializată? (Selectați variantele corecte)",
+    "options": [
+      "Transducția generalizată este realizată de fagi virulenți (în ciclul litic), unde fragmente oarecare din cromozomul bacterian sunt împachetate accidental în capul fagic; ORICE genă bacteriană poate fi transferată.",
+      "Transducția specializată (restricționată) este realizată de fagi temperați (lizogeni), prin excizia imprecisă a profagului integrat într-un situs specific al cromozomului bacterian.",
+      "În transducția specializată pot fi transferate DOAR genele bacteriene strict adiacente situsului de inserție al profagului (ex: genele gal sau bio la fagul lambda).",
+      "Transducția generalizată necesită contact fizic direct prin pilul sexual între cele două bacterii.",
+      "În transducție, ADN-ul este transportat întotdeauna de către o particulă virală bacteriofagică (vector)."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation": "Transducția este transfer mediat de fagi: generalizată (orice genă, prin fagi litici) vs. specializată (doar genele vecine situsului de inserție, prin fagi temperați la inducție). Nu necesită contact direct între bacterii (contactul fizic direct definește doar conjugarea)."
+  },
+  {
+    "id": 47,
+    "category": "Virusologie",
+    "type": "single",
+    "text": "Care este trăsătura definitorie fundamentală a genomului viral comparativ cu toate organismele celulare procariote și eucariote?",
+    "options": [
+      "Genomul viral conține obligatoriu atât ADN, cât și ARN în aceeași particulă.",
+      "Virusurile conțin un singur tip de acid nucleic în virion: fie ADN, fie ARN, niciodată ambele simultan.",
+      "Genomul viral este format exclusiv din lipopolizaharide.",
+      "Genomul viral conține ribozomi 70S funcționali pentru sinteza proteinelor.",
+      "Virusurile își generează propriul ATP prin ciclul Krebs."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Virusurile sunt entități acelulare stricte care conțin un singur tip de acid nucleic: fie ADN (dezoxiribovirusuri), fie ARN (ribovirusuri), niciodată ambele în aceeași particulă infecțioasă (virion). Sunt lipsite de ribozomi și mecanisme de generare a energiei."
+  },
+  {
+    "id": 48,
+    "category": "Virusologie",
+    "type": "multiple",
+    "text": "Care sunt diferențele de proprietăți fizico-chimice dintre virusurile nude și virusurile anvelopate (cu peplos)? (Selectați variantele corecte)",
+    "options": [
+      "Virusurile nude (neanvelopate) au doar nucleocapsidă proteică și sunt mult mai rezistente la factorii de mediu extern, uscăciune, acizi biliari și solvenți lipidici.",
+      "Virusurile nude se transmit frecvent pe cale fecal-orală (ex: Enterovirusuri, Poliovirus, Rotavirus, Virusul Hepatitei A).",
+      "Virusurile anvelopate au un înveliș lipidic derivat din membranele gazdei, fiind extrem de sensibile la eter, alcool, detergenți, căldură și uscăciune.",
+      "Virusurile anvelopate necesită transmitere prin contact direct intim, secreții respiratorii sau sânge (ex: HIV, Virusul Gripal, Virusurile Herpetice, SARS-CoV-2).",
+      "Virusurile anvelopate rezistă săptămâni întregi în sucul gastric acid cu pH 1.5."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Anvelopa lipidică face virusurile fragile la uscăciune, eter, detergenți și aciditate gastrică, impunând transmiterea prin fluide/picături. Virusurile nude, protejate de capsida proteică densă, rezistă în tractul digestiv și se transmit fecal-oral."
+  },
+  {
+    "id": 49,
+    "category": "Virusologie",
+    "type": "multiple",
+    "text": "Care sunt etapele ciclului de replicare a unui virus într-o celulă gazdă receptivă și permisivă? (Selectați ordinea logică și etapele corecte)",
+    "options": [
+      "Adsorbția (atașarea liganzilor virali la receptori celulari specifici).",
+      "Penetrarea virionului în celulă (prin fuziune membranară sau endocitoză/viropexie).",
+      "Decapsidarea (eliberarea acidului nucleic viral în citoplasmă sau nucleu).",
+      "Sinteza macromoleculară (transcripția ARNm, translația proteinelor timpurii/tardive și replicarea genomului).",
+      "Morfogeneza (asamblarea noilor virioni) și eliberarea lor din celulă (prin înmugurire sau liză)."
     ],
     "correct": [
       0,
@@ -824,169 +894,89 @@
       3,
       4
     ],
-    "explanation": "Toate asocierile reprezintă nomenclatura anatomică clasică a celulelor Sistemului Fagocitar Mononuclear provenite din diferențierea monocitelor sanguine în țesuturi."
+    "explanation": "Ciclul replicativ viral cuprinde succesiunea: adsorbție specifică -> penetrare -> decapsidare -> biosinteză (faza de eclipsă: proteine și acizi nucleici) -> asamblare (morfogeneză) -> eliberare (prin liză la nude sau înmugurire la anvelopate)."
   },
   {
-    "id": 46,
-    "category": "Celule Efectoare Înăscute",
+    "id": 50,
+    "category": "Virusologie",
     "type": "single",
-    "text": "Care sunt celulele considerate 'Celule Prezentatoare de Antigen (APC) profesionale'?",
+    "text": "Ce reprezintă Efectul Citopatic (ECP) observat la microscopul inversat în culturile de celule infectate cu un virus?",
     "options": [
-      "Celulele dendritice, macrofagele și limfocitele B.",
-      "Neutrofilele, eozinofilele și bazofilele.",
-      "Hematiile, trombocitele și celulele endoteliale.",
-      "Fibroblaștii, osteoblastele și condrocitele.",
-      "Enterocitele și celulele caliciforme."
+      "Multiplicarea masivă a bacteriilor contaminante în mediul de cultură.",
+      "Modificările morfologice degenerative specifice produse de multiplicarea virală în celulele monostratului (rotunjire, detașare, liză, sincitii, vacuolizare).",
+      "Creșterea ratei mitotice a celulelor epiteliale fără moarte celulară.",
+      "Precipitarea sărurilor minerale din serul de vițel fetal.",
+      "Colorarea în roșu a indicatorului de pH."
     ],
     "correct": [
-      0
+      1
     ],
-    "explanation": "APC-urile profesionale sunt celulele dendritice (cele mai puternice), macrofagele și limfocitele B, caracterizate prin exprimarea constitutivă a moleculelor MHC II și a costimulatorilor (CD80/CD86)."
+    "explanation": "Efectul citopatic (ECP) constă în totalitatea modificărilor degenerative vizibile la microscop pe care un virus le induce în cultura de celule gazdă: rotunjirea celulelor, balonizare, detașare de pe sticlă, formarea de celule gigante multinucleate (sincitii) sau corpi de incluzie."
   },
   {
-    "id": 47,
-    "category": "Celule Efectoare Înăscute",
+    "id": 51,
+    "category": "Virusologie",
     "type": "multiple",
-    "text": "În legătură cu mastocitele și activarea lor în inflamație și alergii, care afirmații sunt ADEVĂRATE? (Alegeți variantele corecte)",
+    "text": "Ce corpi de incluzie celulari caracteristici diagnosticului microscopic pot fi evidențiați în cursul unor infecții virale? (Selectați variantele corecte)",
     "options": [
-      "Precursorii lor se formează în măduva osoasă și sunt eliberați în torent ca celule nediferențiate.",
-      "Se diferențiază exclusiv în țesuturi: mastocite de mucoase (MMC) și de țesut conjunctiv (CTMC).",
-      "Exprimă receptori de mare afinitate pentru Fc al IgE, capabili să lege molecule de IgE monomerice libere.",
-      "Activarea indusă de legarea antigenului determină o scădere marcată a cAMP intracelular, conducând la degranulare.",
-      "Nu pot fi activate niciodată de componente ale complementului."
-    ],
-    "correct": [
-      0,
-      1,
-      2,
-      3
-    ],
-    "explanation": "Mastocitele se maturează în țesuturi, leagă IgE liberă prin FcεRI, iar cuplarea antigenului scade cAMP-ul și provoacă degranularea. Ele POT fi activate și independent de IgE, prin anafilatoxine (C3a, C5a) sau kinine."
-  },
-  {
-    "id": 48,
-    "category": "Celule Efectoare Înăscute",
-    "type": "multiple",
-    "text": "Ce conțin granulațiile eozinofilelor și cum participă la apărarea antiparazitară? (Alegeți variantele corecte)",
-    "options": [
-      "Miezul granulei conține MBP (Major Basic Protein).",
-      "Matricea granulei conține ECP (Proteina Cationică Eozinofilică) și EPO (Peroxidaza Eozinofilică).",
-      "Conțin enzime precum arilsulfataza B, fosfolipaza C și histaminaza.",
-      "Helminții tapetați cu fragmentul C3b al complementului permit aderența eozinofilelor și degranularea MBP pe membrana parazitului.",
-      "Granulațiile conțin exclusiv imunoglobuline IgM pentamerice."
-    ],
-    "correct": [
-      0,
-      1,
-      2,
-      3
-    ],
-    "explanation": "Eozinofilele sunt echipate cu MBP, ECP, EPO și histaminază pentru a distruge paraziții mari (helminți) opsonizați cu C3b sau IgE, eliberând conținutul toxic direct pe cuticula parazitului."
-  },
-  {
-    "id": 49,
-    "category": "Strategii de Recunoaștere Înăscută (PAMP/PRR/TLR)",
-    "type": "multiple",
-    "text": "Care sunt cele 3 mari strategii ale sistemului imun nespecific de recunoaștere a non-self-ului? (Alegeți variantele corecte)",
-    "options": [
-      "Recunoașterea structurilor microbiene străine invariabile (PAMPs).",
-      "Recunoașterea moleculelor eliberate de celulele self alterate sau lezate (semnale de pericol / DAMPs).",
-      "Recunoașterea tip 'Missing-self' (lipsa structurilor normale inhibitoare exprimate de celulele sănătoase, cum sunt MHC I sau CD47).",
-      "Rearanjarea somatică clonală a genelor pentru lanțul greu al anticorpilor.",
-      "Comutarea de clasă izotipică la nivelul centrului germinal."
+      "Corpusculii Babeș-Negri: incluzii eozinofile intracitoplasmatice în neuronii cornului Ammon / celulele Purkinje în rabie.",
+      "Incluzii intranucleare voluminoase cu halou clar periferic (aspect de \"ochi de bufniță\") în celulele infectate cu Citomegalovirus (CMV).",
+      "Incluzii intranucleare Cowdry tip A în infecțiile cu Virusul Herpes Simplex (HSV).",
+      "Incluzii de ergosterol cristalizat în infecțiile cu Candida albicans.",
+      "Corpusculii Babeș-Ernst din citoplasma bacililor tetanici."
     ],
     "correct": [
       0,
       1,
       2
     ],
-    "explanation": "Imunitatea înnăscută operează prin 3 paradigme: 1. Detecție PAMP (non-self microbian); 2. Detecție Altered-self (pericol tisular); 3. Missing-self (lipsa semnalelor fiziologice inhibitoare precum MHC I sau CD47)."
-  },
-  {
-    "id": 50,
-    "category": "Strategii de Recunoaștere Înăscută (PAMP/PRR/TLR)",
-    "type": "single",
-    "text": "Ce moleculă este exprimată pe membrana eritrocitelor umane sănătoase ca semnal inhibitor ('nu mă mânca') și a cărei dispariție la senescență duce la fagocitarea lor?",
-    "options": [
-      "CD47",
-      "CD14",
-      "CD28",
-      "CD3",
-      "LFA-1"
-    ],
-    "correct": [
-      0
-    ],
-    "explanation": "CD47 este markerul clasic al recunoașterii 'missing-self' pe eritrocite: leagă receptorul inhibitor SIRP-alfa de pe macrofage. Când hematia îmbătrânește și pierde CD47, semnalul inhibitor dispare și este fagocitată."
-  },
-  {
-    "id": 51,
-    "category": "Strategii de Recunoaștere Înăscută (PAMP/PRR/TLR)",
-    "type": "multiple",
-    "text": "Care dintre următoarele molecule sunt exemple consacrate de PAMP (Pathogen-Associated Molecular Patterns)? (Alegeți variantele corecte)",
-    "options": [
-      "Lipopolizaharidul (LPS) al bacteriilor Gram-negative.",
-      "Acidul lipoteicoic și peptidoglicanul bacteriilor Gram-pozitive.",
-      "Lipoarabinomananul micobacterian.",
-      "ARN-ul dublucatenar (dsRNA) viral și dinucleotidele CpG nemetilate din ADN microbian.",
-      "Albumina serică umană și colagenul de tip I."
-    ],
-    "correct": [
-      0,
-      1,
-      2,
-      3
-    ],
-    "explanation": "LPS, acidul lipoteicoic, peptidoglicanii, lipoarabinomananul, dsRNA și motivele CpG sunt structuri exclusiv microbiene recunoscute ca PAMPs de către receptorii PRR."
+    "explanation": "Incluziunile virale diagnostice sunt: corpusculii Babeș-Negri în rabie (citoplasmatici), incluziile \"în ochi de bufniță\" în CMV (intranucleare) și incluziile Cowdry în herpes. Corpusculii Babeș-Ernst sunt granulații de polifosfat la Corynebacterium diphtheriae, nu la virusuri."
   },
   {
     "id": 52,
-    "category": "Strategii de Recunoaștere Înăscută (PAMP/PRR/TLR)",
-    "type": "multiple",
-    "text": "În ce categorii funcționale sunt clasificați receptorii PRR (Pattern Recognition Receptors)? (Alegeți variantele corecte)",
+    "category": "Virusologie",
+    "type": "single",
+    "text": "Ce fenomen genetic se produce atunci când un bacteriofag temperat își integrează genomul în cromozomul bacterian sub formă de profag (stare de lizogenie)?",
     "options": [
-      "PRR de semnalizare (receptori de suprafață sau intracelulari ce induc NF-κB și citokine proinflamatorii, ex: TLR).",
-      "PRR fagocitici / endocitici (scavenger, ex: receptorul pentru manoză, MARCO).",
-      "PRR secretați / solubili (colectine, MBL, proteine de fază acută).",
-      "Receptori cu domeniu intracelular NOD ce detectează PAMP-uri intracitoplasmatice.",
-      "Receptori enzimatici de restricție genomică plasmidică."
+      "Bacterioliză imediată cu eliberare de virioni noi.",
+      "Conversie lizogenică (bacteriofagul aduce noi gene care conferă bacteriei proprietăți noi, de exemplu codificarea toxinei difterice la Corynebacterium diphtheriae).",
+      "Pierderea peretelui de peptidoglican cu transformare în protoplast.",
+      "Oprirea totală a sintezei de ADN bacterian.",
+      "Apariția fenomenului de văl pe agar simplu."
     ],
     "correct": [
-      0,
-      1,
-      2,
-      3
+      1
     ],
-    "explanation": "PRR-urile sunt sistematizate în: 1. PRR de semnalizare (Toll-like); 2. PRR scavenger/endocitici (MARCO, manoză); 3. PRR secretați (MBL, colectine, PCR) și receptori citosolici NOD."
+    "explanation": "În lizogenie, profagul integrat poate aduce gene noi bacteriei gazdă (conversie lizogenică/fagică). Exemple celebre: gena toxinei difterice (Corynebacterium diphtheriae), toxinei eritrogene (Streptococcus pyogenes) sau toxinei botulinice sunt aduse de fagi temperați."
   },
   {
     "id": 53,
-    "category": "Strategii de Recunoaștere Înăscută (PAMP/PRR/TLR)",
+    "category": "Paraziți & Fungi Medicali",
     "type": "single",
-    "text": "Proteinele intracitoplasmatice NOD (NOD1, NOD2) detectează patogenii intracelulari prin legarea la:",
+    "text": "Care este componenta sterolică majoră a membranei celulare a fungilor, care reprezintă principala țintă a medicamentelor antifungice (poliene și azoli)?",
     "options": [
-      "Structuri bacteriene derivate din degradarea peptidoglicanului, nesimțite de TLR-urile membranare.",
-      "Fragmente lipidice de colagen uman de tip III.",
-      "Monomeri de C9 din complexul de atac membranar.",
-      "Molecule de IgE fixate pe suprafața mastocitelor.",
-      "Interferoni de tip II inactivi."
+      "Colesterolul",
+      "Ergosterolul",
+      "Sitosterolul",
+      "Acidul lipoteicoic",
+      "Chitina"
     ],
     "correct": [
-      0
+      1
     ],
-    "explanation": "Proteinele NOD sunt senzori intracitoplasmatici care simt fragmente de peptidoglican bacterian intrate în citosol, declanșând activarea NF-κB și sinteza de IL-1, IL-8, TNF și interferoni."
+    "explanation": "Membrana celulară a fungilor conține ergosterol (spre deosebire de colesterolul din celulele umane). Medicamentele antifungice exploatează această diferență: amfotericina B leagă ergosterolul formând pori litici, iar azolii (fluconazol, itraconazol) inhibă sinteza de ergosterol."
   },
   {
     "id": 54,
-    "category": "Strategii de Recunoaștere Înăscută (PAMP/PRR/TLR)",
+    "category": "Paraziți & Fungi Medicali",
     "type": "multiple",
-    "text": "Ce elemente structurale caracterizează familia receptorilor Toll-like (TLR)? (Alegeți variantele corecte)",
+    "text": "Care dintre următoarele caracteristici definesc fungii din punct de vedere biologic și medical? (Selectați variantele corecte)",
     "options": [
-      "Sunt receptori transmembranari (11 tipuri descrise la mamifere).",
-      "Porțiunea extracelulară este bogată în repetiții de leucină (LRR).",
-      "Domeniul intracitoplasmatic are homologie cu cel al familiei IL-1R (domeniul TIR).",
-      "Au cea mai înaltă expresie pe monocite, macrofage și neutrofile.",
-      "Sunt secretați exclusiv în bilă sub formă de dimeri legați prin lanțul J."
+      "Sunt organisme eucariote, heterotrofe, lipsite de clorofilă.",
+      "Au un perete celular rigid alcătuit din chitină, beta-glucani și manoproteine.",
+      "Se pot prezenta sub formă de levuri (unicelulare, înmugurite, ex: Candida albicans) sau fungi filamentoși / mucegaiuri (formate din hife și miceliu, ex: Aspergillus).",
+      "Fungii dimorfici se dezvoltă ca levuri la temperatura de 37°C în organismul gazdă și ca filamente la 25°C în mediul extern.",
+      "Toți fungii se divid exclusiv prin meioză directă fără formare de spori."
     ],
     "correct": [
       0,
@@ -994,151 +984,142 @@
       2,
       3
     ],
-    "explanation": "TLR sunt receptori transmembranari (nu secretați) cu domeniu extracelular bogat în leucină (LRR) și domeniu de semnalizare citosolic TIR (omolog IL-1R). Sunt exprimați puternic pe fagocite."
+    "explanation": "Fungii sunt eucariote cu perete de chitină/glucan și membrană cu ergosterol; pot fi levuri, filamentoși sau dimorfici termic (levuri la 37°C / mucegaiuri la 25°C). Se reproduc atât asexuat (spori, conidii, înmugurire) cât și sexuat."
   },
   {
     "id": 55,
-    "category": "Strategii de Recunoaștere Înăscută (PAMP/PRR/TLR)",
+    "category": "Paraziți & Fungi Medicali",
     "type": "single",
-    "text": "Care este secvența corectă a cooperării moleculare în recunoașterea LPS de către receptorul TLR4?",
+    "text": "Ce formă biologică a protozoarelor intestinale (precum Giardia lamblia sau Entamoeba histolytica) este responsabilă de rezistența în mediul extern și transmiterea infecției pe cale fecal-orală?",
     "options": [
-      "LPS se leagă întâi de proteina solubilă LBP -> LBP transferă monomerii de LPS la CD14 -> CD14 prezintă ligandul complexului TLR4/MD2.",
-      "LPS este legat direct de lanțul J -> transferat pe C1q -> activarea TLR4.",
-      "TLR4 leagă întâi properdina -> transferă endotoxina pe C3b.",
-      "LPS se leagă de elastaza neutrofilului -> internalizare prin clatrină -> activare TLR4.",
-      "Nu este necesară nicio proteină accesorie, LPS legând direct domeniul transmembranar al TLR4."
+      "Trofozoitul mobil",
+      "Chistul (forma chistică de rezistență)",
+      "Gametocitul",
+      "Scolexul",
+      "Proglota matură"
     ],
     "correct": [
-      0
+      1
     ],
-    "explanation": "LPS seric este captat de LBP (LPS-binding protein), transferat pe molecula CD14 de pe fagocite, care îl prezintă heterodimerului receptor TLR4/MD2 pentru inițierea transducției semnalului."
+    "explanation": "Chistul este forma biologică de rezistență la uscăciune, pH gastric și dezinfectante din apă, fiind stadiul infectant transmis fecal-oral. Trofozoitul este forma vegetativă mobilă metabolic activă din intestin, fragilă în afara corpului."
   },
   {
     "id": 56,
-    "category": "Strategii de Recunoaștere Înăscută (PAMP/PRR/TLR)",
+    "category": "Paraziți & Fungi Medicali",
     "type": "multiple",
-    "text": "Ce liganzi specifici sunt recunoscuți de către receptorii Toll-like? (Alegeți asocierile corecte)",
+    "text": "În legătură cu marile încrengături de helminți (viermi paraziți) de interes medical, care afirmații sunt ADEVĂRATE? (Selectați variantele corecte)",
     "options": [
-      "TLR2 (asociat cu TLR1 sau TLR6) – recunoaște peptidoglicani, lipoproteine, lipoarabinomannan și zimozan.",
-      "TLR3 – recunoaște ARN dublucatenar (dsRNA) viral.",
-      "TLR5 – recunoaște proteina monomerică flagelină.",
-      "TLR7 și TLR8 – recunosc ARN monocatenar viral bogat în guanozină și uridină.",
-      "TLR9 – recunoaște dinucleotide CpG nemetilate din ADN microbian."
+      "Cestodele (Taenia saginata, Taenia solium) sunt viermi plați, segmentați, hermafrodiți, alcătuiți din scolex (cap cu ventuze/cârlige), gât și proglote.",
+      "Nematodele (Ascaris lumbricoides, Enterobius vermicularis) sunt viermi cilindrici nesegmentați, cu tub digestiv complet și sexe separate (dimorfism sexual).",
+      "Trematodele (Fasciola hepatica) sunt viermi plați, nesegmentați, foliacei (formă de frunză), prevăzuți cu ventuze.",
+      "Cestodele adulte posedă un tub digestiv foarte bine dezvoltat, prevăzut cu stomac și dinți chitinoși.",
+      "Enterobius vermicularis (oxiurul) este un vierme cilindric nematod."
     ],
     "correct": [
       0,
       1,
       2,
-      3,
       4
     ],
-    "explanation": "Toate asocierile reprezintă harta moleculară fidelă a specificității receptorilor Toll-like prezentată la paginile 18-19 din curs."
+    "explanation": "Cestodele sunt viermi plați segmentați și sunt complet LIPSITE de tub digestiv (absorb nutrienții direct prin suprafața tegumentară). Nematodele sunt viermi cilindrici cu sexe separate, iar Trematodele sunt viermi foliacei."
   },
   {
     "id": 57,
-    "category": "Sistemul Complement",
-    "type": "multiple",
-    "text": "În legătură cu originea istorică a conceptului de 'Complement', care afirmații sunt ADEVĂRATE? (Alegeți variantele corecte)",
+    "category": "Reacții Ag-Ac & Metode Moleculare",
+    "type": "single",
+    "text": "În ce constă diferența fundamentală dintre o reacție de aglutinare și o reacție de precipitare în serologie?",
     "options": [
-      "Jules Bordet a demonstrat că activitatea bacteriolitică serică necesită doi compuși: anticorpi specifici termorezistenți și un compus sensibil la căldură.",
-      "Compusul sensibil la căldură a fost denumit inițial de Bordet 'alexină'.",
-      "Paul Ehrlich propune termenul de 'complement' pentru a defini o activitate serică ce vine să completeze acțiunea anticorpilor.",
-      "Sistemul cuprinde peste 30 de molecule solubile și membranare ce acționează în cascadă proteolitică.",
-      "Complementul este o enzimă unică sintetizată exclusiv în timus."
+      "Aglutinarea utilizează anticorpi monoclonali, iar precipitarea utilizează hormoni tiroidieni.",
+      "Aglutinarea implică interacțiunea anticorpilor cu un antigen PARTICULAT / celular (bacterii, hematii, latex), în timp ce precipitarea implică interacțiunea anticorpilor cu un antigen SOLUBIL (molecular).",
+      "Precipitarea se observă doar la microscopul electronic cu fluorescență.",
+      "Aglutinarea necesită încălzirea probei la 100°C timp de 30 de minute.",
+      "Nu există nicio diferență de stare fizică a antigenului."
     ],
     "correct": [
-      0,
-      1,
-      2,
-      3
+      1
     ],
-    "explanation": "Bordet a descoperit alexina termolabilă; Ehrlich a denumit-o complement. Sistemul cuprinde peste 30 de proteine și proenzime serice și membranare."
+    "explanation": "Diferența cheie: în reacția de precipitare, antigenul este SOLUBIL (molecule dizolvate, toxine), complexele Ag-Ac formând un precipitat vizibil; în reacția de aglutinare, antigenul este PARTICULAT/INSOLUBIL (bacterii, hematii, particule de latex tapetate), aglomerându-se în flocoane vizibile."
   },
   {
     "id": 58,
-    "category": "Sistemul Complement",
+    "category": "Reacții Ag-Ac & Metode Moleculare",
     "type": "single",
-    "text": "La nivelul componentei centrale C3 a complementului, legătura internă tioesterică metastabilă este formată între:",
+    "text": "În Reacția de Fixare a Complementului (RFC), cum este interpretat rezultatul pozitiv și de ce?",
     "options": [
-      "Gruparea -COOH a unui rest de glutamină și gruparea -SH a unui rest de cisteină.",
-      "Gruparea amino a lizinei și gruparea hidroxil a serinei.",
-      "Două punți disulfidice intercatenare între prolină și tirozină.",
-      "Gruparea imidazol a histidinei și acidul aspartic.",
-      "Gruparea fosfat a tirozinei și acidul sialic."
+      "Reacția este pozitivă dacă are loc hemoliza completă a hematiilor din sistemul indicator.",
+      "Reacția este pozitivă dacă NU are loc hemoliza (hematiile se depun intacte pe fundul godeului), deoarece complementul adăugat a fost consumat și fixat în prima etapă de complexul antigen-anticorp cercetat.",
+      "Reacția este pozitivă dacă amestecul virează în verde fluorescent.",
+      "Reacția este pozitivă dacă lichidul fierbe spontan.",
+      "RFC este pozitivă doar dacă se adaugă fluorocrom FITC."
     ],
     "correct": [
-      0
+      1
     ],
-    "explanation": "Legătura tioesterică unică a C3 (și C4) este formată intramolecular între carboxilul glutaminei și tiolul cisteinei, creând un carbonil electrofil extrem de reactiv."
+    "explanation": "În RFC, rezultatul POZITIV înseamnă ABSENȚA HEMOLIZEI: dacă serul pacientului conține anticorpi specifici, aceștia se leagă de antigen și fixează (consumă) tot complementul adăugat; când se adaugă sistemul indicator (hematii de berbec + hemolizină), nu mai există complement liber, deci hematiile rămân intacte (nu se lizează)."
   },
   {
     "id": 59,
-    "category": "Sistemul Complement",
+    "category": "Reacții Ag-Ac & Metode Moleculare",
     "type": "multiple",
-    "text": "Ce fenomene biochimice decurg din activarea legăturii tioesterice a C3? (Alegeți variantele corecte)",
+    "text": "Care sunt enzimele cel mai frecvent conjugate cu anticorpii în tehnica imunoenzimatică ELISA (Enzyme-Linked Immunosorbent Assay)? (Selectați variantele corecte)",
     "options": [
-      "Gruparea carbonil a glutaminei poate fi atacată de grupări nucleofile (-OH sau -NH2), permițând legarea covalentă pe suprafețe biologice.",
-      "Hidroliza spontană de către apă generează C3i [C3(H2O)], asigurând activarea continuă de fond (fenomenul de 'tick-over').",
-      "Clivarea proteolitică de către C3-convertază expune rapid legătura tioesterică.",
-      "C3b legat de celule devine țintă pentru opsonizare sau asamblarea convertazei C5.",
-      "Legătura tioesterică inactivează definitiv toate imunoglobulinele serice."
+      "Peroxidaza din hrean (Horseradish Peroxidase - HRP)",
+      "Fosfataza alcalină (AP)",
+      "ADN-polimeraza Taq",
+      "Lizozimul salivar",
+      "Amilaza pancreatică"
     ],
     "correct": [
       0,
-      1,
-      2,
-      3
+      1
     ],
-    "explanation": "Legătura tioesterică asigură generarea spontană continuă (tick-over prin hidroliză), expunerea prin clivaj de către convertaze și ancorarea covalentă ireversibilă pe grupările amino/hidroxil membranare."
+    "explanation": "Tehnicile imunoenzimatice (ELISA, Western Blot) utilizează enzime marcatoare stabile legate de anticorpi: cel mai frecvent Peroxidaza din hrean (HRP) și Fosfataza alcalină (AP), care transformă substraturi incolore în produși colorați măsurați spectrofotometric."
   },
   {
     "id": 60,
-    "category": "Sistemul Complement",
+    "category": "Reacții Ag-Ac & Metode Moleculare",
     "type": "single",
-    "text": "Care este singura proenzimă a sistemului complement care circulă în plasmă direct în formă activă enzimatic, fără a necesita clivare prealabilă?",
+    "text": "Care sunt cele 3 etape de temperatură care alcătuiesc un ciclu standard în Reacția de Polimerizare în Lanț (PCR clasic)?",
     "options": [
-      "Factorul D",
-      "Factorul B",
-      "C1s",
-      "C3",
-      "Properdina"
+      "Liza celulară (37°C) -> Centrifugare (4°C) -> Filtrare (20°C)",
+      "Denaturarea catenelor de ADN (94-95°C) -> Alinierea / hibridizarea primerilor (50-60°C) -> Extensia / elongarea catenei noi cu ADN-polimerază termostabilă (72°C)",
+      "Congelare (-20°C) -> Sublimare (0°C) -> Încălzire (100°C)",
+      "Colorare (56°C) -> Decolorare (20°C) -> Uscare (80°C)",
+      "Electroliză (12V) -> Polimerizare (45°C) -> Aglutinare (37°C)"
     ],
     "correct": [
-      0
+      1
     ],
-    "explanation": "Factorul D este singura enzimă a complementului care circulă în stare activă funcțional în sânge; el acționează asupra Factorului B numai după ce acesta este legat de C3i sau C3b."
+    "explanation": "Ciclul standard PCR cuprinde: 1. Denaturare la 94-95°C (separarea dublului helix); 2. Annealing / aliniere primeri la 50-60°C (atașarea primerilor specifici); 3. Extensie la 72°C (sinteza catenei noi de către Taq-polimeraza la temperatura sa optimă)."
   },
   {
     "id": 61,
-    "category": "Sistemul Complement",
-    "type": "multiple",
-    "text": "De ce activarea căii alternative a complementului este inhibată rapid pe celulele organismului gazdă (self), dar progresează amplificat pe suprafețele microbiene străine? (Alegeți variantele corecte)",
+    "category": "Reacții Ag-Ac & Metode Moleculare",
+    "type": "single",
+    "text": "Ce enzimă suplimentară este indispensabilă pentru detecția virusurilor cu genom ARN (cum sunt SARS-CoV-2, Virusul Gripal sau VHC) prin tehnica RT-PCR?",
     "options": [
-      "Membranele celulelor self au un conținut crescut de acid sialic, care crește afinitatea C3b pentru Factorul H.",
-      "Factorul H este cofactor pentru Factorul I, care clivează C3b în fragmente inactive (iC3b, C3c, C3dg).",
-      "Pe suprafețele străine (lipsite de acid sialic), C3b leagă Factorul B în prezența magneziului, formând convertaza stabilă C3bBb.",
-      "Properdina stabilizează convertaza C3bBb pe suprafețele patogene, crescându-i timpul de înjumătățire de la 5 la 30 de minute.",
-      "Celulele microbiene secretă în permanență cantități mari de C1-Inh."
+      "Reverstranscriptaza (ARN-dependent ADN-polimerază), care convertește ARN-ul viral într-o copie de ADN complementar (ADNc)",
+      "ADN-giraza bacteriană",
+      "Ureaza Christensen",
+      "Superoxid-dismutaza",
+      "Topoisomeraza IV"
     ],
     "correct": [
-      0,
-      1,
-      2,
-      3
+      0
     ],
-    "explanation": "Acidul sialic de pe membranele gazdei favorizează legarea Factorului H (care alungă Bb și aduce Factorul I pentru inactivare). Pe patogeni, C3b leagă Factorul B, generând C3bBb, pe care Properdina o stabilizează masiv."
+    "explanation": "Taq ADN-polimeraza poate amplifica doar matrițe de ADN. Pentru virusurile ARN este obligatorie etapa preliminară de reverstranscripție (RT), în care Reverstranscriptaza sintetizează o catenă de ADNc (ADN complementar) pe baza ARN-ului viral."
   },
   {
     "id": 62,
-    "category": "Sistemul Complement",
+    "category": "Reacții Ag-Ac & Metode Moleculare",
     "type": "multiple",
-    "text": "În legătură cu CALEA CLASICĂ a complementului, care afirmații sunt CORECTE? (Alegeți variantele corecte)",
+    "text": "Care sunt avantajele majore ale tehnicii Real-Time PCR (qPCR) comparativ cu PCR-ul clasic convențional? (Selectați variantele corecte)",
     "options": [
-      "Este inițiată de complexe antigen-anticorp formate din IgM sau anumite subclase de IgG (IgG1, IgG2, IgG3).",
-      "Subclasa IgG4 este incapabilă să activeze complementul pe cale clasică.",
-      "Complexul C1 este format dintr-o moleculă C1q și câte 2 molecule de C1r și C1s, fiind stabilizat de calciu.",
-      "C1s clivează C4 (în C4a și C4b) și C2 (în C2b și C2a), formând convertaza C4b2a.",
-      "O singură moleculă de IgG circulantă monomerică poate activa instantaneu cascada C1q."
+      "Permite cuantificarea precisă a numărului de copii de acizi nucleici (încărcătura virală sau bacteriană) în timp real.",
+      "Monitorizează acumularea produsului de amplificare în timpul fiecărui ciclu prin semnal fluorescent (sonde TaqMan sau fluorocrom SYBR Green).",
+      "Elimină necesitatea electroforezei pe gel de agaroză post-amplificare, reducând drastic riscul de contaminare a laboratorului.",
+      "Este mult mai rapidă decât PCR-ul convențional.",
+      "Permite identificarea bacteriilor doar prin mirosul eprubetei."
     ],
     "correct": [
       0,
@@ -1146,181 +1127,161 @@
       2,
       3
     ],
-    "explanation": "C1q necesită legarea a minimum 2 situsuri Fc; o moleculă monomerică de IgG nu poate activa C1 singură (sunt necesare ~1000 IgG pe celulă la sub 30-40 nm). O singură moleculă de IgM pentamerică legată pe antigen este însă suficientă. IgG4 nu leagă C1q."
+    "explanation": "Real-Time PCR citește fluorescența în timp real la fiecare ciclu, cuantifică încărcătura virală, este mai rapidă și se realizează în tuburi închise fără gel de agaroză, prevenind contaminarea cu ampliconi."
   },
   {
     "id": 63,
-    "category": "Sistemul Complement",
-    "type": "single",
-    "text": "Care este convertaza C3 a căii clasice și a căii lectinelor a complementului?",
+    "category": "Diagnostic Microbiologic",
+    "type": "multiple",
+    "text": "Care sunt regulile fundamentale ce trebuie respectate cu strictețe la recoltarea produselor patologice pentru examen microbiologic? (Selectați variantele corecte)",
     "options": [
-      "C4b2a",
-      "C3bBb",
-      "C4b2a3b",
-      "C3bBbC3b",
-      "C1qrs"
+      "Recoltarea trebuie efectuată, pe cât posibil, ÎNAINTE de începerea oricărui tratament cu antibiotice.",
+      "Recoltarea se realizează în stadiul acut sau cât mai aproape de debutul bolii infecțioase.",
+      "Produsul trebuie recoltat direct din focarul lezional activ, în condiții riguroase de asepsie, evitând contaminarea cu flora comensală din vecinătate.",
+      "Utilizarea de recipiente sterile, etichetate corect și însoțite de fișa de trimitere completată cu date clinice.",
+      "Păstrarea probelor la soare timp de 48 de ore înainte de trimiterea la laborator."
     ],
     "correct": [
-      0
+      0,
+      1,
+      2,
+      3
     ],
-    "explanation": "Convertaza C3 a căii clasice și a lectinelor este complexul C4b2a (format prin clivarea C4 și C2 de către C1s sau MASP). Convertaza C5 a aceleiași căi este C4b2a3b."
+    "explanation": "Recoltarea corectă impune: înainte de antibiotice, la debut/acut, din leziunea activă fără contaminare comensală, în recipiente sterile și transport rapid la laborator."
   },
   {
     "id": 64,
-    "category": "Sistemul Complement",
+    "category": "Diagnostic Microbiologic",
     "type": "single",
-    "text": "Ce lectină serică multimerică acționează ca senzor primar în calea lectinelor și ce proteaze îi sunt asociate?",
+    "text": "Conform Criteriilor de Calitate microscopică Bartlett / Murray-Washington (obiectiv 10x), când este considerată o probă de spută ca fiind validă și reprezentativă pentru arborele respirator inferior?",
     "options": [
-      "MBL (Mannose-Binding Lectin) asociată cu serin-proteazele MASP-1 și MASP-2.",
-      "Selectina E asociată cu mieloperoxidaza.",
-      "Colectina surfactantă D asociată cu C1q.",
-      "Proteina C reactivă asociată cu heparina.",
-      "Integrina LFA-1 asociată cu proteina G."
+      "Când conține peste 25 de celule epiteliale scuamoase și mai puțin de 5 leucocite.",
+      "Când conține peste 25 de leucocite polimorfonucleare (PMN) și mai puțin de 10 celule epiteliale scuamoase pe câmp microscopic.",
+      "Când este formată exclusiv din salivă limpede.",
+      "Când conține 100% hematii lizate.",
+      "Criteriile Bartlett se aplică exclusiv la uroculturi."
     ],
     "correct": [
-      0
+      1
     ],
-    "explanation": "Calea lectinelor este activată de MBL (Mannose-Binding Lectin) care leagă reziduuri microbiene de manoză și activează serin-proteazele asociate MASP (omoloage funcțional cu C1r/C1s)."
+    "explanation": "O probă de spută reprezentativă pentru infecția căilor respiratorii inferioare trebuie să conțină > 25 PMN (leucocite ce arată inflamație purulentă) și < 10 celule epiteliale scuamoase pe câmp (obiectiv 10x). Dacă are > 25 celule epiteliale, este salivă din cavitatea bucală și se respinge!"
   },
   {
     "id": 65,
-    "category": "Sistemul Complement: MAC & Reglare",
-    "type": "multiple",
-    "text": "Ce evenimente caracterizează asamblarea Complexului de Atac Membranar (MAC)? (Alegeți variantele corecte)",
+    "category": "Diagnostic Microbiologic",
+    "type": "single",
+    "text": "Care este semnificația unei creșteri de cel puțin 4 ori a titrului de anticorpi specifici IgG între două probe de ser recoltate la interval de 10-14 zile (seruri pereche)?",
     "options": [
-      "Convertaza C5 clivează C5 în C5a (eliberat) și C5b (care ancorează asamblarea).",
-      "C5b este foarte labil și este inactivat dacă nu leagă componenta C6 în mai puțin de 2 minute.",
-      "Legarea C7 la complexul C5b6 induce o transformare conformațională de la starea hidrofilă la cea amfifilică.",
-      "Complexul C5b-8 formează un por de 10 Å, iar polimerizarea moleculelor de C9 formează porul final de 70-100 Å.",
-      "Celula țintă este ucisă exclusiv prin stimularea transcripției genei PKR."
+      "Infecție veche vindecată în urmă cu 10 ani.",
+      "Confirmarea fără echivoc a unei infecții recente / acute în evoluție.",
+      "Eroare tehnică obligatorie de laborator.",
+      "Imunitate dobândită exclusiv pe cale transplacentară.",
+      "Pacientul este purtător asimptomatic cronic de Candida."
     ],
     "correct": [
-      0,
-      1,
-      2,
-      3
+      1
     ],
-    "explanation": "MAC se asamblează secvențial: C5b + C6 -> C5b6 + C7 (tranziție amfifilică) -> C5b67 se prinde de bistrat -> leagă C8 (por de 10 Å) -> leagă și polimerizează 10-16 C9 (por litic de 70-100 Å -> dezechilibru osmotic coloidal și liză)."
+    "explanation": "Metoda serurilor pereche (primul ser în faza acută, al doilea în convalescență la 10-14 zile) demonstrează o seroconversie sau o creștere de cel puțin 4 ori (de 2 diluții) a titrului anticorpilor, reprezentând criteriul de aur pentru confirmarea unei infecții active recente."
   },
   {
     "id": 66,
-    "category": "Sistemul Complement: MAC & Reglare",
-    "type": "single",
-    "text": "În ce constă fenomenul de spectator nevinovat ('innocent bystander') în cursul activării complementului?",
+    "category": "Diagnostic Microbiologic",
+    "type": "multiple",
+    "text": "În ce constă Intradermoreacția la Tuberculină (IDR Mantoux) și cum se citește corect rezultatul acesteia? (Selectați variantele corecte)",
     "options": [
-      "Complexul hidrofob C5b67 format în fază fluidă se poate elibera și insera pe membranele celulelor vecine sănătoase, provocând liza lor nedorită.",
-      "Eritrocitele captează neutrofilele și le inactivează granulațiile.",
-      "Mastocitele degranulează histamină fără prezența antigenului.",
-      "Bacteriile comensale fagocitează complexele imune din bilă.",
-      "Anticorpii de clasă IgM blochează calea lectinelor."
+      "Se injectează strict intradermic 2 UI de PPD (derivat proteic purificat) pe fața anterioară a antebrațului.",
+      "Citirea se realizează la 72 de ore de la injectare.",
+      "Se măsoară cu o riglă milimetrică exclusiv diametrul transvers al INDURAȚIEI palpabile (nu al eritemului/roșeții!).",
+      "Mecanismul reacției este o hipersensibilitate de tip întârziat (tip IV), mediată celular de limfocitele T sensibilizate.",
+      "O indurație de 2 mm este întotdeauna considerată pozitivă la orice pacient adult."
     ],
     "correct": [
-      0
+      0,
+      1,
+      2,
+      3
     ],
-    "explanation": "Dacă C5b67 se asamblează în faza fluidă înainte de a se insera pe patogen, el se poate ancora pasiv pe celule bystander (eritrocite sau endoteliu neinfectat din jur), provocând liza celulelor self nevinovate."
+    "explanation": "IDR Mantoux presupune injectarea a 2 UI PPD intradermic, citire la 72 de ore, măsurând DOAR indurația palpabilă transversală (≥ 10 mm este pozitivă la populația generală). Este o reacție de hipersensibilitate mediată celular (tip IV)."
   },
   {
     "id": 67,
-    "category": "Sistemul Complement: MAC & Reglare",
-    "type": "multiple",
-    "text": "Prin ce proteine membranare și solubile sunt protejate celulele proprii organismului (self) împotriva complexului litic MAC? (Alegeți variantele corecte)",
+    "category": "Diagnostic Microbiologic",
+    "type": "single",
+    "text": "Care este avantajul major al testelor serologice IGRA (Interferon-Gamma Release Assays, ex: QuantiFERON-TB) comparativ cu IDR la tuberculină?",
     "options": [
-      "Proteina S (vitronectina) – se leagă de complexul solubil C5b67 și blochează inserția sa în membrană.",
-      "CD59 (MIRL – Membrane Inhibitor of Reactive Lysis) – se leagă de C8 și previne polimerizarea C9.",
-      "HRF (Homologous Restriction Factor) – acționează similar CD59 prevenind atacul litic prin restricție de specie.",
-      "DAF (CD55) – accelerează disocierea convertazelor C3.",
-      "Properdina – accelerează liza celulelor self endoteliale."
+      "Testul IGRA este gratuit și nu necesită recoltare de sânge.",
+      "Testul IGRA utilizează antigene specifice de Mycobacterium tuberculosis (ESAT-6, CFP-10) și NU este influențat de vaccinarea anterioară cu BCG sau de infecția cu micobacterii netuberculoase de mediu.",
+      "Testul IGRA identifică direct gena de rezistență la rifampicină.",
+      "Testul IGRA permite vizualizarea bacililor la microscopul optic.",
+      "Testul IGRA se pozitivează în 2 secunde prin virare de culoare."
     ],
     "correct": [
-      0,
-      1,
-      2,
-      3
+      1
     ],
-    "explanation": "Vitronectina blochează C5b67 liber în ser, CD59 și HRF blochează C9 pe membrană (restricție omoloagă), iar DAF disociază convertazele. Properdina este activator, nu inhibitor."
+    "explanation": "Testele IGRA măsoară eliberarea de IFN-gamma de către limfocitele T stimulate in vitro cu antigenele ESAT-6 și CFP-10; aceste antigene lipsesc din tulpina vaccinală BCG și din majoritatea micobacteriilor de mediu, eliminând rezultatele fals-pozitive datorate vaccinării BCG!"
   },
   {
     "id": 68,
-    "category": "Sistemul Complement: MAC & Reglare",
+    "category": "Relații Gazdă-Microorganism & Microbiotă",
     "type": "single",
-    "text": "Ce mecanism de acțiune are C1-Inhibitorul (C1-Inh) în reglarea complementului?",
+    "text": "Cum este definită relația de Comensalism între două specii diferite în cadrul simbiozei?",
     "options": [
-      "Este o serpină (inhibitor de serin-protează) care formează un complex stabil cu C1r și C1s, determinând disocierea lor de C1q.",
-      "Polimerizează lanțurile C9 în pori de 10 Å.",
-      "Clivează legătura tioesterică a C3 în stomac.",
-      "Degradează peptidoglicanul bacterian în veziculele endocitice.",
-      "Leagă histamina pe membrana mastocitelor."
+      "O relație în care ambii parteneri beneficiază reciproc și devin dependenți unul de celălalt.",
+      "O asociere în care un organism (comensalul) beneficiază de nutrienți și adăpost, FĂRĂ a aduce niciun beneficiu, dar și FĂRĂ a produce vreun prejudiciu gazdei.",
+      "O relație în care un partener parazitează și distruge obligatoriu celulele celuilalt.",
+      "O competiție agresivă soldată cu moartea ambilor parteneri.",
+      "O asociere tranzitorie între două virusuri anvelopate."
     ],
     "correct": [
-      0
+      1
     ],
-    "explanation": "C1-Inh este o serpină circulantă care blochează activarea proteolitică a C1r și C1s (și a MASP), disociindu-le din complexul C1qrs și prevenind activarea spontană a căii clasice."
+    "explanation": "Comensalismul este o formă de simbioză unilateral benefică pentru comensal (care obține hrană și adăpost), dar neutră pentru gazdă (nu suferă prejudicii și nici nu beneficiază direct)."
   },
   {
     "id": 69,
-    "category": "Complement: Efectori & Diapedeză",
-    "type": "multiple",
-    "text": "Care sunt principalele consecințe biologice ale activării sistemului complement? (Selectați variantele corecte)",
+    "category": "Relații Gazdă-Microorganism & Microbiotă",
+    "type": "single",
+    "text": "Prin ce se deosebește COLONIZAREA de o INFECȚIE veritabilă a unei suprafețe a corpului uman?",
     "options": [
-      "Liza celulară mediată osmotic de către MAC (bacterii, celule infectate viral, celule tumorale).",
-      "Opsonizarea patogenilor prin fragmentele covalente C3b, C4b și iC3b, favorizând fagocitoza.",
-      "Clearance-ul complexelor imune circulante: fixarea pe receptorul CR1 eritrocitar și transportul la splină/ficat.",
-      "Efecte proinflamatorii și chemotactice mediate de anafilatoxinele C3a, C4a și C5a.",
-      "Sinteza directă de cortizol în zona fasciculată a glandei suprarenale."
+      "Colonizarea implică distrugerea țesuturilor profunde și apariția febrei.",
+      "Colonizarea reprezintă stabilirea și multiplicarea microorganismelor pe o suprafață mucos-tegumentară FĂRĂ invazie tisulară, fără leziuni celulare și FĂRĂ răspuns inflamator clinic din partea gazdei.",
+      "Colonizarea apare exclusiv în organele interne sterile (creier, cord).",
+      "Colonizarea se produce doar cu bacterii Gram-negative strict anaerobe.",
+      "Nu există nicio deosebire, termenii fiind sinonimi absoluți."
     ],
     "correct": [
-      0,
-      1,
-      2,
-      3
+      1
     ],
-    "explanation": "Efectorii complementului mediază: citoliză (MAC), opsonizare (C3b/iC3b), clearance imun al complexelor imune (via CR1 pe hematii) și inflamație acută prin anafilatoxine."
+    "explanation": "Colonizarea constă în multiplicarea locală a microorganismelor pe tegumente sau mucoase fără declanșarea unei reacții inflamatorii clinice sau leziuni tisulare. Infecția implică invazie, multiplicare în țesuturi și răspuns imun/inflamator (simptomatic sau asimptomatic)."
   },
   {
     "id": 70,
-    "category": "Complement: Efectori & Diapedeză",
+    "category": "Relații Gazdă-Microorganism & Microbiotă",
     "type": "single",
-    "text": "Care este cea mai puternică anafilatoxină a sistemului complement și ce enzimă serică îi asigură inactivarea rapidă?",
+    "text": "Ce proporție cantitativă există în mod normal în colonul uman între bacteriile strict anaerobe și bacteriile aerobe/facultativ anaerobe?",
     "options": [
-      "C5a este cea mai potentă, fiind inactivată de Carboxipeptidaza serică N prin clivarea argininei C-terminale.",
-      "C4a este cea mai potentă, fiind inactivată de lizozim.",
-      "C3a este cea mai potentă, fiind inactivată de histaminază.",
-      "C3b este cea mai potentă, fiind degradată de Factorul B.",
-      "C2b este cea mai potentă, fiind inactivată de Properdină."
+      "Bacteriile aerobe sunt de 1000 de ori mai numeroase decât cele anaerobe.",
+      "Bacteriile anaerobe și cele aerobe se găsesc în raport strict egal de 1:1.",
+      "Bacteriile strict anaerobe depășesc bacteriile aerobe/facultativ anaerobe într-un raport de la 10:1 până la 1000:1.",
+      "În colonul uman nu există bacterii anaerobe.",
+      "Bacteriile anaerobe reprezintă mai puțin de 0.01% din microbiota fecală."
     ],
     "correct": [
-      0
+      2
     ],
-    "explanation": "Ierarhia potenței este C5a > C3a > C4a. C5a este de departe cea mai puternică anafilatoxină și agent chemotactic, fiind transformată în derivatul mult mai slab C5a-desArg de către Carboxipeptidaza serică N."
+    "explanation": "Colonul uman este un mediu puternic reducător, unde bacteriile strict anaerobe (Bacteroides, Bifidobacterium, Clostridium) sunt de 10 până la 1000 de ori mai numeroase decât bacteriile aerobe și facultativ anaerobe (E. coli, enterococi)."
   },
   {
     "id": 71,
-    "category": "Complement: Efectori & Diapedeză",
-    "type": "single",
-    "text": "Cum este realizată conexiunea integrată a complementului cu sistemul coagulării, kininelor și fibrinolizei?",
-    "options": [
-      "Prin proteina reglatoare C1-Inh, care inhibă concomitent C1r/C1s, Factorul XIIa al coagulării, kalicreina kininelor și plasmina fibrinolizei.",
-      "Prin molecula CD47 care degradează fibrina.",
-      "Prin MBL care polimerizează direct trombina.",
-      "Prin acțiunea directă a proteinei C reactive pe trombocite.",
-      "Prin sinteza de acid arahidonic în eritrocite."
-    ],
-    "correct": [
-      0
-    ],
-    "explanation": "C1-Inhibitorul este un reglator multifuncțional central: inhibă C1r, C1s, factorul XIIa, kalicreina (prevenind excesul de bradikinină) și plasmina."
-  },
-  {
-    "id": 72,
-    "category": "Complement: Efectori & Diapedeză",
+    "category": "Relații Gazdă-Microorganism & Microbiotă",
     "type": "multiple",
-    "text": "Care sunt cele 4 etape secvențiale ale diapedezei leucocitare (extravazarea neutrofilelor) descrise la pagina 24 din curs? (Alegeți variantele corecte)",
+    "text": "Care dintre următoarele situsuri anatomice și fluide ale organismului uman sunt în mod fiziologic COMPLET STERILE la un individ sănătos? (Selectați variantele corecte)",
     "options": [
-      "Rostogolirea (Rolling) – legarea reversibilă a selectinelor endoteliale E și P la liganzii mucin-like / sialil Lewis X de pe neutrofile.",
-      "Activarea – stimularea neutrofilului prin chemoatractanți crește afinitatea integrinelor membranare.",
-      "Fixarea și adeziunea fermă – legarea integrinei de mare afinitate (LFA-1) la molecule din superfamilia Ig (ICAM-1).",
-      "Traversarea peretelui endotelial spre focarul tisular lezat.",
-      "Degranularea eozinofilică a C9 în lumenul vasului."
+      "Sângele și măduva hematogenă.",
+      "Lichidul cefalorahidian (LCR).",
+      "Tractul respirator inferior (traheea, bronhiile, alveolele pulmonare situate sub corzile vocale).",
+      "Vezica urinară, ureterele și rinichii.",
+      "Colonul și materiile fecale."
     ],
     "correct": [
       0,
@@ -1328,91 +1289,255 @@
       2,
       3
     ],
-    "explanation": "Etapele diapedezei sunt: 1. Rostogolire (Selectine E/P - Sialyl-Lewis X); 2. Activare (chemokine, proteine G -> tranziție integrine în afinitate înaltă); 3. Fixare/adeziune fermă (LFA-1 - ICAM-1); 4. Transmigrare endotelială."
+    "explanation": "Sângele, LCR, căile respiratorii inferioare și căile urinare superioare (vezică, rinichi) sunt normal sterile. Colonul este cel mai dens populat ecosistem din organism (10^11 - 10^12 bacterii/gram)."
+  },
+  {
+    "id": 72,
+    "category": "Relații Gazdă-Microorganism & Microbiotă",
+    "type": "multiple",
+    "text": "Care sunt bacteriile predominante care alcătuiesc microbiota normală rezidentă a tegumentului (pielii)? (Selectați variantele corecte)",
+    "options": [
+      "Staphylococcus epidermidis (și alți coci Gram-pozitivi coagulazo-negativi).",
+      "Bacilul difteroid (Corynebacterium spp.).",
+      "Cutibacterium (Propionibacterium) acnes (în glandele sebacee și foliculi piloși).",
+      "Bacteroides fragilis în cantitate masivă la nivelul stratului cornos uscat.",
+      "Vibrio cholerae ca floră rezidentă obligatorie a mâinilor."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Pielea uscată și sărată este colonizată dominant de Staphylococcus epidermidis, bacterii corineforme și Cutibacterium acnes în zonele sebacee. Bacteroides fragilis este anaerob de colon, iar Vibrio cholerae este patogen strict din apă/alimente."
   },
   {
     "id": 73,
-    "category": "Patologia Complementului",
+    "category": "Relații Gazdă-Microorganism & Microbiotă",
     "type": "single",
-    "text": "Deficiențele componentelor inițiale ale căii clasice (C1q, C1r, C1s, C4, C2) se asociază clasic cu:",
+    "text": "Ce microorganism domină microbiota vaginală normală la femeia de vârstă fertilă și prin ce mecanism asigură protecția împotriva patogenilor?",
     "options": [
-      "Incapacitatea de eliminare a complexelor imune și apariția bolilor autoimune mediate de complexe imune, în special Lupus Eritematos Sistemic (LED) și glomerulonefrită.",
-      "Sindromul de liză tumorală acută.",
-      "Hemofilia congenitală tip A.",
-      "Scăderea exclusivă a eozinofilelor din măduvă.",
-      "Incompatibilitatea de grup sanguin Rh."
+      "Escherichia coli, prin secreția de endotoxină LPS.",
+      "Lactobacillus spp. (bacilii Döderlein), care fermentează glicogenul celular în acid lactic, menținând un pH acid protector (3.8 - 4.5).",
+      "Staphylococcus aureus, prin secreția de pigment carotenoid.",
+      "Candida albicans, prin formarea de pseudomiceliu alcalin.",
+      "Proteus mirabilis, prin descompunerea ureei."
     ],
     "correct": [
-      0
+      1
     ],
-    "explanation": "Componentele C1, C4 și C2 sunt critice pentru solubilizarea și clearance-ul complexelor imune și a celulelor apoptotice. Deficitul lor genetic determină acumularea complexelor în țesuturi și declanșarea LED (Lupus) și a glomerulonefritelor."
+    "explanation": "Lactobacilii (bacilii Döderlein) metabolizează glicogenul din epiteliul vaginal (stimulat de estrogeni) în acid lactic; pH-ul acid rezultat (3.8-4.5) inhibă dezvoltarea florei comensale oportuniste anaerobe și a patogenilor exogeni."
   },
   {
     "id": 74,
-    "category": "Patologia Complementului",
-    "type": "single",
-    "text": "Deficiențele congenitale ale componentelor Complexului de Atac Membranar (C5, C6, C7, C8, C9) sau ale factorilor căii alternative (Properdină, Factor D) predispun pacientul în mod caracteristic la:",
+    "category": "Relații Gazdă-Microorganism & Microbiotă",
+    "type": "multiple",
+    "text": "Care sunt funcțiile fiziologice benefice majore ale microbiotei indigene a colonului uman? (Selectați variantele corecte)",
     "options": [
-      "Infecții recurente invazive severe cu bacterii din genul Neisseria (Neisseria meningitidis și gonorrhoeae).",
-      "Infarct miocardic acut de ventricul drept.",
-      "Diabet zaharat de tip 1 cu cetoacidoză.",
-      "Osteomalacie refractară la vitamina D.",
-      "Ulcer peptic gastroduodenal perforat."
+      "Efectul de barieră (antagonism microbian): împiedică colonizarea cu patogeni prin ocuparea situsurilor de legare, competiție pentru nutrienți și secreția de bacteriocine.",
+      "Funcție nutritivă: sinteza vitaminelor esențiale (vitamina K, complexul B: B1, B2, B6, B12, acid folic, biotină).",
+      "Metabolizarea fibrelor alimentare nedigerabile în acizi grași cu lanț scurt (SCFA: butirat, propionat, acetat) ce hrănesc colonocitele.",
+      "Dezvoltarea și maturarea sistemului imun asociat mucoaselor (GALT).",
+      "Producerea exclusivă de hormoni tiroidieni T3 și T4."
     ],
     "correct": [
-      0
+      0,
+      1,
+      2,
+      3
     ],
-    "explanation": "Bacteriile cu perete subțire din genul Neisseria depind critic de liza osmotică prin MAC pentru a fi distruse eficient. Deficitul de C5-C9 sau de properdină/factor D expune pacienții la meningite meningococice recurente."
+    "explanation": "Microbiota exercită efect de barieră (rezistență la colonizare), sinteză de vitamine (K și B), producție de SCFA energizant pentru colonocite și stimularea țesutului limfoid GALT."
   },
   {
     "id": 75,
-    "category": "Patologia Complementului",
+    "category": "Relații Gazdă-Microorganism & Microbiotă",
     "type": "single",
-    "text": "Deficiența congenitală a inhibitorului C1 (C1-Inh) este cauza cărei afecțiuni clinice descrise la pagina 25 din curs?",
+    "text": "Ce patologie digestivă gravă poate surveni după tratamente antibiotice masive cu spectru larg, prin distrugerea microbiotei protectoare și proliferarea Clostridioides difficile?",
     "options": [
-      "Angioedemul ereditar (edeme localizate recurente, dureri abdominale colicative, edem glotic asfixiant).",
-      "Hemoglobinuria paroxistică nocturnă.",
-      "Sindromul limfocitului nud.",
-      "Leucemia limfocitară cronică cu celule B.",
-      "Anemia pernicioasă Biermer."
+      "Apendicita acută flegmonoasă",
+      "Colita pseudomembranoasă",
+      "Stenoza pilorică hipertrofică",
+      "Hepatita virală fulminantă",
+      "Boala celiacă autoimună"
     ],
     "correct": [
-      0
+      1
     ],
-    "explanation": "Lipsa C1-Inh duce la activarea necontrolată a kalicreinei și a complementului, generând producție masivă de bradikinină, responsabilă de episoadele paroxistice de edem angioneurotic subcutanat și mucos (Angioedem Ereditar)."
+    "explanation": "Distrugerea florei anaerobe colitice de către antibiotice cu spectru larg permite supraviețuirea și proliferarea sporilor de Clostridioides difficile, ale cărui toxine (A și B) produc colita pseudomembranoasă, manifestată prin diaree severă și membrane fibrino-necrotice."
   },
   {
     "id": 76,
-    "category": "Patologia Complementului",
-    "type": "single",
-    "text": "Defectul de ancorare membranară prin glicofosfatidilinozitol (GPI) a proteinelor de protecție DAF (CD55) și CD59 (HRF/MIRL) produce clinic:",
+    "category": "Relații Gazdă-Microorganism & Microbiotă",
+    "type": "multiple",
+    "text": "Ce se înțelege prin \"portaj de microorganisme patogene\" și de ce este important din punct de vedere epidemiologic? (Selectați variantele corecte)",
     "options": [
-      "Hemoglobinuria Paroxistică Nocturnă (anemie hemolitică cronică intravasculară mediată de complement).",
-      "Uveita simpatică post-traumatică.",
-      "Sindromul de șoc toxico-septic stafilococic.",
-      "Deficitul selectiv de IgA de mucoasă.",
-      "Poliartrita reumatoidă seronegativă."
+      "Purtătorul este o persoană colonizată asimptomatic cu un microorganism cu potențial patogen.",
+      "Purtătorii asimptomatici (sănătoși, convalescenți sau cronici) pot fi rezervoare și surse majore de infecție pentru contacți.",
+      "Exemple clasice includ portajul nazal de Staphylococcus aureus (la 20-30% din populație) sau portajul biliar de Salmonella Typhi.",
+      "Purtătorii de microorganisme trebuie întotdeauna operați chirurgical de urgență.",
+      "Portajul de microorganisme exclude orice formă de colonizare bacteriană."
     ],
     "correct": [
-      0
+      0,
+      1,
+      2
     ],
-    "explanation": "DAF (CD55) și CD59 sunt ancorate prin GPI. Lipsa lor de pe eritrocite lasă celulele neprotejate în fața atacului spontan al complementului, provocând liză intravasculară, anemie hemolitică și hemoglobinurie paroxistică nocturnă."
+    "explanation": "Purtătorii sunt persoane fără simptome care adăpostesc și diseminează patogeni (ex: S. aureus nazal, Salmonella Typhi în colecist, N. meningitidis rinofaringian), reprezentând rezervoare epidemiologice de prim ordin."
   },
   {
     "id": 77,
-    "category": "Patologia Complementului",
+    "category": "Structura Celulei Bacteriene",
     "type": "single",
-    "text": "Deficiența componentei C3 a complementului se caracterizează prin:",
+    "text": "Bacteriile din genul Mycoplasma prezintă o rezistență naturală (înnăscută) absolută la peniciline și cefalosporine deoarece:",
     "options": [
-      "Infecții bacteriene piogene recurente severe, amenințătoare de viață, și defect major de opsonizare.",
-      "Creșterea de 100 de ori a secreției de interferon gamma.",
-      "Dezvoltarea rezistenței absolute la infecțiile stafilococice.",
-      "Afectarea exclusivă a secreției lacrimale.",
-      "Blocarea completă a digestiei glucidelor în stomac."
+      "Secretă cantități uriașe de carbapenemaze în capsulă.",
+      "Sunt complet lipsite genetic de perete celular și peptidoglican, ținta pe care acționează beta-lactaminele.",
+      "Au o membrană externă impermeabilă la orice moleculă hidrofilă.",
+      "Posedă flageli peritrichi care pompează antibioticul afară din celulă.",
+      "Genomul lor este alcătuit exclusiv din ARN monocatenar."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Mycoplasma (ex: M. pneumoniae) nu posedă perete celular (nu are peptidoglican), având doar o membrană trilaminată stabilizată de steroli. Prin urmare, toate antibioticele care inhibă sinteza peretelui (peniciline, cefalosporine, vancomicină) sunt complet ineficiente (rezistență naturală)."
+  },
+  {
+    "id": 78,
+    "category": "Microscopie & Colorații",
+    "type": "single",
+    "text": "Ce componentă a microscopului optic dirijează și concentrează razele de lumină de la sursă direct pe preparatul microscopic?",
+    "options": [
+      "Șurubul micrometric",
+      "Condensatorul cu diafragma iris",
+      "Ocularul cu putere de mărire 10x",
+      "Revolverul port-obiective",
+      "Măsuța mecanică mobilă"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Sistemul de iluminare al microscopului optic include sursa de lumină, condensatorul (un sistem de lentile ce focalizează fasciculul luminos pe preparat) și diafragma iris (care reglează cantitatea de lumină și contrastul)."
+  },
+  {
+    "id": 79,
+    "category": "Medii de Cultură",
+    "type": "single",
+    "text": "Pentru ce scop diagnostic precis se utilizează un mediu de cultură semisolid (agar 0.2-0.5%) inoculat prin înțepătură verticală centrală?",
+    "options": [
+      "Pentru numărarea coloniilor lactozo-pozitive.",
+      "Pentru testarea mobilității bacteriene (bacteriile mobile difuzează și tulbură mediul în jurul înțepăturii, în timp ce bacteriile imobile cresc strict pe traiectul de inoculare).",
+      "Pentru evidențierea germinării sporilor la 100°C.",
+      "Pentru stimularea sintezei de capsulă.",
+      "Pentru izolarea fungilor filamentoși."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Agarul semisolid (0.2-0.5% agar) permite deplasarea bacteriilor dotate cu flageli: bacteriile mobile creează o tulburare ce difuzează în toată masa mediului, în timp ce bacteriile imobile (fără flageli) rămân cantonate strict pe linia de înțepătură."
+  },
+  {
+    "id": 80,
+    "category": "Genetică Microbiană",
+    "type": "multiple",
+    "text": "Care dintre următoarele tipuri de mutații genetice bacteriene sunt clasificate drept mutații punctiforme? (Selectați variantele corecte)",
+    "options": [
+      "Tranziția (substituția unei baze purinice cu o altă bază purinică: A <-> G, sau pirimidină cu pirimidină: T <-> C).",
+      "Transversia (substituția unei baze purinice cu o bază pirimidinică sau invers: purină <-> pirimidină).",
+      "Mutațiile de tip frame-shift (deplasarea cadrului de citire prin deleția sau inserția a 1-2 nucleotide).",
+      "Schimbarea completă a speciei bacteriene dintr-un coc în bacil.",
+      "Pierderea a 50% din cromozom fără letalitate."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Mutațiile genetice punctiforme implică modificări la nivelul unui singur codon: substituții de baze (tranziții și transversii) și mutații de cadru de lectură (inserții/deleții de nucleotide)."
+  },
+  {
+    "id": 81,
+    "category": "Virusologie",
+    "type": "single",
+    "text": "Ce glicoproteine de suprafață (spiculi) caracterizează anvelopa Virusului Gripal (Orthomyxoviridae) și ce roluri îndeplinesc acestea?",
+    "options": [
+      "gp120 și gp41 (rol în fuziunea cu limfocitele T CD4+)",
+      "Hemaglutinina (HA - atașarea la receptorii celulari cu acid sialic) și Neuraminidaza (NA - eliberarea virionilor noi și penetrarea mucusului)",
+      "Proteina spike S și proteina nucleocapsidei N",
+      "Flagelina și pilina sexuală",
+      "Antigenul Australia HBsAg"
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Spiculii virusului gripal sunt Hemaglutinina (HA - responsabilă de legarea la acidul sialic din căile respiratorii și fuziunea membranară) și Neuraminidaza (NA - enzimă ce scindează acidul sialic, permițând desprinderea și eliberarea noilor virioni)."
+  },
+  {
+    "id": 82,
+    "category": "Diagnostic Microbiologic",
+    "type": "single",
+    "text": "De ce pentru recoltarea exsudatului nazofaringian în suspiciunea de infecții virale (Gripă, COVID-19) este INTERZISĂ utilizarea tampoanelor de bumbac cu tijă din lemn?",
+    "options": [
+      "Deoarece bumbacul și tija de lemn conțin substanțe toxice care pot inhiba reacția de amplificare PCR și pot inactiva virusurile.",
+      "Deoarece bumbacul se colorează în roz în colorația Gram.",
+      "Deoarece lemnul absoarbe tot ADN-ul pacientului în 1 secundă.",
+      "Deoarece tija din lemn favorizează proliferarea bacteriilor colitice.",
+      "Nu este interzisă, este metoda recomandată de OMS."
     ],
     "correct": [
       0
     ],
-    "explanation": "C3 fiind piesa centrală comună a tuturor celor 3 căi de activare, deficitul de C3 anulează atât opsonizarea prin C3b, cât și formarea convertazelor C5 și sinteza de C5a/MAC, determinând infecții piogene severe fulminante."
+    "explanation": "Tampoanele din bumbac și alginat de calciu sau tijele din lemn conțin reziduuri chimice și acizi grași care inactivează virusurile și inhibă puternic enzima Taq ADN-polimerază în reacția de PCR; se folosesc exclusiv tampoane sintetice (dacron, poliester, nailon) cu tijă plastică."
+  },
+  {
+    "id": 83,
+    "category": "Relații Gazdă-Microorganism & Microbiotă",
+    "type": "multiple",
+    "text": "Prin ce căi poate microbiota normală a organismului să favorizeze apariția sau dezvoltarea unor afecțiuni maligne (cancere)? (Selectați variantele corecte)",
+    "options": [
+      "Prin deconjugarea și conversia metabolică a acizilor biliari primari în acizi biliari secundari (acid deoxicolic) cu efect proinflamator și cocarcinogen în colon.",
+      "Prin producerea de substanțe mutagene sau nitrozamine din degradarea proteinelor și compușilor alimentari de către bacteriile anaerobe intestinale.",
+      "Prin întreținerea unei stări de inflamație cronică locală persistentă (ex: Helicobacter pylori asociat cu adenocarcinomul gastric și limfomul MALT).",
+      "Prin secreția directă de eritropoietină.",
+      "Microbiota nu poate influența în niciun fel carcinogeneza."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Anumite specii microbiene contribuie la carcinogeneză prin metaboliți toxici (acizi biliari secundari, nitrozamine din proteine), degradare mucoasă și întreținerea inflamației cronice (ex. H. pylori în cancerul gastric)."
+  },
+  {
+    "id": 84,
+    "category": "Structura Celulei Bacteriene",
+    "type": "single",
+    "text": "Cum acționează enzima naturală LIZOZIM (prezentă în lacrimi, salivă, mucus și secreții nazale) împotriva peretelui celular bacterian?",
+    "options": [
+      "Inhibă sinteza lanțurilor de ARN mesager.",
+      "Hidrolizează specific legăturile beta(1-4) glicozidice dintre N-acetilglucozamină (NAG) și acidul N-acetilmuramic (NAM) din scheletul peptidoglicanului.",
+      "Blochează rotația corpului bazal al flagelilor.",
+      "Dizolvă acizii teicoici din membrana nucleară.",
+      "Lizează exclusiv celulele Natural Killer."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Lizozimul (muramidaza) este o componentă esențială a apărării înnăscute antibacteriene care distruge peretele celular scindând direct legăturile beta(1-4) glicozidice dintre NAG și NAM din peptidoglican, conducând la liza osmotică a bacteriei (în special a celor Gram-pozitive)."
+  },
+  {
+    "id": 85,
+    "category": "Medii de Cultură",
+    "type": "single",
+    "text": "Pentru izolarea selectivă a stafilococilor dintr-un produs intens contaminat (ex: puroi, alimente) se utilizează mediul hiper-salin Chapman. Care este rolul clorurii de sodiu (NaCl 7.5%) din acest mediu?",
+    "options": [
+      "Să coloreze coloniile în violet.",
+      "Să inhibe dezvoltarea majorității celorlalte bacterii contaminante nesărăturoase, permițând creșterea selectivă a bacteriilor halotolerante din genul Staphylococcus.",
+      "Să stimuleze sporularea bacilului cărbunos.",
+      "Să neutralizeze acidul lactic eliberat de lactobacili.",
+      "Să activeze mobilitatea fimbriilor comune."
+    ],
+    "correct": [
+      1
+    ],
+    "explanation": "Mediul Chapman conține o concentrație mare de NaCl (7.5%), hipersalinitatea fiind un factor inhibitor puternic pentru flora microbiană obișnuită, dar tolerată excelent de stafilococi (bacterii halotolerante)."
   }
 ]
