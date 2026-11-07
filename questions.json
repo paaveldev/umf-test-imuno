@@ -1492,5 +1492,381 @@
       0
     ],
     "explanation": "Boron p121-122, p124: Fosfolambanul este un inhibitor natural al SERCA2a; fosforilarea sa de către PKA (mediată de agoniști beta-1) anulează inhibiția, permițând recaptarea ultrarapidă a Ca2+ în RS (efect lusitrop pozitiv)."
+  },
+  {
+    "id": 81,
+    "subject": "fizio",
+    "category": "Electrogeneză Cardiacă și ECG",
+    "type": "single",
+    "text": "Ce structuri intercelulare specializate de la nivelul discurilor intercalare asigură cuplarea electrică de joasă rezistență și conducerea rapidă a potențialului de acțiune între miocite (Boron p. 77-78)?",
+    "options": [
+      "Joncțiunile gap (comunicante), compuse din hexameri de conexine (în principal conexina 43 în miocardul de lucru).",
+      "Desmozomii ancorați la filamentele de miozină.",
+      "Fasciile adherens asociate exclusiv cu filamentele de tubulină.",
+      "Canalele mecanosensibile de sodiu activate prin întindere.",
+      "Pompele de calciu sarcolemice PMCA."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Boron p77-78: Joncțiunile gap de la nivelul discurilor intercalare (formate din conexoni / conexina Cx43) oferă căi cu rezistență electrică extrem de mică, permițând miocardului să funcționeze ca un sincițiu electric funcțional."
+  },
+  {
+    "id": 82,
+    "subject": "fizio",
+    "category": "Electrogeneză Cardiacă și ECG",
+    "type": "single",
+    "text": "Care este ordinea corectă a vitezei de propagare a potențialului de acțiune prin componentele sistemului de conducere cardiac, de la cea mai rapidă la cea mai lentă (Boron p. 78-79)?",
+    "options": [
+      "Fibrele Purkinje (2 - 4 m/s) > Miocardul ventricular/atrial (~0.5 - 1 m/s) > Nodul atrioventricular NAV (~0.05 m/s).",
+      "Nodul atrioventricular NAV > Fibrele Purkinje > Miocardul ventricular.",
+      "Miocardul atrial > Nodul sinusal > Fibrele Purkinje.",
+      "Fibrele Purkinje > Nodul atrioventricular > Nodul sinusal.",
+      "Toate structurile cardiace conduc impulsul cu o viteză strict egală de 1 m/s."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Boron p78-79: Viteza este maximă în fibrele Purkinje (2-4 m/s, asigurând depolarizarea sincronă ventriculară), intermediară în miocitele de lucru (~0.5-1 m/s) și minimă în nodul AV (~0.05 m/s, producând întârzierea fiziologică AV)."
+  },
+  {
+    "id": 83,
+    "subject": "fizio",
+    "category": "Electrogeneză Cardiacă și ECG",
+    "type": "multiple",
+    "text": "Care sunt diferențele electrofiziologice dintre canalele de calciu de tip T (ICa,T) și cele de tip L (ICa,L) în celulele pacemaker din nodul sinusal (Boron p. 80-82)?",
+    "options": [
+      "Canalele de tip T (tranzitorii) se activează la potențiale mai negative (în jur de -50 mV), contribuind la faza terminală a depolarizării diastolice spontane (faza 4).",
+      "Canalele de tip L (long-lasting) se activează la un prag mai pozitiv (în jur de -40 mV), fiind responsabile de panta fazei 0 (ascendente) a potențialului de acțiune în nodul sinusal.",
+      "Canalele de tip L sunt inhibate specific de medicamente din clasa dihidropiridinelor (nifedipină), verapamil și diltiazem.",
+      "Canalele de tip T sunt singurele canale de calciu implicate în eliberarea masivă de Ca2+ din reticulul sarcoplasmatic.",
+      "Canalele de tip L generează un eflux masiv de calciu din celulă spre lichidul interstițial."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Boron p80-82: Canalele T se deschid la potențiale negative (-50 mV) ajutând faza 4; canalele L se deschid la -40 mV generând faza 0 și sunt blocate de dihidropiridine/verapamil. CICR în miocitele contractile este declanșat de influxul prin canalele L, nu T!"
+  },
+  {
+    "id": 84,
+    "subject": "fizio",
+    "category": "Electrogeneză Cardiacă și ECG",
+    "type": "single",
+    "text": "Ce caracterizează Perioada Refractară Relativă (PRR) a miocardului ventricular pe durata potențialului de acțiune (Boron p. 83-84)?",
+    "options": [
+      "Canalele rapide de Na+ încep să se recupereze din inactivare, permițând ca un stimul supraliminar să declanșeze un potențial de acțiune, însă cu viteză de conducere și amplitudine reduse (favorizând reintrarea).",
+      "Niciun stimul, oricât de intens, nu poate genera un nou răspuns electric propagat.",
+      "Canalele de calciu sunt complet blocate, iar inima nu mai poate consuma oxigen.",
+      "Reprezintă momentul în care presiunea ventriculară atinge valoarea maximă sistolică.",
+      "Coincide strict cu debutul undei P pe electrocardiogramă."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Boron p83-84: În PRR (care urmează după perioada refractară efectivă), o parte din canalele de Na+ devin reactivabile. Un stimul puternic poate declanșa un potențial anormal de lent, care poate iniția aritmii prin reintrare."
+  },
+  {
+    "id": 85,
+    "subject": "fizio",
+    "category": "Electrogeneză Cardiacă și ECG",
+    "type": "single",
+    "text": "În electrocardiografia convențională, ce relație matematică fundamentală exprimă Legea lui Einthoven între cele trei derivații bipolare ale membrelor (Boron p. 88-89)?",
+    "options": [
+      "DII = DI + DIII.",
+      "DI = DII + DIII.",
+      "DIII = DI + DII.",
+      "aVR + aVL + aVF = DII.",
+      "DI x DII = DIII."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Boron p88-89: Conform legii lui Einthoven bazată pe legea conservării energiei și regulile de polaritate: potențialul în derivația II este suma potențialelor din derivațiile I și III (DII = DI + DIII)."
+  },
+  {
+    "id": 86,
+    "subject": "fizio",
+    "category": "Electrogeneză Cardiacă și ECG",
+    "type": "multiple",
+    "text": "Ce regiuni anatomice ale inimii explorează derivațiile precordiale V1 - V6 în plan orizontal (Boron p. 89-91)?",
+    "options": [
+      "Derivațiile V1 și V2 privesc septul interventricular și peretele anterior al ventriculului drept.",
+      "Derivațiile V3 și V4 explorează peretele anterior al ventriculului stâng.",
+      "Derivațiile V5 și V6 explorează peretele anterolateral al ventriculului stâng.",
+      "Derivația V1 este plasată în spațiul 4 intercostal stâng pe linia medio-claviculară.",
+      "Derivația V6 măsoară exclusiv potențialul generat de nodul sinusal."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Boron p89-91: V1-V2 explorează septul interventricular și VD; V3-V4 peretele anterior; V5-V6 peretele lateral al VS. V1 se plasează în spațiul 4 intercostal DREPT parasternal (nu stâng medioclavicular)."
+  },
+  {
+    "id": 87,
+    "subject": "fizio",
+    "category": "Electrogeneză Cardiacă și ECG",
+    "type": "single",
+    "text": "Care este intervalul considerat fiziologic normal pentru orientarea axului electric mediu al complexului QRS în plan frontal (Boron p. 91-92)?",
+    "options": [
+      "Între -30 grade și +90 grade.",
+      "Strict la 0 grade.",
+      "Între +100 grade și +180 grade.",
+      "Între -90 grade și -180 grade.",
+      "Între +120 grade și +150 grade."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Boron p91-92: Axul electric normal al QRS se situează între -30° și +90°. Valorile mai negative de -30° definesc deviația axială stângă, iar cele peste +90° definesc deviația axială dreaptă."
+  },
+  {
+    "id": 88,
+    "subject": "fizio",
+    "category": "Electrogeneză Cardiacă și ECG",
+    "type": "single",
+    "text": "Cum variază durata intervalului QT de pe ECG în funcție de frecvența cardiacă și prin ce formulă clasică se calculează intervalul QT corectat (Boron p. 92-93)?",
+    "options": [
+      "QT se scurtează pe măsură ce frecvența cardiacă crește; formula Bazett de corecție este: QTc = QT / radical din RR.",
+      "QT se prelungește când frecvența cardiacă crește; formula este: QTc = QT x RR.",
+      "QT rămâne absolut constant la orice frecvență cardiacă, fiind egal cu 0.80 secunde.",
+      "QTc se măsoară exclusiv împărțind durata undei P la durata complexului QRS.",
+      "QT se calculează scăzând intervalul PR din durata ciclului cardiac."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Boron p92-93: La frecvențe mari durata potențialului de acțiune și QT se scurtează fiziologic. Formula Bazett (QTc = QT / √RR) standardizează QT la o frecvență de 60 bpm."
+  },
+  {
+    "id": 89,
+    "subject": "fizio",
+    "category": "Mecanica Pompei Cardiace & Ciclul Cardiac",
+    "type": "multiple",
+    "text": "Ce fenomene hemodinamice stau la originea undelor caracteristice a, c și v de pe curba presiunii atriale și a pulsului venos jugular (Boron p. 104-105)?",
+    "options": [
+      "Unda a: este produsă de contracția atrială activă (sistola atrială).",
+      "Unda c: este generată de bombarea valvelor atrioventriculare în atriu la începutul contracției izovolumetrice ventriculare.",
+      "Unda v: reflectă acumularea pasivă de sânge în atrii din vene pe parcursul sistolei ventriculare, în timp ce valvele AV sunt închise.",
+      "Unda a este produsă de deschiderea valvei aortice.",
+      "Unda c este determinată de colapsul venei cave superioare în inspir profund."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Boron p104-105: Pe curba presiunii atriale / jugulare: unda 'a' = contracție atrială; unda 'c' = bombarea valvei AV (mitrală/tricuspidă) la debutul sistolei ventriculare; unda 'v' = umplerea venoasă atrială împotriva valvelor închise."
+  },
+  {
+    "id": 90,
+    "subject": "fizio",
+    "category": "Mecanica Pompei Cardiace & Ciclul Cardiac",
+    "type": "multiple",
+    "text": "Ce mecanisme fiziologice și patologice generează zgomotele cardiace Z3 și Z4 (Boron p. 106-107)?",
+    "options": [
+      "Zgomotul 3 (Z3): apare la începutul diastolei în faza de umplere rapidă, fiind fiziologic la copii și sportivi, dar patologic la adulți peste 40 de ani (indicând supraîncărcare de volum sau insuficiență cardiacă).",
+      "Zgomotul 4 (Z4): este un zgomot presistolic (telediastolic) produs de vibrațiile peretelui ventricular rigid când atriul se contractă împotriva unei complianțe ventriculare scăzute.",
+      "Zgomotul 4 este întotdeauna absent la pacienții aflați în fibrilație atrială (deoarece aceștia nu au sistolă atrială activă).",
+      "Zgomotul 3 este determinat exclusiv de închiderea valvei aortice calcificate.",
+      "Zgomotul 4 este produs de deschiderea valvelor semilunare pulmonare."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Boron p106-107: Z3 survine în umplerea rapidă diastolică; Z4 este zgomot atrial (presistolic), generat de contracția atrială într-un ventricul necompliant (hipertrofie). Z4 nu poate exista în fibrilație atrială!"
+  },
+  {
+    "id": 91,
+    "subject": "fizio",
+    "category": "Mecanica Pompei Cardiace & Ciclul Cardiac",
+    "type": "single",
+    "text": "Pe diagrama buclei Presiune-Volum (PV loop) a ventriculului stâng, ce eveniment mecanic se produce exact în punctul B (la volumul telediastolic EDV de circa 120 mL și presiune joasă) (Boron p. 108-110)?",
+    "options": [
+      "Închiderea valvei mitrale, marcând sfârșitul umplerii diastolice și debutul contracției izovolumetrice (asociată cu Zgomotul 1).",
+      "Deschiderea valvei aortice și începutul ejecției rapide.",
+      "Deschiderea valvei mitrale și începutul umplerii rapide.",
+      "Închiderea valvei aortice și începutul relaxării izovolumetrice.",
+      "Sistola atrială vigorasă cu ejecție retrogradă."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Boron p108-110: Punctul A este deschiderea mitralei; A->B este umplerea diastolică; Punctul B este închiderea valvei mitrale (Z1, volum telediastolic maxim); B->C este contracția izovolumetrică."
+  },
+  {
+    "id": 92,
+    "subject": "fizio",
+    "category": "Mecanica Pompei Cardiace & Ciclul Cardiac",
+    "type": "single",
+    "text": "Ce reprezintă din punct de vedere fizic aria (suprafața) delimitată în interiorul buclei Presiune-Volum (PV loop) a ventriculului stâng (Boron p. 109-111)?",
+    "options": [
+      "Travaliul mecanic bătaie ventricular (Stroke Work), corespunzător energiei utile cedate sângelui la fiecare bătaie cardiacă.",
+      "Consumul total de oxigen al miocardului în 24 de ore.",
+      "Rezistența periferică totală la curgerea sângelui.",
+      "Fracția de ejecție exprimată în litri pe minut.",
+      "Presiunea venoasă centrală din atriul drept."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Boron p109-111: Suprafața din interiorul buclei PV măsoară travaliul mecanic efectuat de ventriculul stâng asupra sângelui (Travaliul bătaie = Integrala P dV ~ SV x Presiunea arterială medie)."
+  },
+  {
+    "id": 93,
+    "subject": "fizio",
+    "category": "Mecanica Pompei Cardiace & Ciclul Cardiac",
+    "type": "single",
+    "text": "Ce parametru funcțional important reflectă panta liniei relației Presiune-Volum Telesistolice (ESPVR) pe diagrama buclei PV (Boron p. 110-112)?",
+    "options": [
+      "Elastanța telesistolică (Ees), un indicator fidel și independent al stării inotrope (contractilității) a miocardului ventricular.",
+      "Complianța diastolică a atriului stâng.",
+      "Volumul rezidual din circulația pulmonară.",
+      "Viteza de depolarizare a nodului sinusal.",
+      "Grosimea peretelui septal în inspir."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Boron p110-112: Panta ESPVR este elastanța telesistolică Ees: o pantă mai abruptă (deplasată spre stânga și în sus) indică o contractilitate miocardică crescută (inotropism pozitiv), independent de presarcină."
+  },
+  {
+    "id": 94,
+    "subject": "fizio",
+    "category": "Cuplare Excitație-Contracție & Inotropism",
+    "type": "multiple",
+    "text": "Cum răspunde ventriculul stâng la o creștere bruscă și izolată a postsarcinii (ex. creșterea rezistenței vasculare periferice și a presiunii aortice) (Boron p. 114-115)?",
+    "options": [
+      "La prima bătaie după creșterea presiunii, ventriculul întâmpină o rezistență mai mare, ejectând mai puțin sânge (volumul bătaie SV scade temporar).",
+      "Volumul de sânge rămas în ventricul la sfârșitul sistolei (ESV) crește.",
+      "La bătaia următoare, sângele venos sosit se adaugă peste ESV crescut, determinând creșterea volumului telediastolic (EDV / presarcina) și restabilind SV prin mecanism Frank-Starling.",
+      "Fracția de ejecție crește instantaneu la 95% pentru a preveni ischemia.",
+      "Valva mitrală rămâne deschisă permanent pe durata întregii sistole."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Boron p114-115: Creșterea postsarcinii scade inițial SV și mărește ESV; la bătaia următoare, presarcina (EDV) crește secundar, forțând ventriculul să genereze o forță mai mare pentru a restabili debitul normal."
+  },
+  {
+    "id": 95,
+    "subject": "fizio",
+    "category": "Cuplare Excitație-Contracție & Inotropism",
+    "type": "multiple",
+    "text": "Care sunt componentele proteice ale filamentului subțire miocardic și rolurile lor în mecanismul molecular al contracției (Boron p. 116-118)?",
+    "options": [
+      "Actina fibrilară (F-actina): formează scheletul dublu elicoidal al filamentului subțire.",
+      "Tropomiozina: o proteină alungită care în repaus blochează fizic situsurile active de pe actină unde se fixează capul miozinei.",
+      "Troponina C (TnC): leagă ionii de Ca2+, declanșând o schimbare conformațională care deplasează tropomiozina de pe situsurile active ale actinei.",
+      "Troponina I (TnI): inhibă interacțiunea actomiozinică în repaus; fosforilarea sa de către PKA accelerează desprinderea Ca2+ și grăbește relaxarea.",
+      "Titina: formează punțile transversale contractile cu activitate ATP-azică."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Boron p116-118: Filamentul subțire conține actină, tropomiozină și complexul troponinelor (TnC, TnI, TnT). Titina este o proteină gigant elastică de ancorare, iar punțile transversale aparțin miozinei din filamentul gros."
+  },
+  {
+    "id": 96,
+    "subject": "fizio",
+    "category": "Cuplare Excitație-Contracție & Inotropism",
+    "type": "single",
+    "text": "Ce proporție din volumul unei celule miocardice contractile este ocupată de mitocondrii și ce relevanță fiziologică are acest aspect (Boron p. 117-118)?",
+    "options": [
+      "Aproximativ 40% din volumul celular, reflectând metabolismul strict aerob al inimii și dependența critică de aportul continuu de oxigen (cordul extrage 70-80% din oxigenul sângelui coronarian chiar și în repaus).",
+      "Sub 2%, inima funcționând primordial pe baza glicolizei anaerobe.",
+      "100%, miocitele mature fiind lipsite de nucleu și miofibrile.",
+      "Exact aceeași densitate ca în adipocite (circa 5%).",
+      "Mitocondriile lipsesc în ventriculi, fiind prezente exclusiv în nodul sinusal."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Boron p117-118: Miocitele cardiace au o densitate mitocondrială uriașă (~40% din volumul celular) pentru a susține producția continuă de ATP; inima nu poate tolera datoria de oxigen și extrage aproape maximul de O2 din coronare."
+  },
+  {
+    "id": 97,
+    "subject": "fizio",
+    "category": "Cuplare Excitație-Contracție & Inotropism",
+    "type": "multiple",
+    "text": "Care sunt proprietățile funcționale ale antiportului sarcolemic Na+-Ca2+ (NCX1) din miocitele cardiace (Boron p. 120-121)?",
+    "options": [
+      "Schimbă 3 ioni de Na+ pentru 1 ion de Ca2+, utilizând energia gradientului electrochimic de sodiu generat de pompa Na-K.",
+      "Este electrogen: transportul net al unei sarcini pozitive spre interiorul celulei la fiecare ciclu de eliminare a Ca2+ generează un curent depolarizant (curentul INCX).",
+      "Reprezintă calea majoră de eliminare a Ca2+ în afara celulei în cursul relaxării diastolice.",
+      "Dacă concentrația intracelulară de Na+ crește patologic, activitatea de eflux a Ca2+ prin NCX1 este încetinită, crescând concentrația de Ca2+ intracelular.",
+      "Consumă direct câte 2 molecule de ATP la fiecare ciclu de pompare."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Boron p120-121: NCX1 este un transportor secundar activ (nu consumă direct ATP, folosește gradientul Na+), stoichiometric 3 Na+ : 1 Ca2+ (electrogen). Când Na+ intracelular crește (ex. digoxină), eliminarea Ca2+ scade."
+  },
+  {
+    "id": 98,
+    "subject": "fizio",
+    "category": "Cuplare Excitație-Contracție & Inotropism",
+    "type": "single",
+    "text": "Prin ce două acțiuni moleculare coordonate determină stimularea beta-1 adrenergică accelerarea relaxării miocardice (efect lusitrop pozitiv) (Boron p. 121-122)?",
+    "options": [
+      "Fosforilarea fosfolambanului (dezinhibând pompa SERCA2a pentru recaptarea ultrarapidă a Ca2+ în RS) și fosforilarea Troponinei I (accelerând disocierea Ca2+ de pe Troponina C).",
+      "Inhibarea completă a receptorilor de ryanodină și degradarea actinei.",
+      "Deschiderea canalelor de clor și blocarea fosfodiesterazei.",
+      "Creșterea sintezei de glicogen și oprirea fosforilării oxidative.",
+      "Inactivarea pompei de sodiu-potasiu a sarcolemei."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Boron p121-122: PKA stimulat de beta-agoniști exercită un dublu efect lusitrop: fosforilează fosfolambanul (stimulează recaptarea Ca2+ în RS prin SERCA2a) și fosforilează TnI (favorizează eliberarea rapidă a Ca2+ de pe punți)."
+  },
+  {
+    "id": 99,
+    "subject": "fizio",
+    "category": "Cuplare Excitație-Contracție & Inotropism",
+    "type": "single",
+    "text": "Care este mecanismul ionic intim care explică fenomenul Bowditch („treppe” / scara inotropă pozitivă dependentă de frecvență) în miocard (Boron p. 122-124)?",
+    "options": [
+      "La frecvențe cardiace ridicate, influxurile repetate de Ca2+ pe minut depășesc viteza de expulzie a Ca2+ din celulă prin NCX1, ducând la încărcarea progresivă cu Ca2+ a depozitelor din reticulul sarcoplasmatic.",
+      "Creșterea frecvenței scade acumularea de sodiu în celulă.",
+      "Inima produce acetilcolină în exces care stimulează receptorii nicotinici.",
+      "Scăderea duratei potențialului de acțiune permite hidroliza spontană a troponinei C.",
+      "Deschiderea canalelor de potasiu IK1 la un nivel fără precedent."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Boron p122-124: În fenomenul Bowditch, mai multe potențiale de acțiune pe minut aduc mai mult Ca2+ prin canalele L; NCX1 nu apucă să elimine tot excesul, astfel că SERCA2a pompează mai mult Ca2+ în RS, eliberând mai mult Ca2+ la bătăile următoare."
+  },
+  {
+    "id": 100,
+    "subject": "fizio",
+    "category": "Cuplare Excitație-Contracție & Inotropism",
+    "type": "single",
+    "text": "De ce medicamentele blocante ale canalelor de calciu de tip L (cum sunt verapamilul și diltiazemul) au un puternic efect INOTROP NEGATIV asupra inimii (Boron p. 124)?",
+    "options": [
+      "Reduc influxul trans-sarcolemic de Ca2+ în timpul fazei 2 de platou a potențialului de acțiune, scăzând declanșarea CICR și disponibilitatea ionilor de Ca2+ pentru activarea punților de miozină.",
+      "Blochează direct sinteza proteinelor din filamentele groase.",
+      "Stimulează excesiv pompa SERCA2a golind complet reticulul de calciu.",
+      "Provoacă depolarizarea continuă nereglementată a membranei la +50 mV.",
+      "Accelerează recaptarea de glucoză în adipocitele pericardice."
+    ],
+    "correct": [
+      0
+    ],
+    "explanation": "Boron p124: Blocantele canalelor de calciu de tip L (verapamil, diltiazem) reduc direct influxul de calciu din faza 2 de platou, diminuând cantitatea de calciu citosolic și scăzând contractilitatea (efect inotrop negativ)."
   }
 ]
