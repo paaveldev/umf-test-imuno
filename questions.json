@@ -814,9 +814,9 @@
     "id": 43,
     "category": "Retrovirusuri (HIV & SIDA)",
     "type": "single",
-    "text": "În ce constă strategia standard de diagnostic de laborator pentru infecția cu HIV la adulți conform ghidurilor (LP p. 139-141)?",
+    "text": "În ce constă strategia standard de diagnostic de laborator pentru depistarea infecției cu HIV la adulți conform Cursului (p. 309-310)?",
     "options": [
-      "Test inițial de screening imunoenzimatic de generația a 4-a (care detectează simultan anticorpii anti-HIV 1/2 și antigenul p24), urmat obligatoriu în caz de pozitivitate de un test de confirmare (Western Blot sau diferențiere) și încărcătură virală ARN-HIV.",
+      "Test inițial de referință pentru screening imunoenzimatic (ELISA) ce detectează combinat anticorpii anti-HIV 1/2 și antigenul viral p24, urmat obligatoriu în caz de reactivitate de teste de confirmare.",
       "Examen microscopic direct pe lamă colorată Gram din exsudatul faringian.",
       "Urocultură cantitativă pe mediul Chapman cu manitol.",
       "Testul cutanat IDR la tuberculină la 72 de ore.",
@@ -825,8 +825,8 @@
     "correct": [
       0
     ],
-    "explanation": "LP p. 139-141: Algoritmul standard: screening cu test combinat Ag p24 + Ac anti-HIV 1/2 (reduce fereastra serologică la 2 săptămâni); dacă este pozitiv, se confirmă pe o nouă probă prin Western Blot / teste de diferențiere și se măsoară ARN-HIV prin RT-PCR.",
-    "source": "lp"
+    "explanation": "Curs p. 309-310: Testul de referință pentru depistare/screening este ELISA combinat (Ac anti-HIV 1/2 și Ag p24). Un test combinat negativ la 6 săptămâni după expunere semnifică absența infecției HIV.",
+    "source": "curs"
   },
   {
     "id": 44,
